@@ -1,0 +1,211 @@
+2.0.7 Fri Oct 10 00:15:00 CET 2003
+   Arkadiusz Lipiec provided Polish translation and patched program
+   to be gettextized correctly (more than 500 entries translatable)
+   Fixed some errors, and make symbol definition file deprecated
+
+2.0.6 Fri Jul 25 21:30:00 CET 2003
+   Sebastien Bacher provided French translation and patched some
+   translation bugs.
+   Fixed some minor bugs in the translations.
+
+2.0.5 Sun May 04 15:15:00 CET 2003
+   Piotr Najman <picio@bogucice.pl> has provided a patch that fixed
+   bug in internationalisation. Translation for polish added.
+
+2.0.4
+   Internationalisation support through gettext added.
+   Translation for Swedish added.
+
+2.0.3 Wed Mar 29 14:24:00 CET 2003
+   Piotr Najman <picio@bogucice.pl> has provided a patch that added
+   "Appearance" and location to element data. The patch
+   also modify dump table function (print all data).
+   Made some non-intrusive changes to the code to allow for translations 
+   with gettext.
+   Fixed some segmentation faults when inputting nonexistent elements
+   at the command line.
+
+2.0.2
+   Corrected some misspellings and inconsistencies.
+   Added "Lattice c/a ratio" and "Debye temperature" to element data.
+   Changed outlay of element popup window to conform to new data.
+   Minor cleanup of source code, removed unnecessary GTK+ calls.
+   Minor cleanup of about window.
+
+2.0.1 Wed Mar 05 11:26:39 CET 2003
+   Piotr Najman <picio@bogucice.pl> has provided a patch  
+   that added the following data points to the table:
+      . Discovery date
+      . Discovered by
+      . Named after
+   and added the code necessary to access the data.
+
+2.0.0
+   Port to GTK+ 2, major rewrite and reconfiguring of the code. Removed some
+   parts which seem to be unnecessary.
+
+1.3.3 Fri Jan 18 10:34:38 EST 2002
+   Applied a patch from Jonas Frantz <frantz@beam.helsinki.fi> that
+   added lattice structure and lattice constants.  The patch also
+   added some atom radii which were not present in previous versions.
+
+1.3.2 Mon Aug 27 22:58:25 EDT 2001
+   Fixed bug in cmdline_interface.c(90), it was causing core dump when
+   printing an element.
+
+
+1.3.0 Thu Apr  5 00:04:13 EDT 2001
+   Michael Shigorin <mike@lic145.kiev.ua> has provided a ru.po to translate
+        the application into Russian.
+
+   I've started on a new data access/storage scheme.  I want to abstract
+        the data away from the interface as much as possible.  My first steps 
+        towards this end was to allow the internal table to be dumped
+        and make it possible to load the table from an external file.
+        That lead me into building a command line interface.  So far, 
+        the dump functionality is working, as well as an interactive
+        shell like environment (complete with readline support - even
+        history).  I also extended the command line interface to support 
+        the dumping of specific element information, as well as being 
+        able to run interactive commands solely from the command line.
+
+   That basically makes this our first development release.  I'm going to start
+        from here with the convention that an odd minor version number
+        indicates a development version, while an even minor version 
+        indicates a stable version.  
+
+        major.minor.revision
+
+        Revision numbers will increment as releases are made for bug fixes
+        or minor changes in the application.  Minor numbers will increment
+        as new features are added.  Major will increment as large portions
+        change internally [like when the new data access scheme is 
+        complete]. So the 1.3 series should result in a 2.0 application.
+
+1.2.6a Wed Apr  4 13:50:46 EDT 2001
+   Felix Natter <f.natter@ndh.net> pointed out the fact that po/Makefile.in
+        was specified in the configure script was incorrect, and should 
+        have been po/Makefile.  This release corrects that build issue.
+   Newer versions of gettext seem to make use of the environment variable
+        LANGUAGE instead of LANG.  I've added some documentation to the 
+        README for using gperiodic in these environments.
+
+1.2.6 Wed Sep  8 09:11:26 EDT 1999
+  Ambrogio Oliva <Ambrogio.Oliva@sanofi-synthelabo.fr> has provided
+	an it.po file, giving us a new translation - Italian.  I made some
+	changes to the build process, adding in tests for each of the
+	languages into Makefile.am (though you need to have to have installed
+	before the tests work -- I don't know how to get gettext to look
+	in the po directory instead of the installed lang directory), and
+	a 'make distrib' to build a source distribution.
+
+1.2.5 Thu Jul 29 11:02:48 EDT 1999
+  Thanks to Koen Kooi <koen_kooi@hotmail.com> we now have support for
+	Dutch.
+
+1.2.4 Fri Jul 16 09:10:13 EDT 1999
+  New German changes from Christian Klein <chris@koeln.ccc.de>.
+  Christian -- Every time I try to reply to your email, it bounces
+  back.  Do I have a valid address for you?
+
+  Frederic Gobry <gobry@idiap.ch> suggested changing asprintf() to
+  g_strdup_printf() to increase portability.
+
+  Martin Willemoes Hansen <mwh@stampede.org> wrote in to say that
+  GPeriodic 1.2.0 will now be part of the Stampede distribution.
+    http://www.stampede.org
+
+  Added version to Makefile.am, and to the about dialog box...
+
+1.2.3 Thu Jul 15 13:54:39 EDT 1999
+  Sven Neumann <neumanns@uni-duesseldorf.de> has provided a full
+  translation for German.  This affects only the de.po file.
+
+1.2.1 Tue Jul 13 12:04:36 EDT 1999
+  Added color values to the table_entry structure, and the related
+  code to set the colors of the buttons -- also added the RGB data to
+  the table_data.c file.
+
+1.2.0 Mon Jul 12 11:53:32 EDT 1999
+  Integrated changes from Arno Peters <A.W.Peters@ieee.org> - includes
+  use of automake.  Changed sources to remove all the c++ constructs, 
+  making gperiodic pure c.  Integrated gettext to add (proper) support for 
+  internationalization.  Removed the command line switches...which are no
+  longer needed as gettext should detect the locale and display the 
+  proper language based on it.
+
+1.1.1 Fri Jul  2 13:40:08 EDT 1999
+  Created initial man page.
+
+  Added checks to the configure script for Perl, and GTK+ version 1.2.1
+  may not be necessary, but it's the version I used for development,
+  so that's all I have to go on.
+
+  Cleaned up the src/Makefile -- it now uses a pattern rule to produce
+  the static table data.  This included updating the create_table.pl script 
+  to detect the language string (en/fr/etc) from the file name.
+
+  Updated the top level makefile so it can do an install -- it only
+  installs to /usr/local/bin and /usr/local/man for now.
+
+1.1.0 Wed Jun 30 16:45:30 EDT 1999
+  Wow!  This thing is getting translated fast.
+  Lalo Martins <lalo@webcom.com> - just sent me a Portuguese translation
+  for the strings table.  This give the menus and messages a translation,
+  but not the element table data -- that is supposed to be coming.
+
+  This brings the software to this state concerning translation:
+    Language    Strings        Table
+     English     Yes            Yes
+     French      Yes            Yes
+     Spanish     Yes            Yes
+     German      No             Yes
+     Portuguese  Yes            No
+
+1.0.7 Wed Jun 30 09:57:42 EDT 1999
+  Changes from Georges Khaznadar <khazuada@univ-littoral.fr>,
+  that include a translation of the format sting for the tooltips
+  (abbreviations were in English, now they can be translated),
+  and French language corrections.
+
+  German is now on the list of supported languages -- this translation
+  is so far only for the table data, I'm trying to contact the person
+  who sent me the translation, but the mail keeps bouncing back.
+  If anyone knows this person, or can give me more information, I'd 
+  appreciate it:  Christian Klein <chris@koeln.ccc.de>
+
+1.0.6 Tue Jun 29 13:43:05 EDT 1999
+  Mauricio Rivera <rmrivera@hotmail.com> -- provided a translation
+    to Spanish.  Use -l es to have GPeriodic appear in Spanish.
+
+1.0.5 Thu Jun 24 13:09:52 EDT 1999
+  Georges Khaznadar <khazuada@univ-littoral.fr> -- provided translation
+    for a French adaptation!  and the code has been added in...
+
+1.0.4 Thu Jun 24 10:09:42 EDT 1999
+  Migrated the element data structure to a C++ object, this should fix
+    some of the crashes some people have been experiencing.
+  Jean Meloche <jean@stat.ubc.ca> -- pointed out some bug fixes, should be
+    fixed by the move to the C++ object.
+  Jon Abbott <muaddib@magicnet.net> -- table data fix(es).
+  Andrew Dalke <dalke@bioreason.com> -- provided new data (Pauling 
+    negativity numbers)
+
+1.0.3
+  Added more information to the table, as provided by:
+    jon abbott <muaddib@magicnet.net>
+
+1.0.2 Sat Jun  5 14:02:07 EDT 1999
+  Changed the tooltips around a little bit, and enabled the -t 
+  command line option to read directly from the text file instead
+  of the internal table...so you can choose either at runtime.
+
+1.0.1 Fri Jun  4 10:19:26 EDT 1999
+  I was contacted by Andrew Dalke <dalke@bioreason.com> shortly after
+    posting GPeriodic to the Internet, and he graciously pointed out 
+    an extensive list of inconsistencies in the data I was using for 
+    the table.  I've made these changes to the table, so it should
+    be quite a bit more up to date.
+
+  I also made the attempt at using autoconf, though I don't think I'm
+    using it as well as I could be...

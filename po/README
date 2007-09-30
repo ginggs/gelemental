@@ -1,0 +1,59 @@
+README for gElemental translators
+=================================
+
+gElemental is a periodic table viewer with detailed information on elements.
+Due to its technical content, some special considerations are required for
+translation.
+
+Argument references
+-------------------
+
+gElemental uses references such as "%1" and "%2" instead of the usual "%s",
+"%d", etc. A sequential number represents each argument. No conversion
+specifiers are needed.
+
+Non-ASCII characters
+--------------------
+
+Some have been replaced with XML entities, such as "&#233;" for "é". Others have
+been replaced with words, such as " deg. " for "°". Both types should be
+replaced with their Unicode equivalents in translations.
+
+Name
+----
+
+An official English name recommended by IUPAC. Should be translated to the name
+most commonly used in scientific contexts in your locale. If different, the
+official name will be presented untranslated in a second entry.
+
+Alternate name
+--------------
+
+A second English name recognised by IUPAC. Not available for translation. Will
+not be presented if equal to the translated primary name.
+
+Discovery, Discovered by
+------------------------
+
+Forward slashes indicate simultaneous, unrelated discoveries. Commas indicate
+multiple people and/or places in collaboration. Discoverers' names are only
+available for translation where they include words or where XML entities in the
+original might be replaced with local characters.
+
+Etymology
+---------
+
+Provided for both the official name and the alternate name, if any. The general
+format in English is "Language: word (meaning)". Unrelated etymologies are
+separated by semicolons, and related ones by commas. Origin words should be
+transliterated, if needed, but not translated. The following arrangement is
+recommended:
+
+	* If the translated and official names share the same origin, the
+		translated message should be in the same order.
+
+	* If the translated and alternate names share the same origin, the order
+		of the two etymologies should be reversed.
+
+	* If the translated name has a different etymology, its information may
+		be prepended to the existing etymologies.

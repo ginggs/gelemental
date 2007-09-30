@@ -1,0 +1,19 @@
+libmisc is an assortment of code for reuse. This is a libtool convenience
+library which includes macros, functions, and classes which I use in multiple
+gtkmm projects.
+
+libmisc is not intended for separate distribution; the variables
+LIBMISC_CPPFLAGS, LIBMISC_CXXFLAGS, and optionally LIBMISC_LIBS should be
+provided by the including package's configure, minimally including flags for
+glibmm-2.4.
+
+For the gtkmm widgets in libmisc-gtk, the LIBMISC_GTK Automake variable should
+be set and the flags for gtkmm-2.4 should be included.
+
+libmisc includes a modified version of the compose library by Ole Laursen. This
+has been relicensed under the GPL; the original library is available under the
+LGPL, with documentation, at <http://people.iola.dk/olau/compose/>.
+
+libmisc is free software released under the GNU General Public License, version
+3 or later. Copyright (C) 2006-2007 Kevin Daughtridge <kevin@kdau.com>. Portions
+copyright (C) 2002-2004 Ole Laursen <olau@hardworking.dk>.

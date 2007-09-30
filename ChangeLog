@@ -1,0 +1,995 @@
+2007-09-30  Kevin Daughtridge  <kevin@kdau.com>
+
+	* NEWS: Release 1.2.0.
+
+2007-09-27  Kevin Daughtridge  <kevin@kdau.com>
+
+	* libelemental: Rename from libgelemental.
+
+	* libelemental/Makefile.am: Update for rename.
+	* Makefile.am: Likewise.
+	* configure.ac: Likewise.
+	* src/Makefile.am: Likewise.
+	* src/*.{hh,cc}: Likewise.
+	* docs/api/Doxyfile.in: Likewise. Extract less cruft.
+	
+	* libelemental/*.{hh,tcc,cc}: Update name. Rename namespace to Elemental.
+	* libelemental/value.hh: Add missing documentation items.
+	(EntriesView): get_max_name_length: protected; accommodate_name: private.
+	* libelemental/value-types.hh: Add missing documentation items.
+	* libelemental/element.hh: Add missing documentation items.
+	
+	* src/misc.hh: Use Elemental namespace in gElemental namespace.
+	
+	* data/libelemental.pc.in: Rename and update.
+	* data/libelemental-uninstalled.pc.in: Likewise.
+	* data/Makefile.am: Update.
+	
+	* data/gelemental.desktop.in: Remove Encoding and fix Comment style.
+	
+	* docs/gelemental.1: Add man page.
+	* docs/Makefile.am: Likewise.
+	
+	* README: Update for libelemental and pyElemental renames.
+	
+	* TODO: New items.
+
+2007-09-23  Kevin Daughtridge  <kevin@kdau.com>
+
+	* libgelemental/*.{tcc,cc}: Provide what() strings for all exceptions.
+
+	* libgelemental/value.hh (EntriesView): Add get_max_name_length and
+	accommodate_name functions to predetermine alignment of entry names.
+	(EntriesStream): Add public ostream wrapper from old OstreamEntriesView.
+	Include constructors for FILE*, int fd, and streambuf.
+	* libgelemental/value.cc: Likewise for both.
+	(color): Clamp values where possible.
+
+	* libgelemental/data.hh: Use std::string instead of ustring for symbol.
+	
+	* libgelemental/element.hh: Typedef Property<Float> as FloatProperty.
+	(Element): Remove print_entries (use EntriesStream) and make symbol a
+	std::string.
+	* libgelemental/element.cc: Likewise for all. Remove OstreamEntriesView.
+	
+	* libgelemental/properties.hh: Make P_SYMBOL a std::string property.
+	* libgelemental/properties.cc: Likewise. Adapt macros to allow Doxygen to
+	extract property documentation. Remove line wrapping.
+	
+	* libgelemental/table.hh: Take a std::string for get_element.
+	* libgelemental/table.cc: Likewise. Check entry name lengths in initialize.
+
+	* src/table-list.hh (TableList): Use std::string for symbol.
+	* src/table-list.cc: Likewise.
+
+	* src/main.cc (MainOptionsGroup): Use EntriesStream in handle_print.
+
+	* docs/api/Doxyfile.in: Include properties.cc. Adjust macro expansion to
+	allow property docs extraction. Generate overall class heirarchy.
+
+2007-09-19  Kevin Daughtridge  <kevin@kdau.com>
+
+	* libgelemental/value.hh: Add AtomicNumber type.
+	(color): Add default values to double constructor.
+	
+	* libgelemental/value-types.hh: Use long for Int and IntList.
+	
+	* libgelemental/data.hh: Use AtomicNumber instead of unsigned int.
+
+	* libgelemental/properties.hh: Likewise, for P_NUMBER.
+	* libgelemental/properties.cc: Likewise.
+
+	* libgelemental/table.hh: Likewise, for get_element.
+	* libgelemental/table.cc: Likewise.
+	
+	* data/libgelemental.pc.in: Don't include libgelemental/ part in -I.
+	* data/libgelemental-uninstalled.pc.in: Add uninstalled version.
+
+	* data/Makefile.am: Add -uninstalled pkgconfig.
+	* configure.ac: Likewise.
+
+2007-09-18  Kevin Daughtridge  <kevin@kdau.com>
+
+	* src/*.{hh,cc}: Update for all library changes below. Use composite_child
+	where appropriate. Use PackOptions enum instead of bools.
+	
+	* src/element-dialog.hh: Remove.
+	* src/element-dialog.cc: Remove.
+	* src/properties-dialog.hh: Remove.
+	* src/properties-dialog.cc: Remove.
+	* src/dialogs.hh: Add with above. Move PropertiesColumns to header.
+	(PropertiesDialog): Populate based on selection instead of cursor.
+	* src/dialogs.cc: Likewise.
+	(PropertiesDialog): Don't select categories. Add Float property information.
+	
+	* src/buttons.hh (ColorButton): Add unset_color, set_fgcolor, unset_fgcolor.
+	Add is_force_needed to deal with theme issues.
+	(ElementButton): Collapse set_color_by_phase into set_color_by_property.
+	* src/buttons.cc (ColorButton): Likewise. Hack around theme issues.
+	(ElementButton): Likewise. Don't preset color. Support Float properties in
+	set_color_by_property.
+	(LegendButton): Don't set label for ColorValues.
+	
+	* src/table-table.hh (TableTable): Reorder members. Replace enumerated
+	color-by support with generic colorable property support. Add
+	linear/logarithmic scale option. Show display on focus as well as hover, and
+	add current property value to it. Rearrange legend and colorbars.
+	* src/table-table.cc (TableTable): Likewise.
+	
+	* src/table-list.hh: Move columns and store declarations to header.
+	* src/table-list.cc (TableList): Request minimum size. Remove rules hint.
+	
+	* src/main.cc (MainWindow): Stay resizable for both views. Remove cruft.
+
+	* src/Makefile.am: Update for file moves.
+
+	* data/16x16/gelemental.svg: Lighten outline colour.
+	* data/16x16/gelemental.png: Regenerate.
+	* data/22x22/gelemental.png: Regenerate.
+	* data/24x24/gelemental.png: Regenerate.
+
+	* TODO: Remove/reword resolved issues. Add radio menu item issue.
+
+2007-09-18  Kevin Daughtridge  <kevin@kdau.com>
+
+	* libgelemental/*.{hh,cc}: Add empty throw specs wherever appropriate.
+	Remove remaining m_ prefixes to match house style. Replace val with value,
+	vals with values, rhs with other, and src with source. Improve documentation
+	items throughout, removing redundant items.
+
+	* libgelemental/private.hh: Add Tango static class with color palette items.
+	
+	* libgelemental/value.hh (color): Add get_luminance, composite, and
+	get_hex_spec. Remove get_hsv_value.
+	(color_value_base): Rename from color_value for clarity.
+	(Value<>): Rename from value<> to fit pattern.
+	(ValueList<>): Rename from value_list<> to fit pattern.
+	* libgelemental/value.tcc: Likewise for all.
+	* libgelemental/value.cc: Likewise for all.
+	
+	* libgelemental/value-types.hh: Rename vfloat to Float, vint to Int,
+	vustring to String, vfloatlist to FloatList, and vintlist to IntList.
+	(LatticeType): Rename from Lattice to clarify scope.
+	(ColorValue): Add constructor taking a scale position. Remove get_string
+	override, as the string representation is now a hex spec (%1).
+	* libgelemental/value-types.cc: Likewise for all. Replace color data with
+	Tango references.
+	(ColorValue): Compare by luminance instead of HSV value.
+	
+	* libgelemental/data.hh: Make table_length an unsigned int.
+	* libgelemental/data.cc: Likewise. Add F() macro for Floats.
+	
+	* libgelemental/element.hh: Move out template function definitions.
+	Move out category and property declarations.
+	(PropertyBase): Make class instead of struct. Add dtor. Add has_format,
+	get_format, and get_description. Make name, format, and description
+	protected. Add is_colorable virtual.
+	(Property<>): Make class. Add dtor.
+	(Property<Float>): Add specialisation with scale colouring support.
+	(Category): Make class. Add dtor. Make name protected.
+	(Element): Add invalid_argument throw specs to get_property_base and
+	get_property.
+	* libgelemental/element.tcc: Add with moved template function definitions.
+	Add specialisations of get_property to support SYMBOL and NUMBER.
+	* libgelemental/element.cc: Likewise for all. Move out cat/prop defs.
+	(OstreamEntriesView): Output errors instead of throwing. Plug leak.
+	(Element): Output COLOR in MISCELLANEOUS in make_entries. Adjust
+	get_lattice_volume for nanometres, and round properly.
+	
+	* libgelemental/properties.hh: Add with moved categories and properties.
+	* libgelemental/properties.cc: Likewise.
+	Use nano- instead of picometres for P_LATTICE_VOLUME.
+	Rename P_COLOR from "Color" to "Symbolic color".
+	
+	* libgelemental/table.hh: Take unsigned int in get_element(number).
+	* libgelemental/table.cc: Likewise. Prepare Property<Float> scales in
+	initialize. Add Tango palette item definitions.
+	
+	* libgelemental/Makefile.am: Update for file moves. Bump ABI major version.
+
+	* docs/api/Doxyfile.in: Limit INPUT to specific files in proper order.
+	
+	* configure.ac: Pre-bump to 1.2.0.
+
+2007-09-11  Kevin Daughtridge  <kevin@kdau.com>
+
+	* COPYING: Relicense to GPL3+.
+	* README: Update to reflect.
+
+	* libassogiate/*.{hh,cc}: Relicense. Reformat for new house style.
+	Various documentation fixes.
+	* src/*.{hh,cc}: Likewise.
+	
+	* libgelemental/value.hh: Move out function definitions in template classes.
+	* libgelemental/value.tcc: Add, with those defs.
+	* libgelemental/Makefile.am: Update to reflect.
+
+2007-09-08  Kevin Daughtridge  <kevin@kdau.com>
+
+	* configure.ac: Fix typo in deprecated list.
+
+	* libgelemental/table.cc (initialize): Use signed int in loop.
+	
+	* src/misc.hh (InfoTable): Rename to EntriesTable and derive from
+	misc::InfoTable.
+	* src/misc.cc: Likewise.
+	
+	* src/element-dialog.cc: Use EntriesTable instead of InfoTable.
+	* src/properties-dialog.hh: Likewise.
+	* src/properties-dialog.cc: Likewise.
+	
+	* docs/api/Doxyfile.in: Update for latest Doxygen version.
+
+2007-07-26  Kevin Daughtridge  <kevin@kdau.com>
+
+	* src/main.cc (main): Fall back to "C" if libstdc++ rejects the libc
+	locale. Patch from Ken Bloom.
+	
+	* README: Add licence note.
+
+2007-06-18  Kevin Daughtridge  <kevin@kdau.com>
+
+	* src/table-table.hh (TableTable): Add create_reference and m_reference.
+	* src/table-table.cc (TableTable): Likewise. Use create_reference in
+	populate_button_table.
+
+2007-06-16  Kevin Daughtridge  <kevin@kdau.com>
+
+	* src/table-table.cc (TableTable): Replace old code with ComposeBox use in
+	create_phase_legend.
+	
+	* configure.ac: Enable LIBMISC_GTK.
+	* src/Makefile.am: Include libmisc-gtk.
+
+2007-06-11  Kevin Daughtridge  <kevin@kdau.com>
+
+	* libgelemental/misc: Switch to libmisc from compose.
+	
+	* configure.ac: Update for libmisc. Rename LIBRARY and INTERFACE to
+	LIBGELEMENTAL and GELEMENTAL.
+	
+	* libgelemental/Makefile.am: Update for libmisc.
+	* libgelemental/private.hh: Update for libmisc, switching to macros there.
+	* libgelemental/value.hh: Update for libmisc.
+
+	* src/private.hh: Update for libmisc, switching to macros there.
+
+	* src/misc.hh: Update for libmisc. Remove Throttle.
+	* src/misc.cc: Likewise.
+
+	* src/table-table.hh: Use misc::Throttle.
+	* src/table-table.cc: Likewise.
+	
+	* docs/api/Doxyfile.in: Set RECURSIVE to NO to leave out libmisc.
+	
+	* README: Remove redundant reference to compose.
+	
+	* COPYING.DATA: Move back from COPYING-DATA.
+	* Makefile.am: Update for move.
+
+2007-06-03  Kevin Daughtridge  <kevin@kdau.com>
+	
+	* data/16: Rename to 16x16.
+	* data/22: Rename to 22x22.
+	* data/24: Rename to 24x24.
+	* data/32: Rename to 32x32.
+	* data/48x48: Create.
+	* data/scalable: Create.
+	
+	* data/gelemental.png: Move to 48x48/.
+	* data/gelemental.svg: Move to scalable/.
+	* data/gelemental-smaller.svg: Move to 16x16/gelemental.svg.
+	
+	* data/Makefile.am: Update for moves and renames.
+
+2007-06-01  Kevin Daughtridge  <kevin@kdau.com>
+
+	* src/main.hh (MainWindow): Replace show_about, hide_about, and m_about with
+	on_about.
+	* src/main.cc: Likewise. Replace HAVE_* with *_CHECK_VERSION macros.
+	(MainWindow): Use normal logo icon size in About.
+	
+	* configure.ac: Remove now-unneeded tests.
+
+2007-05-06  Kevin Daughtridge  <kevin@kdau.com>
+
+	* Makefile.am: Update for rename of COPYING-DATA.
+
+	* NEWS: Release 1.0.0.
+
+2007-05-03  Kevin Daughtridge  <kevin@kdau.com>
+
+	* configure.ac: Pre-bump version to 1.0.0.
+	
+	* data/Makefile.am: Use correct uninstall-hook.
+	
+	* docs/api/Doxyfile.in: Add new vars. Use libgelemental as project name.
+
+2007-04-30  Kevin Daughtridge  <kevin@kdau.com>
+
+	* COPYING-DATA: Move from COPYING.DATA.
+	
+	* data/Makefile.am: Also update icon cache on uninstall.
+	
+	* data/gelemental.desktop.in: Use spec-compliant Categories.
+
+2007-03-18  Kevin Daughtridge  <kevin@kdau.com>
+
+	* libgelemental/private.hh: Divide CAST and cast more logically. Introduce
+	RefPtr cast macros and the *FOREACH* syntactic sugar macros.
+	* src/private.hh: Likewise.
+
+	* libgelemental/data.hh: Add table_length constant.
+	* libgelemental/data.cc: Likewise.
+	
+	* libgelemental/element.cc: Use *FOREACH*.
+
+	* libgelemental/table.cc: Use *FOREACH*.
+	(initialize): Use table_length.
+
+	* src/table-table.cc: Use *FOREACH*.
+
+	* src/table-list.cc: Use *FOREACH*.
+	(PropertyColumn): Adjust for CAST change.
+
+	* src/properties-dialog.cc: Use *FOREACH*.
+
+	* src/main.cc: Use *FOREACH*.
+
+2007-03-18  Kevin Daughtridge  <kevin@kdau.com>
+
+	* libgelemental/value-types.hh (Message): Add get_string virtual.
+	* libgelemental/value-types.cc (Message): Likewise, to use more appropriate
+	marker for Q_EST and Q_CA. Compare on string proper, not qualified string.
+
+	* src/table-list.hh (TableList): Replace show_extra_column_popup with
+	on_extra_column_clicked. Add c_on_extra_column_clicked.
+	* src/table-list.cc: Remove gElemental_TableList_on_extra_column_clicked.
+	(PropertyColumn): Make visible but empty when no property set.
+	(TableList): As above. Replace use of deprecated function.
+	
+	* src/main.cc (MainWindow): Remove addresses from copyright lines in About.
+	
+	* TODO: Update translations. Drop bad idea. Add an idea. Move a few around.
+
+2007-03-06  Kevin Daughtridge  <kevin@kdau.com>
+
+	* src/misc.hh: Import improved Throttle class from assoGiate.
+	* src/misc.cc: Likewise.
+	
+	* src/table-table.hh (TableTable): Split update_display between on_crossing
+	and new clear_display, removing m_current. Add update_temperature. Rename
+	throttles appropriately.
+	* src/table-table.cc (TableTable): Likewise. Use new Throttle initialisers.
+	
+	* configure.ac: Release 0.10.1.
+	* NEWS: Likewise.
+
+2007-03-01  Kevin Daughtridge  <kevin@kdau.com>
+
+	* libgelemental/element.cc: Move PURE_APPL_2006 to WIESER_2006 and note
+	author.
+
+2007-02-24  Kevin Daughtridge  <kevin@kdau.com>
+
+	* libgelemental/data.cc: Etymology improvements from Ambrogio Oliva.
+	
+	* libgelemental/element.cc: Clarify BODR_CONSENSUS wording.
+
+2007-02-18  Kevin Daughtridge  <kevin@kdau.com>
+
+	* data/gelemental.desktop.in: Use Categories closer to desktop entry spec.
+
+2007-02-14  Kevin Daughtridge  <kevin@kdau.com>
+
+	* NEWS: Release 0.10.0.
+
+2007-02-13  Kevin Daughtridge  <kevin@kdau.com>
+
+	* libgelemental/value.cc (get_list_separator): Add translation note.
+	
+	* libgelemental/element.cc: Fix several source and property strings.
+
+2007-02-12  Kevin Daughtridge  <kevin@kdau.com>
+
+	* libgelemental/data.hh: Change oxidation_states to a vintlist.
+	* libgelemental/data.cc: Likewise.
+	
+	* libgelemental/element.hh: Change OXIDATION_STATES to a vintlist.
+	* libgelemental/element.cc: Likewise. Fix several property strings.
+
+2007-02-12  Kevin Daughtridge  <kevin@kdau.com>
+
+	* libgelemental/value.hh: Include <vector>. Add value_list template class.
+	Add internal get_list_separator function.
+	* libgelemental/value.cc: Add get_list_separator function.
+	
+	* libgelemental/value-types.hh: Add vfloatlist and vintlist typedefs.
+	(Lattice): Make a color_value and replace value enums. Add get_color.
+	* libgelemental/value-types.cc (Lattice): Likewise. Update do_get_string.
+	
+	* libgelemental/data.hh: Replace old crystallographic properties with new
+	data from BODR. Remove crystal_structure, lattice_constant, and
+	lattice_ca_ratio. Add lattice_type, space_group, lattice_edges, and
+	lattice_angles.
+	* libgelemental/data.cc: Remove and add data as above.
+	
+	* libgelemental/element.hh (Element): Rearrange functions. Add generic
+	make_entry for all categories. Add internal m_lattice_volume and
+	get_lattice_volume.
+	Replace crystallographic properties as above, plus add LATTICE_VOLUME.
+	* libgelemental/element.cc (Element): Likewise. Update properties.
+	Replace properties as above, adding source. Drop placeholder source and
+	replace VARIOUS_SOURCES with CALCULATED.
+	
+	* src/misc.hh (InfoTable): Add destructor.
+	* src/misc.cc (InfoTable): Don't leak last header.
+	
+	* src/table-table.hh (TableTable): Add COLOR_BY_LATTICE and
+	create_lattice_legend. Replace m_*_legend pointers with m_legends map.
+	* src/table-table.cc (TableTable): Likewise. Update appropriately.
+	Consolidate branches in on_color_by_changed.
+	
+	* TODO: Remove crystallographic properties.
+
+2007-02-12  Kevin Daughtridge  <kevin@kdau.com>
+
+	* data/gelemental.svg: Move shadows closer in to avoid edge.
+	* data/gelemental.png: Regenerate.
+	* data/32/gelemental.png: Regenerate.
+	
+	* libgelemental/data.hh: Add note about out-of-order data. Add
+	Crystallographic category comment.
+	
+	* libgelemental/element.hh: Move Historical below General. Move Thermal
+	below Physical. Split Crystallographic from Atomic.
+	* libgelemental/element.cc: Move properties to match. Add
+	C_CRYSTALLOGRAPHIC and update CATEGORIES.
+	
+	* src/misc.hh (InfoTable): Move get_header to get_primary_header and
+	m_header to m_primary_header. Add m_last_header pointer. Add trim function
+	to remove empty-section headers from table.
+	* src/misc.cc (InfoTable): Update for name changes. Add trim function.
+	Set m_last_header in header and entry functions.
+	
+	* src/element-dialog.cc (ElementDialog): Don't span ElementIdentity button
+	into first column to avoid spacing issues. Rearrange categories into new
+	tabs, setting tab names from primary headers. Trim tables and only add them
+	if they contain entries.
+
+2007-02-12  Kevin Daughtridge  <kevin@kdau.com>
+
+	* libgelemental/data.cc: Show joint discovery for dubnium.
+	
+	* libgelemental/element.cc: Rewrite all sources for proper citation format.
+	(P_DISCOVERY, P_DISCOVERED_BY, P_ETYMOLOGY): Set as unsourced for now.
+	(P_CONFIGURATION, P_FIRST_ENERGY): Add sources.
+	
+	* TODO: Add report request for colouring bug. Remove configuration,
+	first_energy, and citation format issues. Fix name of data.cc.
+
+2007-02-10  Kevin Daughtridge  <kevin@kdau.com>
+
+	* libgelemental/data.hh: Add m_van_der_waals_radius.
+	* libgelemental/data.cc: Likewise.
+	
+	* libgelemental/element.hh: Add P_VAN_DER_WAALS_RADIUS.
+	* libgelemental/element.cc: Likewise, with sources.
+	(Element): Restore missed P_ATOMIC_RADIUS to C_ATOMIC.
+	
+	* TODO: Remove vdW radii. Restructure for final 0.10 items.
+
+2007-02-10  Kevin Daughtridge  <kevin@kdau.com>
+
+	* libgelemental/value-types.hh (ColorValue): Take a src color instead of
+	red, green, and blue doubles in constructor.
+	* libgelemental/value-types.cc (ColorValue): Likewise.
+	
+	* libgelemental/data.cc: Construct colors instead of direct ColorValues.
+
+2007-02-09  Kevin Daughtridge  <kevin@kdau.com>
+
+	* libgelemental/value.hh: Update Doxygen file heading for changes.
+	(color): Update documentation.
+	
+	* libgelemental/value-types.hh: Update Doxygen file heading for changes.
+	
+	* libgelemental/element.hh: Update Doxygen file heading for changes.
+
+2007-02-08  Kevin Daughtridge  <kevin@kdau.com>
+
+	* libgelemental/data.hh: Add new unit with ElementData structure to store
+	property values previously in Element, and with the table_data array. Rename
+	m_debye_temp to m_debye_temperature.
+	* libgelemental/data.cc: Likewise. Table data moved from table.cc. Remove
+	unneeded fake initialisers for m_standard_phase.
+	
+	* libgelemental/element.hh (Property): Move to PropertyBase. Add ctor.
+	(Property): Add new Property template class that notes value type.
+	(Category): Add constructor. Change m_properties to a list of PropertyBase.
+	(Element): Remove property values now in ElementData. Make a proper class.
+	(Element): Move CATEGORIES, C_*, and P_* into namespace scope.
+	(Element): Move get_property to get_property_base.
+	(Element): Add a template get_property function.
+	(Element): Add a private ctor, reference to ElementData, and cache members.
+	(Element): Remove initialize_properties, now performed by constructors.
+	(P_DEBYE_TEMP): Rename to P_DEBYE_TEMPERATURE.
+	* libgelemental/element.cc: Likewise for all.
+	(Element): Use property system automatically where possible in make_entries.
+	(Element): P_OFFICIAL_NAME is now available in get_property_base.
+	
+	* libgelemental/table.cc: Remove table_data. Include data.hh.
+	Drop call to initialize_properties and create new Elements for table.
+
+	* libgelemental/Makefile.am: Add data.hh and data.cc.
+	Set libtool version-info to 1:0:0.
+	* docs/api/Doxyfile.in: Exclude data.hh.
+	
+	* src/element-dialog.cc: Update for property system changes.
+
+	* src/buttons.hh (ElementButton): Replace set_color_by_series,
+	set_color_by_block, and set_color_by_element with set_color_by_property.
+	(ElementButton): Add cache members for group and period.
+	* src/buttons.cc: Likewise for both. Update for property system changes.
+	
+	* src/table-table.cc: Update for property system and set_color_by_property.
+	
+	* src/table-list.hh: Use PropertyBase instead of Property.
+	* src/table-list.cc: Likewise. Update for property system changes.
+	
+	* src/properties-dialog.cc: Use PropertyBase instead of Property. Update.
+	
+	* TODO: Use appropriate property names.
+
+2007-02-07  Kevin Daughtridge  <kevin@kdau.com>
+
+	* libgelemental/value.hh: Move "color_value::Color" to a separate "color".
+	(color_value): Update. Move get_hsv_value and get_compliment to color.
+	* libgelemental/value.cc: Update to match.
+	
+	* libgelemental/value-types.hh: Update all for color.
+	(Block): Make this a color_value and add get_color.
+	* libgelemental/value-types.cc: Likewise.
+
+	* src/misc.hh (allocate): Update for color.
+	(PrimitiveColumn): Use correct get_compliment.
+	* src/misc.cc: Likewise.
+	
+	* src/buttons.hh (ElementButton): Add set_color_by_block.
+	* src/buttons.cc: Likewise. Use correct get_compliment.
+	
+	* src/table-table.hh (TableTable): Add COLOR_BY_BLOCK, create_block_legend,
+	and m_block_legend. Return Gtk::Widget* from create_*_legend.
+	* src/table-table.cc (TableTable): Likewise. Add block coloring to UI.
+	
+	* src/table-list.cc (TableList): Use correct get_compliment. Switch default
+	extra column to P_ATOMIC_MASS.
+	
+	* src/main.cc (MainWindow): Focus m_table and m_list when presented.
+	
+2007-02-07  Kevin Daughtridge  <kevin@kdau.com>
+
+	* libgelemental/value.hh: Replace Gdk::Color with color_value::Color struct.
+	Drop include of gdkmm/color.h.
+	* libgelemental/value.cc: Update to match. Add color_value::Color ctors.
+	
+	* libgelemental/value-types.hh: Replace Gdk::Color with color_value::Color.
+	Rename Color to ColorValue and replace its m_red, m_green, and m_blue with
+	a Color val.
+	* libgelemental/value-types.cc: Update all to match. Add missing include
+	for Glib::Date.
+	
+	* libgelemental/element.hh: Update for ColorValue.
+	* libgelemental/element.cc (OstreamEntriesView): Replace Pango::AttrList
+	usage with direct call to pango_parse_markup.
+	(Element): Introduce various macros to abbreviate the property set.
+	
+	* libgelemental/table.cc: Update for ColorValue.
+	Remove translation markers on m_discovered_by values not needing l10n.
+	Add fake initialisers for m_standard_phase.
+
+	* configure.ac: Split pkgconfig between library and interface. Library now
+	depends on pango instead of pangomm and does not depend on gdkmm.
+	* data/libgelemental.pc.in: Update Requires to match.
+	
+	* po/README: Note the non/availability of m_discovered_by for l10n.
+	
+	* src/misc.hh: Include for Gdk::Color and add allocate function to convert.
+	(ValueColumn): Use allocate.
+	* src/misc.cc: Add allocate function.
+	
+	* src/buttons.cc: Include misc.hh. Use allocate.
+	
+	* src/table-list.cc: Use allocate.
+
+	* docs/api/Doxyfile.in: Remove comments for size.
+	* data/gelemental.svg: Use plain instead of Inkscape SVG for size.
+	* data/gelemental-smaller.svg: Likewise.
+
+2007-02-06  Kevin Daughtridge  <kevin@kdau.com>
+
+	* README: Add reference to separate pygElemental. Extend copyright claim.
+	clarify citations.
+	
+	* TODO: Note likely KDE theming issue with button colours.
+
+	* libgelemental/value.hh: Add virtual destructors to EntriesView,
+	value_base, and color_value.
+	* libgelemental/value.cc: Likewise.
+	
+	* libgelemental/value-types.hh: Add virtual destructors to Series, Block,
+	Phase, Lattice, and Color.
+	* libgelemental/value-types.cc: Likewise.
+
+	* src/buttons.cc (ElementIdentity): Set the bg color via ColorButton.
+
+	* src/main.cc (MainWindow): Extend copyright claim in show_about.
+
+2007-01-30  Kevin Daughtridge  <kevin@kdau.com>
+
+	* libgelemental/element.cc (Element): Only output header for Miscellaneous
+	category if m_notes has a value.
+	
+	* data/gelemental.svg: Lighten outlines and correct path details.
+	* data/gelemental.png: Update to match. (Not updating 32x32 for now.)
+	
+	* data/gelemental-smaller.svg: Lighten outlines and correct path details.
+	* data/16/gelemental.png: Update to match.
+	* data/22/gelemental.png: Update to match.
+	* data/24/gelemental.png: Update to match.
+
+2007-01-27  Kevin Daughtridge  <kevin@kdau.com>
+
+	* configure.ac: Rename --enable-api to --enable-api-docs.
+	* Makefile.am: Update to match.
+	* docs/Makefile.am: Likewise.
+
+2007-01-27  Kevin Daughtridge  <kevin@kdau.com>
+
+	* TODO: Update BODR items to reflect progress. Delay some items.
+	
+	* libgelemental/value-types.cc (Series): Improve colours for alkali metals
+	and alkaline earth metals.
+	
+	* libgelemental/element.cc: Add new source Messages.
+	(Element): Add sources for density_{solid,liquid,gas}.
+	
+	* libgelemental/table.cc: Add gas density for Rn.
+
+2007-01-22  Kevin Daughtridge  <kevin@kdau.com>
+
+	* TODO: Update BODR items and others to reflect progress.
+	
+	* configure.ac: Update version to anticipated 0.10.0.
+	
+	* data/gelemental.svg: Add scalable Tango-compliant icon.
+	* data/gelemental-smaller.svg: Add icon version for small sizes.
+	* data/gelemental.png: Update 48x48 icon.
+	* data/16/gelemental.png: Add 16x16 icon.
+	* data/22/gelemental.png: Add 22x22 icon.
+	* data/24/gelemental.png: Add 24x24 icon.
+	* data/32/gelemental.png: Add 32x32 icon.
+	* data/Makefile.am: Update icon installation code to match.
+	
+	* libgelemental/value-types.cc (Series, Phase): Replace colours with
+	equivalents derived from the Tango palette.
+	
+	* libgelemental/element.hh: Add electron affinity.
+	* libgelemental/element.cc: Add electron affinity.
+	Add source for atomic mass.
+	(Element): Add electron affinity. Do not make entry for color.
+	
+	* libgelemental/table.cc: Add electron affinity values.
+	Update atomic masses for Li, C, Po, Rn, Hs, Ds, and Uuo.
+
+	* src/element-dialog.hh (ElementDialog): Remove create_id_button.
+	* src/element-dialog.cc (ElementDialog): Remove create_id_button.
+	Add Alignment to table directly and reference ElementIdentity instead.
+	
+	* src/buttons.hh (ElementIdentity): Add class.
+	* src/buttons.cc (ElementIdentity): Add class.
+	
+	* src/table-table.hh (TableTable): Add on_crossing and update_display fns.
+	Add m_current, m_display, m_logo, m_name, and m_throttle_display members.
+	* src/table-table.cc (TableTable): Init and configure new members.
+	Reference on_crossing to update element display area.
+	Add element display area to table.
+	Add on_crossing and update_display functions to update display area.
+	
+	* src/main.cc (main): Set default icon name here.
+	(MainWindow): Remove default icon code.
+	(MainWindow): Try to provide extra large icon in about dialog.
+
+2007-01-15  Kevin Daughtridge  <kevin@kdau.com>
+
+	* TODO: Update BODR items to reflect progress. Refactor data set issues.
+	
+	* libgelemental/private.hh: Add CAST and cast macros.
+	
+	* libgelemental/value.hh (value_base): Add compare function.
+	(value_base): Update docs for compare_base and add YIELD_COMPARE constant.
+	(color_value): Add get_hsv_value function.
+	(value<>): Update compare for value_base/YIELD_COMPARE style.
+	(value<>): Ensure adequate precision in do_get_string.
+	* libgelemental/value.cc (value_base): Add YIELD_COMPARE constant.
+	(value_base): Add compare function.
+	(value_base): Update compare_base for YIELD_COMPARE.
+	(color_value): Add get_hsv_value function.
+	(color_value): Use get_hsv_value in get_compliment.
+	
+	* libgelemental/value-types.hh (vfloat): Use double instead of float.
+	(Message, Event, Series): Update compare for value_base/YIELD_COMPARE style.
+	(Block): Add class.
+	(Phase, Lattice, Color): Add compare functions.
+	(Color): Update docs for get_string.
+	* libgelemental/value-types.cc (Message, Event, Series): Update compare for
+	value_base/YIELD_COMPARE style.
+	(Event): Update compare_base for YIELD_COMPARE.
+	(Block): Add class.
+	(Phase, Lattice, Color): Add compare functions.
+	(Color): Use new format in get_string and do_get_string.
+	
+	* libgelemental/element.hh (Element): Reword docs for make_entries.
+	(Element): Add get_property function.
+	(Element): Add P_OFFICIAL_NAME Property.
+	(Element): Make m_block a Block.
+	(Element): Replace remaining docs with P_* Property entries.
+	(Element): Rename m_negativity to m_electronegativity.
+	(Element): Make miscellaneous notes Doxygen-visible.
+	(Element): Make Doxygen skip initialize_properties.
+	(Element): Add mutable member m_standard_phase.
+	* libgelemental/element.cc: Rename VARIOUS to VARIOUS_SOURCES.
+	Add additional data source Messages, including temporary source.
+	(Element): Update P_NAME and add P_OFFICIAL_NAME.
+	(Element): Add remaining Property members.
+	(Element): Add and update properties and sources in initialize_properties.
+	(Element): Only take a pointer to the category once in make_entries.
+	(Element): Switch remaining entries to Property::make_entry in make_entries.
+	(Element): Update P_BLOCK call for new m_block type.
+	(Element): Add get_property function.
+	
+	* libgelemental/table.hh: Add initialize function and remove requirement
+	from docs for get_table.
+	* libgelemental/table.cc: Update data for new Block type.
+	Move cached table to file-level static.
+	Add initialize function and move init into it from get_table.
+	Call initialize from get_table and both get_element.
+	
+	* src/private.hh: Replace IF_CAST with CAST and cast macros.
+	
+	* src/misc.hh: Update for CAST/cast.
+	(SortColumn): Add activate function.
+	(ValueColumn): Add properties from ColorValueColumn to on_cell_data.
+	(ColorValueColumn): Remove.
+	* src/misc.cc (SortColumn): Add activate function.
+	
+	* src/buttons.cc: Update for CAST/cast.
+	
+	* src/table-table.hh (TableTable): Add State struct.
+	(TableTable): Add get_state and set_state functions.
+	(TableTable): Remove get_color_by, set_color_by, get_temperature,
+	set_temperature, get_legend_expanded, and set_legend_expanded functions.
+	(TableTable): Rename do_set_color_by to on_color_by_changed.
+	* src/table-table.cc: Update for CAST/cast.
+	(TableTable): Update calls to use on_color_by_changed.
+	(TableTable): Add, remove, and rename functions as above.
+	
+	* src/table-list.hh (PropertyColumn): Add class.
+	(TableList): Add State struct and get_state and set_state functions.
+	(TableList): Remove get_sorting and set_sorting functions.
+	(TableList): Add show_extra_column_popup function.
+	(TableList): Add m_sort_group and m_prop_col members.
+	* src/table-list.cc: Update for CAST/cast.
+	Add gElemental_TableList_on_extra_column_clicked C function.
+	(TableListColumns): Replace series, mass, and discovery with block.
+	(TableListStore): Make default_sort static and public.
+	(TableListStore): Replace uses of series, mass, and discovery with block.
+	(PropertyColumn): Add class.
+	(TableList): Initialize new m_sort_group and m_prop_col members.
+	(TableList): Activate number column when PropertyColumn is unavailable.
+	(TableList): Replace series, mass, and discovery with block and prop_col.
+	(TableList): Create UI for extra property selection.
+	(TableList): Update UI string for above changes.
+	(TableList): Select P_SERIES as initial extra property. Connect C function.
+	(TableList): Add and remove functions as above.
+	
+	* src/properties-dialog.cc: Update for CAST/cast.
+	(PropertiesDialog): Use more appropriate numbering for sources.
+	
+	* src/main.hh (MainWindow): Replace m_old_* with State struct pointers.
+	* src/main.cc (main): Call initialize instead of get_table.
+	(MainWindow): Initialize new State members instead of m_old_*.
+	(MainWindow): Destroy State members.
+	(MainWindow): Read and write State structs instead of m_old_* in show_table
+	and show_list.
+	
+2007-01-07  Kevin Daughtridge  <kevin@kdau.com>
+
+	* AUTHORS: Acknowledge Wikipedia data references.
+	* README: Likewise.
+	
+	* TODO: Update BODR items to reflect progress. Add misc. items.
+
+	* libgelemental/value.hh (value_base): Correct documentation for get_string.
+	(color_value): Add get_compliment.
+	* libgelemental/value.cc: Add color_value::get_compliment.
+	
+	* libgelemental/value-types.hh (Event): Correct docs for get_string.
+	(Phase): Correct closing comment.
+	(Color): Add class.
+	* libgelemental/value-types.cc (Color): Add class functions.
+	
+	* libgelemental/element.hh (Property, Category): Add classes.
+	(Element): Add CATEGORIES and the C_* Category entries.
+	(Element): Replace some docs with P_* Property entries.
+	(Element): Add m_block and m_color properties.
+	(Element): Move up print_entries.
+	(Element): Replace make_*_entries with unified make_entries.
+	(Element): Add internalize_properties.
+	* libgelemental/element.cc: Add data source Messages.
+	(Property, Category): Add class functions.
+	(Element): Add Category and Property members. Add internalize_properties
+	and make_entries; remove make_*_entries. Move get_phase down.
+	
+	* libgelemental/table.hh: Clarify documentation for get_table.
+	* libgelemental/table.cc: Add data for m_block and m_color.
+	(get_table): Set initialized sooner. Call Element::initialize_properties.
+	
+	* src/misc.hh: Move InfoTable here from element-dialog.
+	(InfoTable): Add m_squeeze setting to control line wrap hack.
+	(ColorValueColumn): Set compliment color as foreground.
+	* src/misc.cc: Move InfoTable here from element-dialog.
+	
+	* src/element-dialog.hh: Remove InfoTable to misc.
+	* src/element-dialog.cc: Likewise.
+	(ElementDialog): Use new make_entries interface for Element.
+	Set compliment color as foreground for ID button text.
+	
+	* src/buttons.hh (ColorButton): Accept color_value instead of Gdk::Color.
+	(ElementButton): Add set_color_by_element.
+	* src/buttons.cc: Likewise for both.
+	
+	* src/table-table.hh (TableTable): Add COLOR_BY_ELEMENT, accessors for
+	legend expanded state, and internal do_set_color_by.
+	* src/table-table.cc (TableTable): Implement COLOR_BY_ELEMENT throughout.
+	Make set_color_by activate Actions and move impl. to do_set_color_by.
+	Add get_legend_expanded and set_legend_expanded.
+	
+	* src/table-list.hh (TableList): Add accessors for sorting state.
+	* src/table-list.cc (TableList): Likewise. Display color and compliment on
+	symbol column. Use Element Property names where appropriate.
+	(TableListColumns): Add color and compliment columns.
+	
+	* src/properties-dialog.hh: New file; add PropertiesDialog window to display
+	help information on Element properties.
+	* src/properties-dialog.cc: Likewise.
+	* src/Makefile.am: Add properties-dialog.
+	
+	* src/main.hh (MainWindow): Add functions to show and hide PropertiesDialog.
+	Add members to store state of TableTable and TableList between uses.
+	* src/main.cc: Likewise for both. Add Ambrogio Oliva to authors.
+
+2006-12-23  Kevin Daughtridge  <kevin@kdau.com>
+
+	* libgelemental/element.hh: Include source fixmes on element properties.
+
+	* docs/api/Makefile.am: Include *.gif in install/uninstall for Doxygen tabs.
+
+	* TODO: Clarify explanation of GTK+ theme issue.
+
+2006-12-22  Kevin Daughtridge  <kevin@kdau.com>
+	
+	* configure.ac: Release 0.9.3.
+	* NEWS: Likewise.
+
+2006-12-21  Kevin Daughtridge  <kevin@kdau.com>
+
+	* libgelemental/value-types.hh: Replace METALLOID with SEMIMETAL and
+	POOR_METAL with POST_TRANSITION_METAL per Ambrogio Oliva.
+	* libgelemental/value-types.cc: Update to match.
+	
+	* libgelemental/table.cc: Replace POOR_METAL and METALLOID appropriately.
+	Provide more accurate appearance for selenium.
+
+2006-12-11  Kevin Daughtridge  <kevin@kdau.com>
+
+	* TODO: Expand BODR integration to full lists of fields.
+
+	* AUTHORS: Clarify sections. Add BODR authors.
+	* NEWS: s/based on/derived from/.
+	* README: Add BODR reference. s/based on/derived from/.
+
+	* COPYING.DATA: Add to cover BODR data.
+	* Makefile.am: Distribute COPYING.DATA.
+
+	* src/table-list.cc: Use Name as search column.
+
+2006-12-10  Kevin Daughtridge  <kevin@kdau.com>
+	
+	* configure.ac: Release 0.9.2.
+	* NEWS: Likewise.
+
+	* src/main.cc: Preserve of window size between uses of list view.
+	* src/main.hh: Likewise.
+
+	* TODO: Remove window size preservation. Add BODR integration.
+
+2006-12-09  Kevin Daughtridge  <kevin@kdau.com>
+
+	* TRANSLATORS: Add file with full alphabetical list of translators.
+	* Makefile.am: Add TRANSLATORS to EXTRA_DIST.
+
+	* AUTHORS: Remove separately credited translators. Add missing contributors.
+	Sort appropriately.
+	* src/main.cc: Synchronise with AUTHORS.
+
+	* TODO: Update translation status.
+	Add preservation of window size between uses of list view.
+
+2006-12-08  Kevin Daughtridge  <kevin@kdau.com>
+
+	* TODO: Update to match format on website.
+
+	* AUTHORS: Update address for Ambrogio Oliva.
+	* src/main.cc: Likewise.
+
+2006-12-08  Kevin Daughtridge  <kevin@kdau.com>
+
+	* Makefile.am: Add po/gelemental.pot to EXTRA_DIST.
+
+2006-12-02  Kevin Daughtridge  <kevin@kdau.com>
+
+	* NEWS: Release 0.9.1.
+
+2006-12-02  Kevin Daughtridge  <kevin@kdau.com>
+
+	* libgelemental/compose/ucompose.hh (UComposition): Add a stringify
+	specialisation for char*. Resolves errant double conversion of gettext
+	result strings.
+
+2006-12-02  Kevin Daughtridge  <kevin@kdau.com>
+
+	* src/main.cc (show_about): Properly dispose of About dialog for GTK+ 2.10.
+	
+	* configure.ac: Don't use broken AM_GLIB_DEFINE_LOCALEDIR.
+	* libgelemental/Makefile.am: Include -DLOCALEDIR here instead...
+	* src/Makefile.am: ...and here.
+
+	* src/main.cc (main): Provide a summary in command line help if possible.
+	* configure.ac: Check for presence of glib >= 2.12.
+
+2006-11-23  Kevin Daughtridge  <kevin@kdau.com>
+
+	* libgelemental/table.cc (table_data): Reflect discovery of ununoctium.
+	
+	* NEWS: Release 0.9.0.
+
+2006-08-17  Kevin Daughtridge  <kevin@kdau.com>
+
+	* src/table-list.cc: Store element names as ustrings in the TableListStore.
+
+2006-08-17  Kevin Daughtridge  <kevin@kdau.com>
+
+	* src/table-table.cc (populate_button_table): Only call get_x_pos and
+	get_y_pos once.
+	
+	* src/buttons.cc: Use virtual instead of clicked signal in ElementButton.
+	* src/buttons.hh: Likewise.
+
+2006-08-11  Kevin Daughtridge  <kevin@kdau.com>
+
+	* src/table-list.cc (on_value_sort): Split out default_sort.
+
+2006-08-09  Kevin Daughtridge  <kevin@kdau.com>
+
+	* libgperiodic/value-types.hh (Lattice): Fix typos in doxygen marks.
+
+2006-08-08  Kevin Daughtridge  <kevin@kdau.com>
+
+	* libgperiodic/table.cc (get_element, get_element): Replace pointer returns
+	with references and throw exceptions instead of returning NULL on bad input.
+	* libgperiodic/table.hh: Likewise.
+	* src/main.cc: Call both get_element appropriately.
+
+Previous development of gElemental was commited in large chunks and no logs are
+available. For history of GPeriodic, see NEWS-GPeriodic.

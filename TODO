@@ -1,0 +1,55 @@
+Translation status
+------------------
+
+* Any new translations are welcome.
+
+* These translations are incomplete: Danish, Spanish, Dutch, Polish, Portuguese,
+	Russian, Swedish, and Turkish.
+
+* The French translation needs editing and confirmation.
+
+Known bugs
+----------
+
+* Many GTK+ themes using the "smooth" engine (e.g. Amaranth, Lush, Nuvola)
+	have issues with button colours. This is worked around with a substandard
+	solution (overriding the entire style).
+
+* Under KDE's gtk-qt-engine, no button colours appear at all.
+
+If you are affected by a button colour issue and your GTK+ theme (shown
+in the Controls tab of the GNOME Theme Preferences) is not listed here,
+please report it to me.
+
+* When restoring table or list state, radio menu items for properties are not
+	re-selected.
+
+Data set issues
+---------------
+
+* The discovery, discovered_by, and etymology properties need to be overlayed
+	with BODR's discoveryDate, discoverers, discoveryCountry, and nameorigin
+	data.
+
+* These Element properties do not have confirmed sources: appearance,
+	atomic_volume, ionic_radii (also needs reformatting), oxidation_states,
+	debye_temperature.
+
+* Potential additions from BODR: all data in isotopes/, densities (unsourced,
+	different model).
+
+* Potential additions from Wikipedia data: additional ionisation energies,
+	critical points, vapour pressures, electrical resistivities, thermal
+	expansion coefficients, speeds of sound, elastic properties, hardnesses,
+	abundances, element images
+
+Other enhancements
+------------------
+
+* Provide more explanatory property descriptions.
+* Improve get_phase algorithm with more data points.
+* Preserve precision in floating-point values.
+* Provide for logical translation of data source messages.
+* Allow translation/addition of alternate names.
+
+* Add optional view persistence via GConf.

@@ -1,0 +1,14 @@
+[encoding: UTF-8]
+data/gelemental.desktop.in
+libelemental/value.cc
+libelemental/value-types.cc
+libelemental/element.cc
+libelemental/properties.cc
+libelemental/table.cc
+src/misc.cc
+src/dialogs.cc
+src/buttons.cc
+src/table-table.cc
+src/table-list.cc
+src/main.cc
+libelemental/data.cc

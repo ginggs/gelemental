@@ -1,0 +1,34 @@
+.\" Copyright (C) 2007 Kevin Daughtridge <kevin@kdau.com>.
+.\" Copying and distribution of this file, with or without modification, are
+.\" permitted in any medium without royalty provided the copyright notice and
+.\" this notice are preserved.
+.TH GELEMENTAL 1 2007-09-26 "gElemental" ""
+.SH NAME
+gelemental \- periodic table viewer
+.SH SYNOPSIS
+.BI "gelemental [" options "]"
+.SH DESCRIPTION
+gElemental is a GTK+ periodic table viewer with detailed information on elements.
+.PP
+For more information, see the Properties dialog in the Help menu.
+.SH OPTIONS
+.TP
+.B \-\-help
+Display a summary of available command-line options.
+.TP
+.BI "\-p, \-\-print="SYMBOL_OR_NUMBER
+Print information on the indicated element to standard output.
+.TP
+.BI "\-s, \-\-show="SYMBOL_OR_NUMBER
+Show the properties dialog for the indicated element.
+.TP
+.B \-i, \-\-interactive
+Display the table even if data have been printed to standard output.
+By default, gElemental exits after printing data.
+.PP
+Elements may be named by their symbol (e.g. Ag) or atomic number (e.g. 47).
+Multiple instances of --print and/or --show may be given.
+.PP
+This program also acceps all standard GTK+ options, which follow the usual GNU command line syntax.
+.SH SEE ALSO
+gElemental website <http://www.kdau.com/projects/gelemental/>.

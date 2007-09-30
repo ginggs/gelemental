@@ -1,0 +1,104 @@
+gElemental NEWS
+===============
+
+Version 1.2.0 [stable]
+----------------------
+
+This is a major feature release of gElemental. The program is now licensed under
+the GNU GPL version 3 or later; see COPYING for details. The table view now
+supports colouring by most properties, and displays property values. An issue
+with button colours under some GTK+ themes has been resolved. Several minor
+interface improvements have been made.
+
+libgelemental has been renamed to libelemental, and an API break has been made
+to address several issues. Colour handling has been improved, and scale
+calculation support has been added for floating-point properties. EntriesStream,
+an EntriesView adapter for output streams and files, has been added. Lattice
+volumes are now expressed in nanometres. Documentation has been improved.
+
+The pygElemental Python binding has been renamed to pyElemental; see its NEWS
+file for details.
+
+Version 1.0.0 [stable]
+----------------------
+
+This is the first stable release of gElemental. It includes minor interface
+and internal improvements.
+
+Version 0.10.1 [prerelease]
+---------------------------
+
+This is a minor feature release of the gElemental prerelease series. Ambrogio
+Oliva has completed the Italian translation and suggested several corrections.
+Marion Petersen has contributed a complete German translation. Responsiveness
+has been improved in the table view.
+
+Version 0.10.0 [prerelease]
+---------------------------
+
+This is a major feature release of the gElemental prerelease series. Many of the
+data from the Blue Obelisk Data Repository have been integrated, updating and
+expanding the existing set. New properties include periodic table blocks,
+van der Waals radii, electron affinities, and identifying colours. The
+crystallography properties have been replaced with an expanded set.
+
+The table view can now also be coloured by block, lattice type, and element. It
+displays more identifying information when hovering over an element. The list
+view can now display and be sorted by any of the properties. The element dialog
+has been reorganised into three tabs. A new help dialog describes the properties
+and their sources.
+
+A new internal system of properties has been introduced which streamlines the
+code and libgelemental's API. libgelemental's dependencies have been reduced to
+glibmm (>= 2.6) and cairo. pygElemental is now distributed separately.
+
+A new SVG-based Tango-style icon is now used, and Tango-style colours are now
+used for table colouring. Many minor changes have been made.
+
+Version 0.9.3 [unstable]
+------------------------
+
+This is a minor feature release of the gElemental unstable series. It introduces
+the (experimental, but complete) pygElemental Python binding; configure with
+--enable-python to get it. Ambrogio Oliva has expanded the Italian translation
+and suggested improvements to naming of chemical series.
+
+Version 0.9.2 [unstable]
+------------------------
+
+This is a maintenance release of the gElemental unstable series. It reintroduces
+additional translations from the GPeriodic 1.x series. These translations (de,
+es, it, nl, pt, ru) are currently skeletal. Also, window size is now preserved
+between uses of the list view.
+
+Version 0.9.1 [unstable]
+------------------------
+
+This is a maintenance release of the gElemental unstable series. It fixes issues
+with recent versions of GLib, GTK+ and autoconf, and an issue involving encoding
+of translated strings.
+
+Version 0.9.0 [unstable]
+------------------------
+
+This is the first release version of gElemental, and is an unstable release for
+testing and translation. gElemental is derived from GPeriodic version 2.0.8. The
+following major changes have been made:
+
+* Element data updated, expanded, and reconfirmed against sources, including
+	recently named or discovered elements Ds, Rg, Uut, Uup, Uuh, and Uuo.
+* Translation methodology improved and translations expanded.
+
+* New list view displays key information in a sortable list.
+* Redesigned element properties dialog categorises information.
+* Colouring by phase at a specified temperature now available in interface.
+* Element colouring now preserves GTK+ theme appearance. Colour legend added.
+
+* Code base ported to C++ and gtkmm.
+* Element and table data split out into libgelemental.
+* Element data stored with appropriate typing.
+
+GPeriodic versions
+------------------
+
+For information on previous GPeriodic versions, see NEWS-GPeriodic.

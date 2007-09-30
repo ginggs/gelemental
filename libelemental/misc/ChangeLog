@@ -1,0 +1,96 @@
+2007-09-15  Kevin Daughtridge  <kevin@kdau.com>
+
+	* widgets.hh: Ensure correct item alignment in InfoTable.
+	* widgets.cc: Likewise.
+
+2007-09-13  Kevin Daughtridge  <kevin@kdau.com>
+
+	* widgets.hh: Add limited Pango markup support to ComposeBox.
+	* widgets.cc: Likewise.
+
+2007-09-12  Kevin Daughtridge  <kevin@kdau.com>
+
+	* compose.hh: Break out template function definitions...
+	* compose.tcc: ...to new file here.
+
+	* ucompose.hh: Likewise..
+	* ucompose.tcc: ...to new file here.
+	
+	* Makefile.am: Update for changes.
+
+2007-09-07  Kevin Daughtridge  <kevin@kdau.com>
+
+	* Makefile.am: Add G_LOG_DOMAIN to CPPFLAGS.
+
+	* widgets.hh: Add label visibility sync to InfoTable.
+	* widgets.cc: Likewise.
+
+2007-08-27  Kevin Daughtridge  <kevin@kdau.com>
+
+	* *.{hh,cc}: Reformat for new house style.
+	
+	* README: Add information on libmisc-gtk.
+	
+	* widgets.hh: Add IconLabel and InfoTable.
+	* widgets.cc: Likewise.
+
+2007-08-02  Kevin Daughtridge  <kevin@kdau.com>
+
+	* COPYING.LIB: Relicense to GPL3+.
+	* *.{hh,cc}: Likewise.
+	* README: Update to reflect.
+
+2007-06-18  Kevin Daughtridge  <kevin@kdau.com>
+
+	* widgets.hh: Add with ComposeBox.
+	* widgets.cc: Likewise.
+	
+	* Makefile.am: Add LIBMISC_GTK and libmisc-gtk.la with widgets module.
+
+	* ucompose.cc: Prefer Glib::Unicode functions.
+
+2007-06-11  Kevin Daughtridge  <kevin@kdau.com>
+
+	* *: Rename to libmisc. Relicense to GPL2+.
+	
+	* macros.hh: Add.
+	* throttle.hh: Likewise.
+	* throttle.cc: Likewise.
+	
+	* extras.hh: Add misc namespace. Move strftime to misc. Add strsplit,
+	ustrsplit, strstrip, and ustrstrip.
+	* extras.cc: Likewise.
+	
+	* Makefile.am: Update for changes. Add LIBMISC_LIBS.
+
+	* README: Rewrite for new status.
+	* COPYING.LIB: Replace with GPL2.
+
+2007-03-03  Kevin Daughtridge  <kevin@kdau.com>
+
+	* extras.hh (decompose): Add fallback value parameter.
+
+2007-01-15  Kevin Daughtridge  <kevin@kdau.com>
+
+	* compose.hh (Composition): Return reference to self from setf and unsetf.
+	Add precision(std::streamsize).
+	* compose.cc: Likewise.
+
+	* ucompose.hh (UComposition): Return reference to self from setf and unsetf.
+	Add precision(std::streamsize).
+	* ucompose.cc: Likewise.
+	
+	* extras.hh (compose1, ucompose1): Add precision argument.
+
+2006-12-02  Kevin Daughtridge  <kevin@kdau.com>
+
+	* ucompose.hh (UComposition): Add stringify specialisation for char*.
+
+2006-08-05  Kevin Daughtridge  <kevin@kdau.com>
+
+	* extras.hh (compose1, ucompose1): Remove fmtflags and locale parameters.
+
+2006-07-28  Kevin Daughtridge  <kevin@kdau.com>
+
+	* extras.hh: Rename single-object forms to compose1 and ucompose1; add
+	locale arguments to them.
