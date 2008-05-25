@@ -27,6 +27,7 @@
 #include <libelemental/misc/ucompose.hh>
 #include <libelemental/misc/extras.hh>
 
+#include <limits>
 #include <iomanip>
 #include <ostream>
 #include <vector>
