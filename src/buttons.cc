@@ -106,6 +106,7 @@ ColorButton::is_force_needed ()
 		"Amaranth",
 		"Lush",
 		"Nuvola",
+		"New Wave",
 		NULL
 	};
 
