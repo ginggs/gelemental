@@ -517,7 +517,7 @@ InfoTable::add_item (const ustring& label, Gtk::Widget& item,
 {
 	Gtk::Widget *target = &item;
 
-	if (!item.can_focus ())
+	if (!item.get_can_focus ())
 		if cast (&item, Gtk::Container, container)
 			if (!container->get_children ().empty ())
 				target = *container->get_children ().begin ();
