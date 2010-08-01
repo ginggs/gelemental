@@ -393,7 +393,7 @@ html/index.html: $(doxygen_configfile_source)
 install-api: $(srcdir)/html/index.html
 	@$(NORMAL_INSTALL)
 	$(mkinstalldirs) $(DESTDIR)/$(apidir)
-	@dir='$(<D)'; for p in $$dir/*.html $$dir/*.css $$dir/*.png $$dir/*.gif $$dir/*.dot ; do \
+	@dir='$(<D)'; for p in $$dir/*.html $$dir/*.css $$dir/*.png ; do \
 		f="`echo $$p | sed -e 's|^.*/||'`"; \
 		echo " $(INSTALL_DATA) $$p $(DESTDIR)$(apidir)/$$f"; \
 		$(INSTALL_DATA) $$p $(DESTDIR)$(apidir)/$$f; \
