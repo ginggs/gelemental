@@ -238,7 +238,7 @@ ElementIdentity::ElementIdentity (const Element& el)
 {
 	property_can_focus ().set_value (false);
 	set_focus_on_click (false);
-	set_size_request (50, 50);
+	set_size_request (-1, 50);
 
 	const ColorValue& color = el.get_property (P_COLOR);
 	set_color (color);
