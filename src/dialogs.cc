@@ -157,7 +157,8 @@ PropertiesDialog::PropertiesDialog (Gtk::Window& parent)
 	Gtk::VBox *vbox = new Gtk::VBox (false, 6);
 	add (*Gtk::manage (vbox));
 
-	vbox->pack_start (hbox);
+	Gtk::HBox *hboxpar = new Gtk::HBox (false, 6);
+	vbox->pack_start (*Gtk::manage (hboxpar), Gtk::PACK_EXPAND_WIDGET);
 	
 	Gtk::TreePath first_prop;
 	FOREACH (std::list<Category*>, CATEGORIES, category)
@@ -179,7 +180,7 @@ PropertiesDialog::PropertiesDialog (Gtk::Window& parent)
 	scroll->set_border_width (6);
 	scroll->set_policy (Gtk::POLICY_NEVER, Gtk::POLICY_NEVER);
 	scroll->set_shadow_type (Gtk::SHADOW_IN);
-	hbox.pack_start (*Gtk::manage (scroll), Gtk::PACK_SHRINK);
+	hboxpar->pack_start(*Gtk::manage (scroll), Gtk::PACK_SHRINK);
 
 	view.get_selection ()->set_select_function
 		(sigc::mem_fun (*this, &PropertiesDialog::is_selectable));
@@ -189,13 +190,20 @@ PropertiesDialog::PropertiesDialog (Gtk::Window& parent)
 	if (!first_prop.empty ())
 		view.get_selection ()->select (first_prop);
 	scroll->add (view);
-	
+
 	Gtk::CellRendererText *cell = new Gtk::CellRendererText ();
 	Gtk::TreeViewColumn *col =
 		new Gtk::TreeViewColumn (_("Property"), *Gtk::manage (cell));
 	col->set_cell_data_func (*cell,
 		sigc::mem_fun (*this, &PropertiesDialog::on_tree_cell_data));
 	view.append_column (*Gtk::manage (col));
+
+	Gtk::ScrolledWindow *scroll2 = new Gtk::ScrolledWindow ();
+	scroll2->set_border_width (6);
+	scroll2->set_policy (Gtk::POLICY_NEVER, Gtk::POLICY_AUTOMATIC);
+	scroll2->set_shadow_type (Gtk::SHADOW_NONE);
+	hboxpar->pack_end(*Gtk::manage (scroll2), Gtk::PACK_EXPAND_WIDGET);
+	scroll2->add (hbox);
 	
 	Gtk::HButtonBox *bbox = new Gtk::HButtonBox (Gtk::BUTTONBOX_END);
 	vbox->pack_start (*Gtk::manage (bbox), Gtk::PACK_SHRINK);
