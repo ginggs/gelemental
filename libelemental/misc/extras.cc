@@ -21,7 +21,7 @@
 
 #include <algorithm>
 #include <stdexcept>
-#include <glib/gmem.h>
+#include <glib.h>
 #include <glibmm/utility.h>
 
 namespace misc {

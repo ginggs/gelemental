@@ -20,7 +20,7 @@
 #include "macros.hh"
 #include "widgets.hh"
 
-#include <glib/gmessages.h>
+#include <glib.h>
 #include <gtkmm/alignment.h>
 #include <gtkmm/image.h>
 #include <gtkmm/label.h>

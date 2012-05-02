@@ -26,8 +26,7 @@
 #include <clocale>
 #include <iostream>
 #include <locale>
-#include <glib/goption.h>
-#include <glib/gutils.h>
+#include <glib.h>
 #include <glibmm/optionentry.h>
 #include <gtk/gtkaboutdialog.h>
 #include <gtk/gtkversion.h>
