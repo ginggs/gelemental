@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gelemental\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-09-27 14:49-0700\n"
+"POT-Creation-Date: 2013-08-06 12:46+0200\n"
 "PO-Revision-Date: 2007-02-24 18:51+0100\n"
 "Last-Translator: Ambrogio Oliva <ambrogio.oliva@ctimilano.com>\n"
 "Language-Team: Italian <it@li.org>\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2572,19 +2573,17 @@ msgid ""
 msgstr "In onore del fisico tedesco Wilhelm Roentgen, scopritore dei raggi-X."
 
 #: ../libelemental/data.cc:163
-msgid "Ununbium"
-msgstr "Ununbio"
+msgid "Copernicium"
+msgstr ""
 
 #: ../libelemental/data.cc:163
 msgid "Inst. for Heavy Ion Research"
 msgstr "Inst. for Heavy Ion Research"
 
-#: ../libelemental/data.cc:163 ../libelemental/data.cc:164
-#: ../libelemental/data.cc:165 ../libelemental/data.cc:166
-#: ../libelemental/data.cc:167 ../libelemental/data.cc:168
-#: ../libelemental/data.cc:169
-msgid "IUPAC systematic name"
-msgstr "Nome sistematico IUPAC"
+#: ../libelemental/data.cc:163
+#, fuzzy
+msgid "Named in honor of the astronomer Nicolaus Copernicus."
+msgstr "In onore del fisico italiano Enrico Fermi."
 
 #: ../libelemental/data.cc:164
 msgid "Ununtrium"
@@ -2600,17 +2599,36 @@ msgstr "Russia/USA"
 msgid "Joint Inst. for Nuclear Research / Lawrence Livermore Lab."
 msgstr "Joint Inst. for Nuclear Research / Lawrence Livermore Lab."
 
+#: ../libelemental/data.cc:164 ../libelemental/data.cc:166
+#: ../libelemental/data.cc:168 ../libelemental/data.cc:169
+msgid "IUPAC systematic name"
+msgstr "Nome sistematico IUPAC"
+
 #: ../libelemental/data.cc:165
-msgid "Ununquadium"
-msgstr "Ununquadio"
+#, fuzzy
+msgid "Flerovium"
+msgstr "Mendelevio"
+
+#: ../libelemental/data.cc:165
+msgid ""
+"Named after the Flerov Laboratory of Nuclear Reactions of the Joint Inst. "
+"for Nuclear Research in Dubna, Russia, where it was discovered."
+msgstr ""
 
 #: ../libelemental/data.cc:166
 msgid "Ununpentium"
 msgstr "Ununpentio"
 
 #: ../libelemental/data.cc:167
-msgid "Ununhexium"
-msgstr "Ununhexio"
+msgid "Livermorium"
+msgstr ""
+
+#: ../libelemental/data.cc:167
+msgid ""
+"The name recognizes the Lawrence Livermore National Laboratory, California, "
+"which collaborated with the Joint Inst. for Nuclear Research (JINR), Russia "
+"on the discovery."
+msgstr ""
 
 #: ../libelemental/data.cc:168
 msgid "Ununseptium"
@@ -2619,6 +2637,12 @@ msgstr "Ununseptio"
 #: ../libelemental/data.cc:169
 msgid "Ununoctium"
 msgstr "Ununoctio"
+
+#~ msgid "Ununhexium"
+#~ msgstr "Ununhexio"
+
+#~ msgid "Ununquadium"
+#~ msgstr "Ununquadio"
 
 #~ msgid "Multiple sources as compiled at "
 #~ msgstr "Fonti bibliografiche multiple, come compilate in "

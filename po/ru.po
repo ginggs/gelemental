@@ -7,10 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gelemental\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-09-27 14:49-0700\n"
+"POT-Creation-Date: 2013-08-06 12:46+0200\n"
 "PO-Revision-Date: 2000-03-22 21:01+0200\n"
 "Last-Translator: Michael Shigorin <mike@lic145.kiev.ua>\n"
 "Language-Team: NAME <EMAIL@ADDRESS>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -2480,18 +2481,15 @@ msgid ""
 msgstr ""
 
 #: ../libelemental/data.cc:163
-msgid "Ununbium"
-msgstr "Унунбий"
+msgid "Copernicium"
+msgstr ""
 
 #: ../libelemental/data.cc:163
 msgid "Inst. for Heavy Ion Research"
 msgstr ""
 
-#: ../libelemental/data.cc:163 ../libelemental/data.cc:164
-#: ../libelemental/data.cc:165 ../libelemental/data.cc:166
-#: ../libelemental/data.cc:167 ../libelemental/data.cc:168
-#: ../libelemental/data.cc:169
-msgid "IUPAC systematic name"
+#: ../libelemental/data.cc:163
+msgid "Named in honor of the astronomer Nicolaus Copernicus."
 msgstr ""
 
 #: ../libelemental/data.cc:164
@@ -2508,17 +2506,36 @@ msgstr ""
 msgid "Joint Inst. for Nuclear Research / Lawrence Livermore Lab."
 msgstr ""
 
+#: ../libelemental/data.cc:164 ../libelemental/data.cc:166
+#: ../libelemental/data.cc:168 ../libelemental/data.cc:169
+msgid "IUPAC systematic name"
+msgstr ""
+
 #: ../libelemental/data.cc:165
-msgid "Ununquadium"
-msgstr "Унунквадий"
+#, fuzzy
+msgid "Flerovium"
+msgstr "Менделевий"
+
+#: ../libelemental/data.cc:165
+msgid ""
+"Named after the Flerov Laboratory of Nuclear Reactions of the Joint Inst. "
+"for Nuclear Research in Dubna, Russia, where it was discovered."
+msgstr ""
 
 #: ../libelemental/data.cc:166
 msgid "Ununpentium"
 msgstr "Унунпентий"
 
 #: ../libelemental/data.cc:167
-msgid "Ununhexium"
-msgstr "Унунгексий"
+msgid "Livermorium"
+msgstr ""
+
+#: ../libelemental/data.cc:167
+msgid ""
+"The name recognizes the Lawrence Livermore National Laboratory, California, "
+"which collaborated with the Joint Inst. for Nuclear Research (JINR), Russia "
+"on the discovery."
+msgstr ""
 
 #: ../libelemental/data.cc:168
 msgid "Ununseptium"
@@ -2527,3 +2544,9 @@ msgstr "Унунсептий"
 #: ../libelemental/data.cc:169
 msgid "Ununoctium"
 msgstr "Унуноктий"
+
+#~ msgid "Ununhexium"
+#~ msgstr "Унунгексий"
+
+#~ msgid "Ununquadium"
+#~ msgstr "Унунквадий"
