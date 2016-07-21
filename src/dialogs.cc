@@ -255,7 +255,7 @@ PropertiesDialog::is_selectable (const RefPtr<Gtk::TreeModel>&,
 	const Gtk::TreePath& tpath, bool)
 {
 	Gtk::TreeIter iter = store->get_iter (tpath);
-	return iter ? iter->get_value (cols.property) : false;
+	return iter ? (bool)(iter->get_value (cols.property)) : false;
 }
 
 
