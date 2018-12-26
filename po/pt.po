@@ -2491,8 +2491,8 @@ msgid "Named in honor of the astronomer Nicolaus Copernicus."
 msgstr ""
 
 #: ../libelemental/data.cc:164
-msgid "Ununtrium"
-msgstr "Ununtrio"
+msgid "Nihonium"
+msgstr "Nihonium"
 
 #: ../libelemental/data.cc:164 ../libelemental/data.cc:166
 #: ../libelemental/data.cc:169
@@ -2521,8 +2521,8 @@ msgid ""
 msgstr ""
 
 #: ../libelemental/data.cc:166
-msgid "Ununpentium"
-msgstr "Ununpentio"
+msgid "Moscovium"
+msgstr "Moscovium"
 
 #: ../libelemental/data.cc:167
 msgid "Livermorium"
@@ -2536,12 +2536,12 @@ msgid ""
 msgstr ""
 
 #: ../libelemental/data.cc:168
-msgid "Ununseptium"
-msgstr "Ununséptio"
+msgid "Tennessine"
+msgstr "Tennessine"
 
 #: ../libelemental/data.cc:169
-msgid "Ununoctium"
-msgstr "Ununóctio"
+msgid "Oganesson"
+msgstr "Oganesson"
 
 #~ msgid "Ununhexium"
 #~ msgstr "Ununhexio"
