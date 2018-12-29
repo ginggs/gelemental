@@ -355,8 +355,7 @@ MainWindow::on_about ()
 	about.set_version (VERSION);
 	about.set_comments (_("A periodic table viewer with detailed "
 		"information on elements."));
-	about.set_website ("http://web.archive.org/web/20080209213045/http://www.kdau.com/projects/gelemental/");
-	about.set_website_label ("http://www.kdau.com/projects/gelemental/");
+	about.set_website ("https://github.com/ginggs/gelemental");
 	about.set_logo_icon_name ("gelemental");
 
 	about.set_copyright
