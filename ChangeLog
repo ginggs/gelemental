@@ -1,3 +1,84 @@
+2018-12-29  Graham Inggs  <ginggs@riseup.net>
+
+        * src/main.cc: Update website on About page.
+
+2018-12-29  Graham Inggs  <ginggs@riseup.net>
+
+        * src/dialogs.cc: Better fix for 'operands to ?: have different types' error.
+
+2018-12-26  Graham Inggs  <ginggs@riseup.net>
+
+        * libelemental/data.cc: Update new IUPAC names for elements 113, 115, 117 and 118.
+        * po/*.po: Likewise.
+
+2016-07-21  Graham Inggs  <ginggs@riseup.net>
+
+        * src/dialogs.cc: Fix 'operands to ?: have different types' error with GCC 6,
+          see Debian #812040.
+
+2013-08-06  Daniel Leidert  <dleidert@debian.org>
+
+        * libelemental/data.cc: The IUPAC has renamed several elements,
+          see Debian #656372, Debian #687993, LP: #1051992 and LP: #1084968.
+        * po/*.po: Likewise.
+
+2012-05-02  Daniel Leidert  <dleidert@debian.org>
+
+        * src/main.cc: Fix FTBFS with glib 2.32, see Debian #665529.
+          libelemental/misc/extras.cc: Likewise.
+          libelemental/misc/widgets.cc: Likewise.
+
+2011-02-13  Daniel Leidert  <dleidert@debian.org>
+
+        * src/buttons.cc: The "active" element shown separated in middle
+          might not show the whole chemical symbol because of its fixed size,
+          so request the natural width, see Debian #579183.
+
+2011-02-13  Daniel Leidert  <dleidert@debian.org>
+
+        * src/main.cc: The website is offline since a long time. Still show the
+          homepage address but link to archive.org, see Debian #673285.
+
+2011-02-13  Daniel Leidert  <dleidert@debian.org>
+
+        * src/dialogs.cc: Make text area in Properties dialog scrollable,
+          see Debian #604618.
+
+2011-02-08  Daniel Leidert  <dleidert@debian.org>
+
+        * data/gelemental.desktop.in: Adjust category in .desktop file,
+          Education is the better category than Utility, see Debian #604612.
+
+2010-08-01  Joachim Reichel  <reichel@debian.org>
+
+        * docs/api/Makefile.*: Skip installing (no longer generated) .dot and
+          .gif files, see Debian #590382.
+
+2009-12-21  Marek Černocký <marek@manet.cz>
+
+        * po/cs.po: New Czech translation, see Debian #559028.
+        * po/LINGUAS: Likewise.
+
+2009-12-21  Cesare Tirabassi  <norsetto@ubuntu.com>
+
+        * libelemental/misc/widgets.cc: get_can_focus replaces can_focus since
+          gtkmm 2.18, see LP: #441453.
+
+2009-11-23  Cesare Tirabassi  <norsetto@ubuntu.com>
+
+        * src/buttons.cc: Add the New Wave theme to the list of themes that
+          have issues with button colours, see LP: #486798.
+
+2008-05-29  Daniel Leidert  <dleidert@debian.org>
+
+        * libelemental/data.cc: Update the history of zinc with
+          correct translation of the German word zink.
+
+2008-05-26  Daniel Leidert  <dleidert@debian.org>
+
+        * libelemental/value.hh: #include <limits> to avoid a FTBFS on
+          several architectures, see Debian #482924.
+
 2007-09-30  Kevin Daughtridge  <kevin@kdau.com>
 
 	* NEWS: Release 1.2.0.
