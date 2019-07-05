@@ -5,7 +5,7 @@ includedir=@includedir@
 
 Name: libelemental
 Description: A periodic table library with detailed information on elements.
-URL: http://www.kdau.com/projects/gelemental/
+URL: https://github.com/ginggs/gelemental
 Version: @VERSION@
 Requires: glibmm-2.4 >= 2.6.0 pango
 Libs: -L${libdir} -lelemental

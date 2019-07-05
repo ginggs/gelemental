@@ -360,6 +360,7 @@ MainWindow::on_about ()
 
 	about.set_copyright
 	(
+		"Copyright © 2016-2019 Graham Inggs\n"
 		"Copyright © 2006-2007 Kevin Daughtridge\n"
 		"Copyright © 2003 Jonas Frantz"
 	);
@@ -383,6 +384,10 @@ MainWindow::on_about ()
 	authors.push_back ("Felix Natter <f.natter@ndh.net>");
 	authors.push_back ("Ambrogio Oliva <ambrogio.oliva@ctimilano.com>");
 	authors.push_back ("Arno W. Peters <a.w.peters@ieee.org>");
+	authors.push_back ("Daniel Leidert <dleidert@debian.org>");
+	authors.push_back ("Cesare Tirabassi <norsetto@ubuntu.com>");
+	authors.push_back ("Joachim Reichel <reichel@debian.org>");
+	authors.push_back ("Graham Inggs <ginggs@riseup.net>");
 
 	about.set_authors (authors);
 	// Translators: Replace this with your name(s) and address(es).

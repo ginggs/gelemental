@@ -1,6 +1,6 @@
 Name: libelemental (uninstalled)
 Description: A periodic table library with detailed information on elements. (uninstalled)
-URL: http://www.kdau.com/projects/gelemental/
+URL: https://github.com/ginggs/gelemental
 Version: @VERSION@
 Requires: glibmm-2.4 >= 2.6.0 pango
 Libs: ${pc_top_builddir}/libelemental/libelemental.la
