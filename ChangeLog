@@ -1,3 +1,11 @@
+2019-07-06  Graham Inggs  <ginggs@riseup.net>
+
+        * *: Update maintainer, contributors, translators and URLs.
+        * po/ru.po: Update Russian names of new elements.
+        * NEWS: Release 2.0.0.
+        * configure.ac: Likewise.
+        * *: Update generated configuration files.
+
 2018-12-29  Graham Inggs  <ginggs@riseup.net>
 
         * src/main.cc: Update website on About page.
@@ -54,7 +62,7 @@
         * docs/api/Makefile.*: Skip installing (no longer generated) .dot and
           .gif files, see Debian #590382.
 
-2009-12-21  Marek Černocký <marek@manet.cz>
+2009-12-21  Marek Černocký  <marek@manet.cz>
 
         * po/cs.po: New Czech translation, see Debian #559028.
         * po/LINGUAS: Likewise.
@@ -76,8 +84,8 @@
 
 2008-05-26  Daniel Leidert  <dleidert@debian.org>
 
-        * libelemental/value.hh: #include <limits> to avoid a FTBFS on
-          several architectures, see Debian #482924.
+        * libelemental/value.hh: #include <limits> fix FTBFS with GCC 4.3,
+          see Debian #482924.
 
 2007-09-30  Kevin Daughtridge  <kevin@kdau.com>
 
