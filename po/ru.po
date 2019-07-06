@@ -2482,7 +2482,7 @@ msgstr ""
 
 #: ../libelemental/data.cc:163
 msgid "Copernicium"
-msgstr ""
+msgstr "Коперниций"
 
 #: ../libelemental/data.cc:163
 msgid "Inst. for Heavy Ion Research"
@@ -2494,7 +2494,7 @@ msgstr ""
 
 #: ../libelemental/data.cc:164
 msgid "Nihonium"
-msgstr "Nihonium"
+msgstr "Нихоний"
 
 #: ../libelemental/data.cc:164 ../libelemental/data.cc:166
 #: ../libelemental/data.cc:169
@@ -2512,9 +2512,8 @@ msgid "IUPAC systematic name"
 msgstr ""
 
 #: ../libelemental/data.cc:165
-#, fuzzy
 msgid "Flerovium"
-msgstr "Менделевий"
+msgstr "Флеровий"
 
 #: ../libelemental/data.cc:165
 msgid ""
@@ -2524,11 +2523,11 @@ msgstr ""
 
 #: ../libelemental/data.cc:166
 msgid "Moscovium"
-msgstr "Moscovium"
+msgstr "Московий"
 
 #: ../libelemental/data.cc:167
 msgid "Livermorium"
-msgstr ""
+msgstr "Ливерморий"
 
 #: ../libelemental/data.cc:167
 msgid ""
@@ -2539,11 +2538,11 @@ msgstr ""
 
 #: ../libelemental/data.cc:168
 msgid "Tennessine"
-msgstr "Tennessine"
+msgstr "Теннессин"
 
 #: ../libelemental/data.cc:169
 msgid "Oganesson"
-msgstr "Oganesson"
+msgstr "Оганесон"
 
 #~ msgid "Ununhexium"
 #~ msgstr "Унунгексий"
