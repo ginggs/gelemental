@@ -2,7 +2,7 @@ dnl Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.59])
 
-AC_INIT([gElemental], [1.2.0], [], [gelemental])
+AC_INIT([gElemental], [2.0.0], [], [gelemental])
 AC_CONFIG_SRCDIR([src/main.cc])
 
 AM_INIT_AUTOMAKE([1.9 dist-bzip2 no-dist-gzip])
