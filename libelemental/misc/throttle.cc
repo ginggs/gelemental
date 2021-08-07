@@ -30,7 +30,6 @@ namespace misc {
 
 
 Throttle::Throttle (Mode mode_, double threshold_, bool immediate)
-	throw (std::invalid_argument)
 :	mode (OPEN), threshold (0.0), running (false)
 {
 	set (mode_, threshold_, immediate);
@@ -58,7 +57,7 @@ Throttle::is_running () const throw ()
 
 
 void
-Throttle::set (Mode mode_, bool immediate) throw (std::invalid_argument)
+Throttle::set (Mode mode_, bool immediate)
 {
 	do_set (mode_, immediate);
 	update ();
@@ -67,7 +66,6 @@ Throttle::set (Mode mode_, bool immediate) throw (std::invalid_argument)
 
 void
 Throttle::set (Mode mode_, double threshold_, bool immediate)
-	throw (std::invalid_argument)
 {
 	do_set (mode_, immediate);
 	set_threshold (threshold_);
@@ -90,7 +88,7 @@ Throttle::get_threshold () const throw ()
 
 
 void
-Throttle::set_threshold (double threshold_) throw (std::invalid_argument)
+Throttle::set_threshold (double threshold_)
 {
 	if (threshold_ < 0.0)
 		throw std::invalid_argument ("negative threshold");
@@ -124,7 +122,7 @@ Throttle::clear () throw ()
 
 
 void
-Throttle::do_set (Mode mode_, bool immediate) throw (std::invalid_argument)
+Throttle::do_set (Mode mode_, bool immediate)
 {
 	switch (mode_)
 	{

@@ -52,7 +52,6 @@ Property<T>::~Property ()
 template<class T>
 inline const T&
 Element::get_property (const Property<T>& property) const
-	throw (std::invalid_argument)
 {
 	return *reinterpret_cast<const T*> (&get_property_base (property));
 }
@@ -61,7 +60,6 @@ Element::get_property (const Property<T>& property) const
 template<>
 inline const std::string&
 Element::get_property (const Property<std::string>& property) const
-	throw (std::invalid_argument)
 {
 	if (&property == &P_SYMBOL) return symbol;
 	throw std::invalid_argument ("not a value property");
@@ -71,7 +69,6 @@ Element::get_property (const Property<std::string>& property) const
 template<>
 inline const unsigned int&
 Element::get_property (const Property<unsigned int>& property) const
-	throw (std::invalid_argument)
 {
 	if (&property == &P_NUMBER) return number;
 	throw std::invalid_argument ("not a value property");

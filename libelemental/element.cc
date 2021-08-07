@@ -128,8 +128,7 @@ Property<Float>::is_scale_valid () const throw ()
 
 
 double
-Property<Float>::get_scale_position (const Float& instance, bool logarithmic)
-	const throw (std::domain_error, std::invalid_argument)
+Property<Float>::get_scale_position (const Float& instance, bool logarithmic) const
 {
 	if (!is_scale_valid ()) throw std::domain_error ("invalid scale");
 	if (!instance.has_value ()) throw std::invalid_argument ("undefined value");
@@ -143,7 +142,7 @@ Property<Float>::get_scale_position (const Float& instance, bool logarithmic)
 
 
 double
-Property<Float>::get_minimum () const throw (std::domain_error)
+Property<Float>::get_minimum () const
 {
 	if (!have_values) throw std::domain_error ("invalid scale");
 	return minimum;
@@ -151,7 +150,7 @@ Property<Float>::get_minimum () const throw (std::domain_error)
 
 
 double
-Property<Float>::get_medium (bool logarithmic) const throw (std::domain_error)
+Property<Float>::get_medium (bool logarithmic) const
 {
 	if (!is_scale_valid ()) throw std::domain_error ("invalid scale");
 	
@@ -164,7 +163,7 @@ Property<Float>::get_medium (bool logarithmic) const throw (std::domain_error)
 
 
 double
-Property<Float>::get_maximum () const throw (std::domain_error)
+Property<Float>::get_maximum () const
 {
 	if (!have_values) throw std::domain_error ("invalid scale");
 	return maximum;
@@ -245,7 +244,6 @@ Element::Element (const ElementData& data_) throw ()
 
 const value_base&
 Element::get_property_base (const PropertyBase& property) const
-	throw (std::invalid_argument)
 {
 #define retb(PROP, value) if (prop == &P_##PROP) return value;
 #define ret(PROP, member) retb (PROP, data.member)

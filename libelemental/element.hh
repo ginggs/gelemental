@@ -133,22 +133,20 @@ public:
 	 * instead of linear scale.
 	 * \throw std::domain_error if the property does not have a valid scale.
 	 * \throw std::invalid_argument if instance is not a defined value. */
-	double get_scale_position (const Float& instance, bool logarithmic = false)
-		const throw (std::domain_error, std::invalid_argument);
+	double get_scale_position (const Float& instance, bool logarithmic = false) const;
 
 	//! Returns the least value of this property for any element.
 	//! \throw std::domain_error if the property does not have a valid scale.
-	double get_minimum () const throw (std::domain_error);
+	double get_minimum () const;
 
 	//! Returns the value of this property that has a scale position of 0.5.
 	/*! \param logarithmic Whether to compute the value on a logarithmic scale.
 	 * \throw std::domain_error if the property does not have a valid scale. */
-	double get_medium (bool logarithmic = false) const
-		throw (std::domain_error);
+	double get_medium (bool logarithmic = false) const;
 
 	//! Returns the greatest value of this property for any element.
 	//! \throw std::domain_error if the property does not have a valid scale.
-	double get_maximum () const throw (std::domain_error);
+	double get_maximum () const;
 
 	virtual bool is_colorable () const throw ();
 
@@ -205,13 +203,11 @@ public:
 	
 	//! Returns the value_base of the value for the given Property.
 	//! \param property The Element Property to be returned.
-	const value_base& get_property_base (const PropertyBase& property) const
-		throw (std::invalid_argument);
+	const value_base& get_property_base (const PropertyBase& property) const;
 
 	//! Returns the value for the given Property.
 	//! \param property The Element Property to be returned.
-	template<class T> inline const T& get_property (const Property<T>& property)
-		const throw (std::invalid_argument);
+	template<class T> inline const T& get_property (const Property<T>& property) const;
 
 	//! Generates entries for all properties.
 	//! \param view An EntriesView to be populated.

@@ -81,7 +81,7 @@ public:
 	 * \param immediate Whether to start the timer immediately in some modes.
 	 * \throw std::invalid_argument if the mode or threshold is invalid. */
 	explicit Throttle (Mode mode = OPEN, double threshold = 0.0,
-		bool immediate = false) throw (std::invalid_argument);
+		bool immediate = false);
 	
 	//! Destroys the throttle.
 	/*! Any actions remaining in the queue are destroyed without being called.
@@ -107,7 +107,7 @@ public:
 	 * timer immediately (\c true) or to start it when the next action is queued
 	 * (\c false).
 	 * \throw std::invalid_argument if the mode is not a valid Mode. */
-	void set (Mode mode, bool immediate = false) throw (std::invalid_argument);
+	void set (Mode mode, bool immediate = false);
 	
 	//! Sets the throttle mode and timer threshold atomically.
 	/*! For details, see set(Mode, bool) and set_threshold().
@@ -115,8 +115,7 @@ public:
 	 * \param threshold The new timer threshold in seconds.
 	 * \param immediate Whether to start the timer immediately in some modes.
 	 * \throw std::invalid_argument if the mode or threshold is invalid. */
-	void set (Mode mode, double threshold, bool immediate = false)
-		throw (std::invalid_argument);
+	void set (Mode mode, double threshold, bool immediate = false);
 
 	//! Restores the throttle to the initial state for the current mode.
 	/*! For details, see set().
@@ -134,7 +133,7 @@ public:
 	 * \p OPEN and \p CLOSED modes.
 	 * \param threshold The new timer threshold in seconds.
 	 * \throw std::invalid_argument if the threshold is negative. */
-	void set_threshold (double threshold) throw (std::invalid_argument);
+	void set_threshold (double threshold);
 	
 	//! Adds a new functor to the action queue.
 	/*! If the current state allows, this action or queued actions may be called
@@ -157,7 +156,7 @@ public:
 
 private:
 
-	void do_set (Mode mode, bool immediate) throw (std::invalid_argument);
+	void do_set (Mode mode, bool immediate);
 
 	void start () throw ();
 	void stop () throw ();

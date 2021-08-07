@@ -66,7 +66,7 @@ get_table () throw ()
 
 
 const Element&
-get_element (AtomicNumber number) throw (std::out_of_range)
+get_element (AtomicNumber number)
 {
 	initialize ();
 	return *table.at (number - 1);
@@ -74,7 +74,7 @@ get_element (AtomicNumber number) throw (std::out_of_range)
 
 
 const Element&
-get_element (const std::string& which) throw (std::invalid_argument)
+get_element (const std::string& which)
 {
 	initialize ();
 

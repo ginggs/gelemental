@@ -51,15 +51,14 @@ const Table& get_table () throw ();
 /*! \param number The atomic number of an element.
  * \return A reference to the corresponding element.
  * \throw std::out_of_range if the atomic number is invalid. */
-const Element& get_element (AtomicNumber number) throw (std::out_of_range);
+const Element& get_element (AtomicNumber number);
 
 //! Returns the element with a given symbol or atomic number.
 /*! \param which The standard symbol of an element, or the string representation
  * of the atomic number of an element.
  * \return A reference to the corresponding element.
  * \throw std::invalid_argument if the symbol or number is invalid. */
-const Element& get_element (const std::string& which)
-	throw (std::invalid_argument);
+const Element& get_element (const std::string& which);
 
 } // namespace Elemental
 
