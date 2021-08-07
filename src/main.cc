@@ -82,7 +82,7 @@ main (int& argc, char**& argv)
 		{
 			std::locale::global (std::locale (std::setlocale (LC_ALL, NULL)));
 		}
-		catch (std::runtime_error)
+		catch (const std::runtime_error &)
 		{
 			std::locale::global (std::locale::classic ());
 		}

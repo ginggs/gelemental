@@ -101,7 +101,7 @@ PropertyBase::is_colorable () const throw ()
 		return CAST (&get_table ().front ()->get_property_base (*this),
 			const color_value_base);
 	}
-	catch (std::invalid_argument)
+	catch (const std::invalid_argument &)
 		{ return false; }
 }
 
