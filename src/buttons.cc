@@ -151,7 +151,7 @@ ColorButton::is_force_needed ()
 		"Mint-Y-Sand",
 		"Mint-Y-Teal",
 		"Breeze",
-		"Breeze Dark"
+		"Breeze Dark",
 		NULL
 	};
 
