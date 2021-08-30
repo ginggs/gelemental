@@ -103,6 +103,7 @@ ColorButton::is_force_needed ()
 {
 	static const char *OFFENDING_THEMES[] = 
 	{
+		"Adwaita",
 		"Amaranth",
 		"Lush",
 		"Nuvola",
@@ -150,6 +151,9 @@ ColorButton::is_force_needed ()
 		"Mint-Y-Purple",
 		"Mint-Y-Sand",
 		"Mint-Y-Teal",
+		"Yaru",
+		"Yaru-dark",
+		"Yaru-light",
 		NULL
 	};
 
