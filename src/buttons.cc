@@ -154,6 +154,12 @@ ColorButton::is_force_needed ()
 		"Yaru",
 		"Yaru-dark",
 		"Yaru-light",
+		//WhiteSur Themes!
+		"WhiteSur",
+		"WhiteSur-light",
+		"WhiteSur-dark",
+		"WhiteSur-light-solid",
+		"WhiteSur-dark-solid",
 		NULL
 	};
 
