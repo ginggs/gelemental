@@ -103,6 +103,7 @@ ColorButton::is_force_needed ()
 {
 	static const char *OFFENDING_THEMES[] = 
 	{
+		"Adwaita",
 		"Amaranth",
 		"Lush",
 		"Nuvola",
@@ -152,6 +153,9 @@ ColorButton::is_force_needed ()
 		"Mint-Y-Teal",
 		"Breeze",
 		"Breeze Dark",
+		"Yaru",
+		"Yaru-dark",
+		"Yaru-light",
 		NULL
 	};
 
