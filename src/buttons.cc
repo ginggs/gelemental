@@ -104,6 +104,7 @@ ColorButton::is_force_needed ()
 	static const char *OFFENDING_THEMES[] = 
 	{
 		"Adwaita",
+		"Adwaita-dark",
 		"Amaranth",
 		"Lush",
 		"Nuvola",
