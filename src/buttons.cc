@@ -157,7 +157,7 @@ ColorButton::is_force_needed ()
 		"WhiteSur-dark",
 		"WhiteSur-light-solid",
 		"WhiteSur-dark-solid",
-    "Yaru",
+		"Yaru",
 		"Yaru-dark",
 		"Yaru-light",
 		"Yaru-MATE-dark",
