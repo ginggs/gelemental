@@ -104,6 +104,7 @@ ColorButton::is_force_needed ()
 	static const char *OFFENDING_THEMES[] = 
 	{
 		"Adwaita",
+		"Adwaita-dark",
 		"Amaranth",
 		"Lush",
 		"Nuvola",
@@ -151,15 +152,16 @@ ColorButton::is_force_needed ()
 		"Mint-Y-Purple",
 		"Mint-Y-Sand",
 		"Mint-Y-Teal",
-		"Yaru",
-		"Yaru-dark",
-		"Yaru-light",
-		//WhiteSur Themes!
 		"WhiteSur",
 		"WhiteSur-light",
 		"WhiteSur-dark",
 		"WhiteSur-light-solid",
 		"WhiteSur-dark-solid",
+    "Yaru",
+		"Yaru-dark",
+		"Yaru-light",
+		"Yaru-MATE-dark",
+		"Yaru-MATE-light",
 		NULL
 	};
 
