@@ -155,6 +155,8 @@ ColorButton::is_force_needed ()
 		"Yaru",
 		"Yaru-dark",
 		"Yaru-light",
+		"Yaru-MATE-dark",
+		"Yaru-MATE-light",
 		NULL
 	};
 
