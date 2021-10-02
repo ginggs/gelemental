@@ -360,7 +360,7 @@ MainWindow::on_about ()
 
 	about.set_copyright
 	(
-		"Copyright © 2016-2019 Graham Inggs\n"
+		"Copyright © 2016-2021 Graham Inggs\n"
 		"Copyright © 2006-2007 Kevin Daughtridge\n"
 		"Copyright © 2003 Jonas Frantz"
 	);

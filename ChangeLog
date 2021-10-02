@@ -1,3 +1,21 @@
+2021-09-26  Graham Inggs  <ginggs@riseup.net>
+        * NEWS, README, configure.ac, src/main.cc: Release 2.0.1.
+        * *: Update generated configuration files.
+
+2021-09-24  Graham Inggs  <ginggs@riseup.net>
+	* src/buttons.cc: Force button colour for Yaru-MATE (N0rbert) and
+	  WhiteSur (aargar1) themes.
+
+2021-08-30  Graham Inggs  <ginggs@riseup.net>
+        * src/buttons.cc: Force button colour for Mint (artisticfox8),
+	  Adwaita and Yaru themes.
+
+2021-08-07  Graham Inggs  <ginggs@riseup.net>
+
+	* libelemental/*: Remove deprecated dynamic exception specifications (C++17).
+	* libelemental/element.cc, src/main.cc: Catch exceptions by
+	  constant reference, not by value (C++17).
+
 2019-07-06  Graham Inggs  <ginggs@riseup.net>
 
         * *: Update maintainer, contributors, translators and URLs.
