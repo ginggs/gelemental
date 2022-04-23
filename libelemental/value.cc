@@ -25,7 +25,7 @@
 
 #include <ext/stdio_filebuf.h>
 #include <glibmm/utility.h>
-#include <pango/pango-attributes.h>
+#include <pango/pango.h>
 
 namespace Elemental {
 
