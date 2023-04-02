@@ -2,19 +2,21 @@
 # This file is distributed under the same license as the gelemental package.
 #
 # Michael Shigorin <mike@lic145.kiev.ua>, 1999, 2000.
+# Ser82-png <asvmail.as@gmail.com>, 2023.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gelemental\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-08-06 12:46+0200\n"
-"PO-Revision-Date: 2000-03-22 21:01+0200\n"
-"Last-Translator: Michael Shigorin <mike@lic145.kiev.ua>\n"
+"PO-Revision-Date: 2023-04-02 19:06+1000\n"
+"Last-Translator: Ser82-png <asvmail.as@gmail.com>\n"
 "Language-Team: NAME <EMAIL@ADDRESS>\n"
-"Language: \n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0.1\n"
 
 #: ../data/gelemental.desktop.in.h:1 ../src/main.cc:209
 msgid "Periodic Table"
@@ -22,198 +24,198 @@ msgstr "Периодическая система"
 
 #: ../data/gelemental.desktop.in.h:2
 msgid "View the periodic table of elements"
-msgstr ""
+msgstr "Просмотр периодической таблицы элементов"
 
 #. Translators: This is the separator for items in a list.
 #: ../libelemental/value.cc:40
 msgid ", "
-msgstr ""
+msgstr ", "
 
 #: ../libelemental/value.cc:198 ../libelemental/value-types.cc:135
 #: ../src/buttons.cc:144
 msgid "%1 (%2)"
-msgstr ""
+msgstr "%1 (%2)"
 
 #: ../libelemental/value.cc:253 ../libelemental/value-types.cc:247
 #: ../libelemental/value-types.cc:334 ../libelemental/value-types.cc:407
 #: ../libelemental/value-types.cc:492
 msgid "(unknown)"
-msgstr ""
+msgstr "(неизвестно)"
 
 #: ../libelemental/value.cc:254
 msgid "(n/a)"
-msgstr ""
+msgstr "(n/a)"
 
 #. Translators: "(%1)" represents an estimated or calculated value.
 #: ../libelemental/value.cc:256
 msgid "(%1)"
-msgstr ""
+msgstr "(%1)"
 
 #. Translators: "~%1" represents an approximate value.
 #: ../libelemental/value.cc:258
 msgid "~%1"
-msgstr ""
+msgstr "~%1"
 
 #. Translators: "[%1]" represents a value for a most stable isotope.
 #: ../libelemental/value.cc:260
 msgid "[%1]"
-msgstr ""
+msgstr "[%1]"
 
 #: ../libelemental/value.cc:273
 msgid "Estimated or calculated value"
-msgstr ""
+msgstr "Предполагаемое или вычисленное значение"
 
 #: ../libelemental/value.cc:274
 msgid "Approximate"
-msgstr ""
+msgstr "Приблизительно"
 
 #: ../libelemental/value.cc:275
 msgid "Value for most stable isotope"
-msgstr ""
+msgstr "Значение для наиболее стабильного изотопа"
 
 #. Translators: "(?) %1" prefixes a string indicating an inexact value.
 #: ../libelemental/value-types.cc:70
 msgid "(?) %1"
-msgstr ""
+msgstr "(?) %1"
 
 #: ../libelemental/value-types.cc:131
 msgid "Undiscovered"
-msgstr ""
+msgstr "Неоткрытый"
 
 #: ../libelemental/value-types.cc:132
 msgid "Known to the ancients"
-msgstr ""
+msgstr "Известен с древних времён"
 
 #: ../libelemental/value-types.cc:252
 msgid "Nonmetals"
-msgstr ""
+msgstr "Неметаллы"
 
 #: ../libelemental/value-types.cc:254
 msgid "Noble gases"
-msgstr ""
+msgstr "Благородные газы"
 
 #: ../libelemental/value-types.cc:256
 msgid "Alkali metals"
-msgstr ""
+msgstr "Щелочные металлы"
 
 #: ../libelemental/value-types.cc:258
 msgid "Alkaline earth metals"
-msgstr ""
+msgstr "Щёлочноземельные металлы"
 
 #: ../libelemental/value-types.cc:260
 msgid "Semimetals"
-msgstr ""
+msgstr "Металлоиды"
 
 #: ../libelemental/value-types.cc:262
 msgid "Halogens"
-msgstr ""
+msgstr "Галогены"
 
 #: ../libelemental/value-types.cc:264
 msgid "Post-transition metals"
-msgstr ""
+msgstr "Постпереходные металлы"
 
 #: ../libelemental/value-types.cc:266
 msgid "Transition metals"
-msgstr ""
+msgstr "Переходные металлы"
 
 #: ../libelemental/value-types.cc:268
 msgid "Lanthanides"
-msgstr ""
+msgstr "Лактаноиды"
 
 #: ../libelemental/value-types.cc:270
 msgid "Actinides"
-msgstr ""
+msgstr "Актиноиды"
 
 #: ../libelemental/value-types.cc:338
 msgid "s-block"
-msgstr ""
+msgstr "s-блок"
 
 #: ../libelemental/value-types.cc:339
 msgid "p-block"
-msgstr ""
+msgstr "p-блок"
 
 #: ../libelemental/value-types.cc:340
 msgid "d-block"
-msgstr ""
+msgstr "d-блок"
 
 #: ../libelemental/value-types.cc:341
 msgid "f-block"
-msgstr ""
+msgstr "f-блок"
 
 #: ../libelemental/value-types.cc:412
 msgid "Solid"
-msgstr ""
+msgstr "Твёрдое тело"
 
 #: ../libelemental/value-types.cc:414
 msgid "Liquid"
-msgstr ""
+msgstr "Жидкость"
 
 #: ../libelemental/value-types.cc:416
 msgid "Gas"
-msgstr ""
+msgstr "Газ"
 
 #: ../libelemental/value-types.cc:497
 msgid "Triclinic"
-msgstr ""
+msgstr "Триклинная"
 
 #: ../libelemental/value-types.cc:499
 msgid "Monoclinic"
-msgstr ""
+msgstr "Моноклинная"
 
 #: ../libelemental/value-types.cc:501
 msgid "Orthorhombic"
-msgstr ""
+msgstr "Орторомбическая"
 
 #: ../libelemental/value-types.cc:503
 msgid "Tetragonal"
-msgstr ""
+msgstr "Тетрагональная"
 
 #: ../libelemental/value-types.cc:505
 msgid "Rhombohedral"
-msgstr ""
+msgstr "Ромбоэдрическая"
 
 #: ../libelemental/value-types.cc:507
 msgid "Hexagonal"
-msgstr ""
+msgstr "Гексагональная"
 
 #: ../libelemental/value-types.cc:509
 msgid "Simple cubic"
-msgstr ""
+msgstr "Примитивная кубическая"
 
 #: ../libelemental/value-types.cc:511
 msgid "Body-centered cubic"
-msgstr ""
+msgstr "Объемно-центрированная кубическая"
 
 #: ../libelemental/value-types.cc:513
 msgid "Face-centered cubic"
-msgstr ""
+msgstr "Гранецентрированная кубическая"
 
 #. Translators: This is the format for indicating the name of an entry.
 #: ../libelemental/element.cc:83 ../libelemental/table.cc:50
 msgid "%1:"
-msgstr ""
+msgstr "%1:"
 
 #: ../libelemental/element.cc:327
 msgid "%1 Properties"
-msgstr ""
+msgstr "%1 Свойства"
 
 #. ******************************************************************************
 #. Sources
 #: ../libelemental/properties.cc:56
 msgid "Consensus of the Blue Obelisk project."
-msgstr ""
+msgstr "Консенсус проекта «Blue Obelisk»."
 
 #: ../libelemental/properties.cc:57
 msgid "Calculated or based on other properties."
-msgstr ""
+msgstr "Рассчитанные или основанные на других свойствах."
 
 #: ../libelemental/properties.cc:58
 msgid "IUPAC recommendation."
-msgstr ""
+msgstr "Рекомендация ИЮПАК."
 
 #: ../libelemental/properties.cc:59
 msgid "Currently unsourced."
-msgstr ""
+msgstr "В настоящее время нет источников."
 
 #. ******************************************************************************
 #. General
@@ -226,22 +228,26 @@ msgid ""
 "The name most commonly used for the element in scientific contexts in the "
 "display language."
 msgstr ""
+"Название, наиболее часто используемое для элемента в научной среде на языке "
+"отображения."
 
 #: ../libelemental/properties.cc:98
 msgid "Official name"
-msgstr ""
+msgstr "Официальное название"
 
 #: ../libelemental/properties.cc:99
 msgid "The official IUPAC English name of the element."
 msgstr ""
+"Официальное английское название элемента в соответствии с номенклатурой "
+"ИЮПАК."
 
 #: ../libelemental/properties.cc:102
 msgid "Alternate name"
-msgstr ""
+msgstr "Альтернативное название"
 
 #: ../libelemental/properties.cc:103
 msgid "A recognized alternate name for the element, if any."
-msgstr ""
+msgstr "Признанное альтернативное название для элемента, если таковое имеется."
 
 #: ../libelemental/properties.cc:106
 msgid "Symbol"
@@ -249,67 +255,69 @@ msgstr "Символ"
 
 #: ../libelemental/properties.cc:107
 msgid "The chemical symbol for the element."
-msgstr ""
+msgstr "Химический символ элемента."
 
 #: ../libelemental/properties.cc:110
 msgid "Atomic number"
-msgstr ""
+msgstr "Атомный номер"
 
 #: ../libelemental/properties.cc:111
 msgid "The atomic number of the element."
-msgstr ""
+msgstr "Атомный номер элемента."
 
 #: ../libelemental/properties.cc:114
 msgid "Series"
-msgstr ""
+msgstr "Химическая группа"
 
 #: ../libelemental/properties.cc:115
 msgid "The chemical series in which the element is generally classified."
-msgstr ""
+msgstr "Химическая группа, в которой обычно классифицируется элемент."
 
 #: ../libelemental/properties.cc:118
 msgid "Group"
-msgstr ""
+msgstr "Группа"
 
 #: ../libelemental/properties.cc:119
 msgid "The periodic table group to which the element belongs, if any."
-msgstr ""
+msgstr "Одна из колонок периодической системы, где расположен элемент."
 
 #: ../libelemental/properties.cc:122
 msgid "Period"
-msgstr ""
+msgstr "Период"
 
 #: ../libelemental/properties.cc:123
 msgid "The periodic table period to which the element belongs."
-msgstr ""
+msgstr "Строка периодической таблицы, где расположен элемент."
 
 #: ../libelemental/properties.cc:126
 msgid "Block"
-msgstr ""
+msgstr "Блок"
 
 #: ../libelemental/properties.cc:127
 msgid "The periodic table block to which the element belongs."
-msgstr ""
+msgstr "Блок периодической таблицы, к которому принадлежит данный элемент."
 
 #: ../libelemental/properties.cc:130 ../src/dialogs.cc:61
 msgid "General"
-msgstr ""
+msgstr "Основные"
 
 #. ******************************************************************************
 #. Historical
 #: ../libelemental/properties.cc:147
 msgid "Discovery"
-msgstr ""
+msgstr "Открытие"
 
 #: ../libelemental/properties.cc:148
 msgid ""
 "The year and place (country) of the element's discovery. Forward slashes "
 "indicate simultaneous, unrelated discoveries."
 msgstr ""
+"Год и место (страна) открытия элемента. Косые черты указывают на "
+"одновременные, не связанные между собой открытия."
 
 #: ../libelemental/properties.cc:151
 msgid "Discovered by"
-msgstr ""
+msgstr "Кем открыт"
 
 #: ../libelemental/properties.cc:152
 msgid ""
@@ -317,10 +325,13 @@ msgid ""
 "slashes indicate simultaneous, unrelated discoveries. Commas indicate "
 "multiple people and/or places in collaboration."
 msgstr ""
+"Люди и/или учреждения, которые первыми обнаружили этот элемент. Косые черты "
+"указывают на одновременные, не связанные между собой открытия. Запятые "
+"указывают на нескольких людей и/или места совместной работы."
 
 #: ../libelemental/properties.cc:155
 msgid "Etymology"
-msgstr ""
+msgstr "Этимология"
 
 #: ../libelemental/properties.cc:156
 msgid ""
@@ -328,83 +339,95 @@ msgid ""
 "(meaning)&quot;. If an alternate name exists, its etymology may appear. "
 "Unrelated etymologies are separated by semicolons."
 msgstr ""
+"Происхождение оригинального названия элемента в формате: &quot;Язык: слово "
+"(значение)&quot;. Если существует альтернативное название, то может быть "
+"показана его этимология. Несвязанные этимологии разделяются точкой с запятой."
 
 #. Translators: i.e. the historical properties of an element
 #: ../libelemental/properties.cc:160
 msgid "Historical"
-msgstr ""
+msgstr "Историческая справка"
 
 #. ******************************************************************************
 #. Physical
 #: ../libelemental/properties.cc:171
 msgid "Phase"
-msgstr ""
+msgstr "Фаза"
 
 #. Translators: Replace " deg. " with the degree symbol here and below, if possible.
 #: ../libelemental/properties.cc:173
 msgid "%1 at 0 deg. C"
-msgstr ""
+msgstr "%1 при 0 °C"
 
 #: ../libelemental/properties.cc:174
 msgid ""
 "The phase of matter assumed by the element at standard pressure and a given "
 "temperature. By default, the IUPAC standard temperature is used."
 msgstr ""
+"Фаза вещества, принимаемая элементом при стандартном давлении и заданной "
+"температуре. По умолчанию используется стандартная температура принятая "
+"ИЮПАК."
 
 #: ../libelemental/properties.cc:177
 msgid "Density, solid"
-msgstr ""
+msgstr "Плотность - твёрдое вещество"
 
 #: ../libelemental/properties.cc:178
 msgid "%1 g/cm<sup>3</sup> at 20 deg. C"
-msgstr ""
+msgstr "%1 г/см<sup>3</sup> при 20 °C"
 
 #: ../libelemental/properties.cc:178
 msgid ""
 "The density of the element as a solid at 20 degrees Celsius, if applicable, "
 "in grams per cubic centimeter."
 msgstr ""
+"Плотность элемента в твердом состоянии при 20 градусах по Цельсию в граммах "
+"на кубический сантиметр, если возможно."
 
 #: ../libelemental/properties.cc:181
 msgid "Density, liquid"
-msgstr ""
+msgstr "Плотность - жидкость"
 
 #: ../libelemental/properties.cc:182
 msgid "%1 g/cm<sup>3</sup> at melting point"
-msgstr ""
+msgstr "%1 г/см<sup>3</sup> при температуре плавления"
 
 #: ../libelemental/properties.cc:182
 msgid ""
 "The density of the element as a liquid at its melting point, if applicable, "
 "in grams per cubic centimeter."
 msgstr ""
+"Плотность элемента в жидком состоянии при его температуре плавления в "
+"граммах на кубический сантиметр, если возможно."
 
 #: ../libelemental/properties.cc:185
 msgid "Density, gas"
-msgstr ""
+msgstr "Плотность - газ"
 
 #: ../libelemental/properties.cc:185
 msgid "%1 g/L at 0 deg. C"
-msgstr ""
+msgstr "%1 г/л при 0 °C"
 
 #: ../libelemental/properties.cc:186
 msgid ""
 "The density of the element as a gas at zero degrees Celsius, if applicable, "
 "in grams per liter."
 msgstr ""
+"Плотность элемента в газовом состоянии при нуле градусов по Цельсию в "
+"граммах на литр, если возможно."
 
 #: ../libelemental/properties.cc:189
 msgid "Appearance"
-msgstr ""
+msgstr "Внешний вид"
 
 #: ../libelemental/properties.cc:190
 msgid "The general appearance of the most common form of the element."
-msgstr ""
+msgstr "Внешний вид наиболее распространенной формы элемента."
 
 #. Translators: i.e. the physical properties of an element
 #: ../libelemental/properties.cc:194
 msgid "Physical"
-msgstr ""
+msgstr "Физические"
 
 #. ******************************************************************************
 #. Thermal
@@ -415,11 +438,11 @@ msgstr "Точка плавления"
 #: ../libelemental/properties.cc:207 ../libelemental/properties.cc:211
 #: ../libelemental/properties.cc:233
 msgid "%1 K"
-msgstr ""
+msgstr "%1 K"
 
 #: ../libelemental/properties.cc:208
 msgid "The melting point of the element in Kelvin."
-msgstr ""
+msgstr "Температура плавления элемента в градусах по Кельвину."
 
 #: ../libelemental/properties.cc:211
 msgid "Boiling point"
@@ -427,180 +450,190 @@ msgstr "Точка кипения"
 
 #: ../libelemental/properties.cc:212
 msgid "The boiling point of the element in Kelvin."
-msgstr ""
+msgstr "Температура кипения элемента в градусах по Кельвину."
 
 #: ../libelemental/properties.cc:215
 msgid "Heat of fusion"
-msgstr ""
+msgstr "Теплота плавления"
 
 #: ../libelemental/properties.cc:215 ../libelemental/properties.cc:219
 #: ../libelemental/properties.cc:340 ../libelemental/properties.cc:344
 msgid "%1 kJ/mol"
-msgstr ""
+msgstr "%1 кДж/моль"
 
 #: ../libelemental/properties.cc:216
 msgid "The heat of fusion of the element in kilojoules per mole."
-msgstr ""
+msgstr "Теплота плавления элемента в килоджоулях на моль."
 
 #: ../libelemental/properties.cc:219
 msgid "Heat of vaporization"
-msgstr ""
+msgstr "Теплота испарения"
 
 #: ../libelemental/properties.cc:220
 msgid "The heat of vaporization of the element in kilojoules per mole."
-msgstr ""
+msgstr "Теплота испарения (парообразования) элемента в килоджоулях на моль."
 
 #: ../libelemental/properties.cc:223
 msgid "Specific heat capacity"
-msgstr ""
+msgstr "Удельная теплоемкость"
 
 #. Translators: Replace "*" with the midpoint dot symbol here and below, if possible.
 #: ../libelemental/properties.cc:225
 msgid "%1 J/(g*K) at 25 deg. C"
-msgstr ""
+msgstr "%1 Дж/(г*K) при 25 °C"
 
 #: ../libelemental/properties.cc:226
 msgid ""
 "The specific heat of the element at 25 degrees Celsius, in joules per gram-"
 "Kelvin."
 msgstr ""
+"Удельная теплоемкость элемента при 25 градусах Цельсия, в джоулях на грамм-"
+"Кельвин."
 
 #: ../libelemental/properties.cc:229
 msgid "Thermal conductivity"
-msgstr ""
+msgstr "Теплопроводность"
 
 #: ../libelemental/properties.cc:229
 msgid "%1 W/(m*K) at 300 K"
-msgstr ""
+msgstr "%1 Вт/(м*K) при 300 К"
 
 #: ../libelemental/properties.cc:230
 msgid ""
 "The thermal conductivity of the element at 300 Kelvin, in watts per meter-"
 "Kelvin."
 msgstr ""
+"Теплопроводность элемента составляет при 300 градусах по Кельвину, в ваттах "
+"на метр-Кельвин."
 
 #: ../libelemental/properties.cc:233
 msgid "Debye temperature"
-msgstr ""
+msgstr "Температура Дебая"
 
 #: ../libelemental/properties.cc:234
 msgid "The Debye temperature of the element in Kelvin."
-msgstr ""
+msgstr "Температура Дебая элемента в Кельвинах."
 
 #. Translators: i.e. the thermal properties of an element
 #: ../libelemental/properties.cc:237
 msgid "Thermal"
-msgstr ""
+msgstr "Термические"
 
 #. ******************************************************************************
 #. Atomic
 #: ../libelemental/properties.cc:252
 msgid "Atomic mass"
-msgstr ""
+msgstr "Атомная масса"
 
 #: ../libelemental/properties.cc:252
 msgid "%1 g/mol"
-msgstr ""
+msgstr "%1 г/моль"
 
 #: ../libelemental/properties.cc:253
 msgid "The atomic mass of the element in grams per mole."
-msgstr ""
+msgstr "Атомная масса элемента в граммах на моль."
 
 #: ../libelemental/properties.cc:256
 msgid "Atomic volume"
-msgstr ""
+msgstr "Атомный объём"
 
 #: ../libelemental/properties.cc:256
 msgid "%1 cm<sup>3</sup>/mol"
-msgstr ""
+msgstr "%1 см<sup>3</sup>/моль"
 
 #: ../libelemental/properties.cc:257
 msgid "The volume of the element in cubic centimeters per mole."
-msgstr ""
+msgstr "Атомный объём в кубических сантиметрах на моль."
 
 #: ../libelemental/properties.cc:260
 msgid "Atomic radius"
-msgstr ""
+msgstr "Атомный радиус"
 
 #. Translators: "pm" here is "picometre(s)"
 #: ../libelemental/properties.cc:262 ../libelemental/properties.cc:266
 #: ../libelemental/properties.cc:270 ../libelemental/properties.cc:274
 #: ../libelemental/properties.cc:301
 msgid "%1 pm"
-msgstr ""
+msgstr "%1 пм"
 
 #: ../libelemental/properties.cc:263
 msgid "The atomic radius of the element in picometers."
-msgstr ""
+msgstr "Атомный радиус в пикометрах."
 
 #: ../libelemental/properties.cc:266
 msgid "Covalent radius"
-msgstr ""
+msgstr "Ковалентный радиус"
 
 #: ../libelemental/properties.cc:267
 msgid "The covalent radius of the element in picometers."
-msgstr ""
+msgstr "Ковалентный радиус элемента в пикометрах."
 
 #: ../libelemental/properties.cc:270
 msgid "Van der Waals radius"
-msgstr ""
+msgstr "Радиус Ван-дер-Ваальса"
 
 #: ../libelemental/properties.cc:271
 msgid "The van der Waals radius of the element in picometers."
-msgstr ""
+msgstr "Радиус Ван-дер-Ваальса элемента в пикометрах."
 
 #: ../libelemental/properties.cc:274
 msgid "Ionic radii"
-msgstr ""
+msgstr "Ионный радиус"
 
 #: ../libelemental/properties.cc:275
 msgid ""
 "The radii of the element's ions, if any, in picometers. The general format "
 "is &quot;radius (ion)&quot;."
 msgstr ""
+"Радиусы ионов элемента, если таковые имеются, в пикометрах. Формат: &quot;"
+"радиус (ион)&quot;."
 
 #. Translators: i.e. the atomic properties of an element
 #: ../libelemental/properties.cc:279
 msgid "Atomic"
-msgstr ""
+msgstr "Атомные"
 
 #. ******************************************************************************
 #. Crystallographic
 #: ../libelemental/properties.cc:293
 msgid "Lattice type"
-msgstr ""
+msgstr "Тип решётки"
 
 #: ../libelemental/properties.cc:294
 msgid ""
 "The type of crystal lattice structure assumed by the element as a solid "
 "under normal conditions."
 msgstr ""
+"Тип структуры кристаллической решетки, которую элемент принимает в виде "
+"твердого тела при нормальных условиях."
 
 #: ../libelemental/properties.cc:297
 msgid "Space group"
-msgstr ""
+msgstr "Пространственная группа"
 
 #: ../libelemental/properties.cc:298
 msgid "The space group number of the element's crystal structure."
-msgstr ""
+msgstr "Номер пространственной группы кристаллической структуры элемента."
 
 #: ../libelemental/properties.cc:301
 msgid "Lattice edge lengths"
-msgstr ""
+msgstr "Длины рёбер решётки"
 
 #: ../libelemental/properties.cc:302
 msgid ""
 "The lengths, in picometers, of the a, b, and c edges of a unit cell in the "
 "element's crystal structure."
 msgstr ""
+"Длины в пикометрах рёбер a, b и c элементарной ячейки в кристаллической "
+"структуре элемента."
 
 #: ../libelemental/properties.cc:305
 msgid "Lattice angles"
-msgstr ""
+msgstr "Углы решётки"
 
 #: ../libelemental/properties.cc:305
 msgid "%1 deg."
-msgstr ""
+msgstr "%1 град."
 
 #. Translators: Replace "alpha", "beta", and "gamma" with the Greek letters, if possible.
 #: ../libelemental/properties.cc:307
@@ -608,179 +641,183 @@ msgid ""
 "The alpha, beta, and gamma angles, in degrees, between the edges of a unit "
 "cell in the element's crystal structure."
 msgstr ""
+"Углы альфа, бета и гамма в градусах между рёбрами элементарной ячейки в "
+"кристаллической структуре элемента."
 
 #: ../libelemental/properties.cc:310
 msgid "Lattice unit volume"
-msgstr ""
+msgstr "Объём элементарной ячейки"
 
 #: ../libelemental/properties.cc:310
 msgid "%1 nm<sup>3</sup>"
-msgstr ""
+msgstr "%1 нм<sup>3</sup>"
 
 #: ../libelemental/properties.cc:311
 msgid ""
 "The volume of a unit cell in the element's crystal structure, in cubic "
 "nanometers."
 msgstr ""
+"Объем элементарной ячейки в кристаллической структуре элемента в кубических "
+"нанометрах."
 
 #. Translators: i.e. the crystallographic properties of an element
 #: ../libelemental/properties.cc:315
 msgid "Crystallographic"
-msgstr ""
+msgstr "Кристаллография"
 
 #. ******************************************************************************
 #. Electronic
 #: ../libelemental/properties.cc:328
 msgid "Electron configuration"
-msgstr ""
+msgstr "Электронная конфигурация"
 
 #: ../libelemental/properties.cc:329
 msgid "The electron configuration of the element, in standard format."
-msgstr ""
+msgstr "Электронная конфигурация элемента в стандартном формате."
 
 #: ../libelemental/properties.cc:332
 msgid "Oxidation states"
-msgstr ""
+msgstr "Степени окисления"
 
 #: ../libelemental/properties.cc:333
 msgid "The oxidation states of the element, if any."
-msgstr ""
+msgstr "Степени окисления элемента, если таковые имеются."
 
 #: ../libelemental/properties.cc:336
 msgid "Electronegativity"
-msgstr ""
+msgstr "Электроотрицательность"
 
 #: ../libelemental/properties.cc:336
 msgid "%1 (Pauling scale)"
-msgstr ""
+msgstr "%1 (Шкала Полинга)"
 
 #: ../libelemental/properties.cc:337
 msgid "The electronegativity of the element on the Pauling scale."
-msgstr ""
+msgstr "Электроотрицательность элемента по шкале Полинга."
 
 #: ../libelemental/properties.cc:340
 msgid "Electron affinity"
-msgstr ""
+msgstr "Сродство к электрону"
 
 #: ../libelemental/properties.cc:341
 msgid "The electron affinity of the element in kilojoules per mole."
-msgstr ""
+msgstr "Сродство элемента к электрону в килоджоулях на моль."
 
 #: ../libelemental/properties.cc:344
 msgid "First ionization energy"
-msgstr ""
+msgstr "Первый ионизационный потенциал"
 
 #: ../libelemental/properties.cc:345
 msgid "The first ionization energy of the element in kilojoules per mole."
-msgstr ""
+msgstr "Первый ионизационный потенциал элемента в килоджоулях на моль."
 
 #. Translators: i.e. the electronic properties of an element
 #: ../libelemental/properties.cc:349
 msgid "Electronic"
-msgstr ""
+msgstr "Электронные"
 
 #. ******************************************************************************
 #. Miscellaneous
 #: ../libelemental/properties.cc:362
 msgid "Symbolic color"
-msgstr ""
+msgstr "Цвет символа"
 
 #: ../libelemental/properties.cc:363
 msgid "A color representative of the element."
-msgstr ""
+msgstr "Цвет, представляющий элемент."
 
 #: ../libelemental/properties.cc:366
 msgid "Notes"
-msgstr ""
+msgstr "Примечания"
 
 #: ../libelemental/properties.cc:367
 msgid "Notes, if any, clarifying other information."
-msgstr ""
+msgstr "Примечания, если таковые имеются, уточняющие прочую информацию."
 
 #: ../libelemental/properties.cc:370
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Прочее"
 
 #: ../src/dialogs.cc:151
 msgid "Properties Information"
-msgstr ""
+msgstr "Информация о свойствах"
 
 #: ../src/dialogs.cc:195
 msgid "Property"
-msgstr ""
+msgstr "Элементы"
 
 #: ../src/dialogs.cc:279
 msgid "Values"
-msgstr ""
+msgstr "Значения"
 
 #: ../src/dialogs.cc:280
 msgid "Minimum:"
-msgstr ""
+msgstr "Минимальное:"
 
 #: ../src/dialogs.cc:282
 msgid "Maximum:"
-msgstr ""
+msgstr "Максимальное:"
 
 #: ../src/dialogs.cc:288
 msgid "Sources"
-msgstr ""
+msgstr "Источники"
 
 #: ../src/table-table.cc:48
 msgid "Lo_garithmic"
-msgstr ""
+msgstr "Ло_гарифмическая"
 
 #: ../src/table-table.cc:49
 msgid "_Legend"
-msgstr ""
+msgstr "_Легенда"
 
 #: ../src/table-table.cc:50
 msgid "_At %1 K and standard pressure"
-msgstr ""
+msgstr "_при %1 K и стандартном давлении"
 
 #: ../src/table-table.cc:78
 msgid "Scale:"
-msgstr ""
+msgstr "Шкала:"
 
 #: ../src/table-table.cc:82
 msgid "Li_near"
-msgstr ""
+msgstr "Ли_нейная"
 
 #. Translators: i.e. the verb "to color".
 #: ../src/table-table.cc:94
 msgid "_Color by"
-msgstr ""
+msgstr "по _цвету"
 
 #: ../src/table-table.cc:96 ../src/table-list.cc:326
 msgid "_None"
-msgstr ""
+msgstr "_Ничего"
 
 #: ../src/table-table.cc:99
 msgid "_Element"
-msgstr ""
+msgstr "_Элемент"
 
 #: ../src/table-table.cc:132
 msgid "Show _Legend"
-msgstr ""
+msgstr "Показать _легенду"
 
 #: ../src/table-table.cc:329
 msgid "_Legend (<b>%1</b>)"
-msgstr ""
+msgstr "_Легенда (<b>%1</b>)"
 
 #: ../src/table-table.cc:330
 msgid "None"
-msgstr ""
+msgstr "Ничего"
 
 #: ../src/table-list.cc:142
 msgid "by _Extra Property"
-msgstr ""
+msgstr "по _дополнительной характеристики"
 
 #: ../src/table-list.cc:182
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: ../src/table-list.cc:268
 msgid "_Sort"
-msgstr ""
+msgstr "_Сортировать"
 
 #: ../src/table-list.cc:283
 msgid "Number"
@@ -788,67 +825,73 @@ msgstr "Номер"
 
 #: ../src/table-list.cc:283
 msgid "by Atomic N_umber"
-msgstr ""
+msgstr "по Атомному н_омеру"
 
 #: ../src/table-list.cc:291
 msgid "by _Symbol"
-msgstr ""
+msgstr "по _Символу"
 
 #: ../src/table-list.cc:301
 msgid "by _Name"
-msgstr ""
+msgstr "по _Названию"
 
 #: ../src/table-list.cc:306
 msgid "by _Group"
-msgstr ""
+msgstr "по _Группе"
 
 #: ../src/table-list.cc:311
 msgid "by _Period"
-msgstr ""
+msgstr "по Пе_риоду"
 
 #: ../src/table-list.cc:316
 msgid "by _Block"
-msgstr ""
+msgstr "по _Блоку"
 
 #: ../src/table-list.cc:324
 msgid "_Property"
-msgstr ""
+msgstr "_Характеристики"
 
 #: ../src/main.cc:67 ../src/main.cc:355
 msgid "gElemental"
-msgstr ""
+msgstr "gElemental"
 
 #: ../src/main.cc:75 ../src/main.cc:357
 msgid "A periodic table viewer with detailed information on elements."
 msgstr ""
+"Средство просмотра периодической таблицы с подробной информацией об "
+"элементах."
 
 #: ../src/main.cc:112
 msgid "Run '%1 --help' to see a full list of available command line options."
 msgstr ""
+"Запустите «%1 --help», чтобы просмотреть полный список доступных параметров "
+"командной строки."
 
 #: ../src/main.cc:119
 msgid "An unknown error occurred."
-msgstr ""
+msgstr "Произошла неизвестная ошибка."
 
 #: ../src/main.cc:138
 msgid "Print information on the indicated element(s) to standard output"
-msgstr ""
+msgstr "Вывести информацию об указанном элементе(ах) на стандартный вывод"
 
 #: ../src/main.cc:140 ../src/main.cc:148
 msgid "SYMBOL_OR_NUMBER"
-msgstr ""
+msgstr "СИМВОЛ_ИЛИ_НОМЕР"
 
 #: ../src/main.cc:146
 msgid "Show the properties dialog for the indicated element(s)"
-msgstr ""
+msgstr "Показать диалоговое окно свойств для указанного элемента(ов)"
 
 #: ../src/main.cc:154
 msgid "Display the table even if data have been printed to standard output"
 msgstr ""
+"Отображать таблицу, даже если данные были показаны в стандартном формате "
+"вывода"
 
 #: ../src/main.cc:172 ../src/main.cc:192
 msgid "Unknown element \"%1\"."
-msgstr ""
+msgstr "Неизвестный элемент «%1»."
 
 #: ../src/main.cc:211
 msgid "_File"
@@ -860,11 +903,11 @@ msgstr "_Вид"
 
 #: ../src/main.cc:218
 msgid "as _Table"
-msgstr ""
+msgstr "в виде _таблицы"
 
 #: ../src/main.cc:220
 msgid "as L_ist"
-msgstr ""
+msgstr "в виде _списка"
 
 #: ../src/main.cc:222
 msgid "_Help"
@@ -872,10 +915,9 @@ msgstr "_Справка"
 
 #: ../src/main.cc:224
 msgid "_Properties"
-msgstr ""
+msgstr "_Свойства"
 
 #: ../src/main.cc:367
-#, fuzzy
 msgid ""
 "This program is free software; you can redistribute it and/or modify it "
 "under the terms of the GNU General Public License as published by the Free "
@@ -893,12 +935,13 @@ msgstr ""
 "Это программа является свободным программным обеспечением. Вы можете "
 "распространять и/или модифицировать её согласно условиям Стандартной "
 "Общественной Лицензии GNU, опубликованной Фондом Свободного Программного "
-"Обеспечения, версии 3 или, по Вашему желанию, любой более поздней версии.\n"
+"Обеспечения, версии 3 или, по вашему желанию, любой более поздней версии.\n"
 "\n"
 "Эта программа распространяется в надежде, что она будет полезной, но БЕЗ "
-"ВСЯКИХ ГАРАНТИЙ, в том числе подразумеваемых гарантий ТОВАРНОГО СОСТОЯНИЯ "
-"ПРИ ПРОДАЖЕ и ГОДНОСТИ ДЛЯ ОПРЕДЕЛЁННОГО ПРИМЕНЕНИЯ. Смотрите Стандартную "
-"Общественную Лицензию GNU для получения дополнительной информации.\n"
+"КАКИХ-ЛИБО ГАРАНТИЙ, в том числе подразумеваемых гарантий ТОВАРНОГО "
+"СОСТОЯНИЯ ПРИ ПРОДАЖЕ и ГОДНОСТИ ДЛЯ ОПРЕДЕЛЁННОГО ПРИМЕНЕНИЯ. Смотрите "
+"Стандартную Общественную Лицензию GNU для получения дополнительной "
+"информации.\n"
 "\n"
 "Вы должны были получить копию Стандартной Общественной Лицензии GNU вместе с "
 "программой. В случае её отсутствия, посмотрите <http://www.gnu.org/licenses/"
@@ -907,7 +950,9 @@ msgstr ""
 #. Translators: Replace this with your name(s) and address(es).
 #: ../src/main.cc:390
 msgid "translator-credits"
-msgstr "Michael Shigorin <mike@lic145.kiev.ua>"
+msgstr ""
+"Michael Shigorin <mike@lic145.kiev.ua>, 1999, 2000\n"
+"Ser82-png <asvmail.as@gmail.com>, 2023"
 
 #: ../libelemental/data.cc:42
 msgid "Hydrogen"
@@ -915,7 +960,7 @@ msgstr "Водород"
 
 #: ../libelemental/data.cc:42 ../libelemental/data.cc:52
 msgid "Colorless, odorless, tasteless gas"
-msgstr ""
+msgstr "Газ без цвета, вкуса и запаха"
 
 #: ../libelemental/data.cc:42 ../libelemental/data.cc:52
 #: ../libelemental/data.cc:54 ../libelemental/data.cc:55
@@ -926,15 +971,15 @@ msgstr ""
 #: ../libelemental/data.cc:124 ../libelemental/data.cc:125
 #: ../libelemental/data.cc:129
 msgid "England"
-msgstr ""
+msgstr "Англия"
 
 #: ../libelemental/data.cc:42
 msgid "Greek: hydor (water) + gennan (to form)"
-msgstr ""
+msgstr "Греческий: hydor (вода) + gennan (рождаю)"
 
 #: ../libelemental/data.cc:42
 msgid "Where relevant, values given are for H<sub>2</sub>."
-msgstr ""
+msgstr "Там, где это уместно, приведены значения для H<sub>2</sub>."
 
 #: ../libelemental/data.cc:43
 msgid "Helium"
@@ -942,19 +987,19 @@ msgstr "Гелий"
 
 #: ../libelemental/data.cc:43
 msgid "Inert, colorless, odorless, tasteless gas"
-msgstr ""
+msgstr "Инертный газ без цвета, вкуса и запаха"
 
 #: ../libelemental/data.cc:43
 msgid "Scotland/Sweden"
-msgstr ""
+msgstr "Шотландия/Швеция"
 
 #: ../libelemental/data.cc:43
 msgid "Greek: helios (sun)"
-msgstr ""
+msgstr "Греческий: helios (солнце)"
 
 #: ../libelemental/data.cc:43
 msgid "Melting point value given is for 2.5 MPa."
-msgstr ""
+msgstr "Приведенное значение температуры плавления соответствует 2,5 МПа."
 
 #: ../libelemental/data.cc:45
 msgid "Lithium"
@@ -963,7 +1008,7 @@ msgstr "Литий"
 #: ../libelemental/data.cc:45 ../libelemental/data.cc:54
 #: ../libelemental/data.cc:110
 msgid "Soft, silvery-white metal"
-msgstr ""
+msgstr "Мягкий серебристо-белый металл"
 
 #: ../libelemental/data.cc:45 ../libelemental/data.cc:57
 #: ../libelemental/data.cc:60 ../libelemental/data.cc:65
@@ -974,11 +1019,11 @@ msgstr ""
 #: ../libelemental/data.cc:116 ../libelemental/data.cc:121
 #: ../libelemental/data.cc:140 ../libelemental/data.cc:152
 msgid "Sweden"
-msgstr ""
+msgstr "Швеция"
 
 #: ../libelemental/data.cc:45
 msgid "Greek: lithos (stone)"
-msgstr ""
+msgstr "Греческий: lithos (камень)"
 
 #: ../libelemental/data.cc:46
 msgid "Beryllium"
@@ -986,7 +1031,7 @@ msgstr "Бериллий"
 
 #: ../libelemental/data.cc:46
 msgid "Hard, brittle, steel-gray metal"
-msgstr ""
+msgstr "Твердый, хрупкий, серый с голубым отливом металл"
 
 #: ../libelemental/data.cc:46 ../libelemental/data.cc:51
 #: ../libelemental/data.cc:68 ../libelemental/data.cc:75
@@ -996,11 +1041,11 @@ msgstr ""
 #: ../libelemental/data.cc:132 ../libelemental/data.cc:136
 #: ../libelemental/data.cc:137 ../libelemental/data.cc:139
 msgid "France"
-msgstr ""
+msgstr "Франция"
 
 #: ../libelemental/data.cc:46
 msgid "Greek: beryllos (beryl, a mineral)"
-msgstr ""
+msgstr "Греческий: beryllos (минерал берилл)"
 
 #: ../libelemental/data.cc:47
 msgid "Boron"
@@ -1008,19 +1053,19 @@ msgstr "Бор"
 
 #: ../libelemental/data.cc:47
 msgid "Hard, brittle, lustrous black semimetal"
-msgstr ""
+msgstr "Твердый, хрупкий, блестящий черный металлоид"
 
 #: ../libelemental/data.cc:47
 msgid "England/France"
-msgstr ""
+msgstr "Англия/Франция"
 
 #: ../libelemental/data.cc:47
 msgid "Humphry Davy / Joseph Louis Gay-Lussac, Louis Jacques Th&#233;nard"
-msgstr ""
+msgstr "Гемфри Дэви / Жозеф Луи Гей-Люссак / Луи Жак Тенар"
 
 #: ../libelemental/data.cc:47
 msgid "Arabic: buraq, Persian: burah (borax)"
-msgstr ""
+msgstr "Арабский: buraq; Персидский: burah (бура)"
 
 #: ../libelemental/data.cc:48
 msgid "Carbon"
@@ -1028,11 +1073,11 @@ msgstr "Углерод"
 
 #: ../libelemental/data.cc:48
 msgid "Dense, black"
-msgstr ""
+msgstr "Плотный, чёрный"
 
 #: ../libelemental/data.cc:48
 msgid "Latin: carbo (charcoal)"
-msgstr ""
+msgstr "Латинский: carbo (уголь)"
 
 #: ../libelemental/data.cc:48
 msgid ""
@@ -1040,6 +1085,9 @@ msgid ""
 "sublimates at the listed boiling point. Thermal conductivity ranges from 119 "
 "to 165 W/(m&#183;K)."
 msgstr ""
+"Величины приведены для графита. При стандартном давлении углерод "
+"сублимируется при указанной температуре кипения. Теплопроводность колеблется "
+"от 119 до 165 Вт/(м&#183;К)."
 
 #: ../libelemental/data.cc:49
 msgid "Nitrogen"
@@ -1047,20 +1095,20 @@ msgstr "Азот"
 
 #: ../libelemental/data.cc:49
 msgid "Colorless, odorless, tasteless, and generally inert gas"
-msgstr ""
+msgstr "Газ без цвета, вкуса и запаха, как правило, инертный"
 
 #: ../libelemental/data.cc:49 ../libelemental/data.cc:61
 #: ../libelemental/data.cc:83
 msgid "Scotland"
-msgstr ""
+msgstr "Шотландия"
 
 #: ../libelemental/data.cc:49
 msgid "Greek: nitron (soda) + gennan (to form)"
-msgstr ""
+msgstr "Греческий: nitron (селитра) + gennan (рождающий)"
 
 #: ../libelemental/data.cc:49
 msgid "Where relevant, values given are for N<sub>2</sub>."
-msgstr ""
+msgstr "Там, где это уместно, приведены значения для N<sub>2</sub>."
 
 #: ../libelemental/data.cc:50
 msgid "Oxygen"
@@ -1068,19 +1116,19 @@ msgstr "Кислород"
 
 #: ../libelemental/data.cc:50
 msgid "Colorless, odorless, tasteless gas; pale blue liquid"
-msgstr ""
+msgstr "Бесцветный газ без запаха и вкуса; светло-голубая жидкость"
 
 #: ../libelemental/data.cc:50
 msgid "England/Sweden"
-msgstr ""
+msgstr "Англия/Швеция"
 
 #: ../libelemental/data.cc:50
 msgid "Greek: oxys (acid) + gennan (to form)"
-msgstr ""
+msgstr "Греческий: oxys (кислый) + gennan (рождаю)"
 
 #: ../libelemental/data.cc:50
 msgid "Where relevant, values given are for O<sub>2</sub>."
-msgstr ""
+msgstr "Там, где это уместно, приведены значения для O<sub>2</sub>."
 
 #: ../libelemental/data.cc:51
 msgid "Fluorine"
@@ -1088,15 +1136,15 @@ msgstr "Фтор"
 
 #: ../libelemental/data.cc:51
 msgid "Greenish-yellow, pungent, corrosive gas"
-msgstr ""
+msgstr "Зеленовато-желтый, едкий газ с высокой коррозийной активностью"
 
 #: ../libelemental/data.cc:51
 msgid "Latin: fluere (to flow)"
-msgstr ""
+msgstr "Латинский: fluere (течь)"
 
 #: ../libelemental/data.cc:51
 msgid "Where relevant, values given are for F<sub>2</sub>."
-msgstr ""
+msgstr "Там, где это уместно, приведены значения для F<sub>2</sub>."
 
 #: ../libelemental/data.cc:52
 msgid "Neon"
@@ -1104,7 +1152,7 @@ msgstr "Неон"
 
 #: ../libelemental/data.cc:52
 msgid "Greek: neos (new)"
-msgstr ""
+msgstr "Греческое: neos (новый)"
 
 #: ../libelemental/data.cc:54
 msgid "Sodium"
@@ -1112,7 +1160,7 @@ msgstr "Натрий"
 
 #: ../libelemental/data.cc:54
 msgid "English: soda; Latin: natrium (sodium carbonate)"
-msgstr ""
+msgstr "Английское: soda; Латинское: natrium (карбонат натрия)"
 
 #: ../libelemental/data.cc:55
 msgid "Magnesium"
@@ -1120,11 +1168,11 @@ msgstr "Магний"
 
 #: ../libelemental/data.cc:55
 msgid "Lightweight, malleable, silvery-white metal"
-msgstr ""
+msgstr "Лёгкий, ковкий, серебристо-белый металл"
 
 #: ../libelemental/data.cc:55
 msgid "Named after Magnesia, a district of Thessaly in Greece."
-msgstr ""
+msgstr "Назван в честь Магнезии, нома Фессалии в Греции."
 
 #: ../libelemental/data.cc:56
 msgid "Aluminium"
@@ -1132,19 +1180,19 @@ msgstr "Алюминий"
 
 #: ../libelemental/data.cc:56
 msgid "Soft, lightweight, silvery-white metal"
-msgstr ""
+msgstr "Мягкий, лёгкий, серебристо-белый металл"
 
 #: ../libelemental/data.cc:56 ../libelemental/data.cc:120
 msgid "Denmark"
-msgstr ""
+msgstr "Дания"
 
 #: ../libelemental/data.cc:56
 msgid "Hans Christian &#216;rsted"
-msgstr ""
+msgstr "Ханс Кристиан Эрстед"
 
 #: ../libelemental/data.cc:56
 msgid "Latin: alumen (alum)"
-msgstr ""
+msgstr "Латинский: alumen (квасцы)"
 
 #: ../libelemental/data.cc:57
 msgid "Silicon"
@@ -1154,15 +1202,17 @@ msgstr "Кремний"
 msgid ""
 "Amorphous form is a brown powder; crystalline form is gray and lustrous."
 msgstr ""
+"В аморфной форм - это коричневый порошок; в кристаллической форме - серый и "
+"блестящий металлоид."
 
 #: ../libelemental/data.cc:57 ../libelemental/data.cc:78
 #: ../libelemental/data.cc:140
 msgid "J&#246;ns Jakob Berzelius"
-msgstr ""
+msgstr "Йёнс Якоб Берцелиус"
 
 #: ../libelemental/data.cc:57
 msgid "Latin: silex, silicis (flint)"
-msgstr ""
+msgstr "Латинский: silex, silicis (кремень)"
 
 #: ../libelemental/data.cc:58
 msgid "Phosphorus"
@@ -1171,6 +1221,8 @@ msgstr "Фосфор"
 #: ../libelemental/data.cc:58
 msgid "The most common white form is a waxy, phosphorescent solid."
 msgstr ""
+"Наиболее распространенная белая форма представляет собой воскообразное, "
+"фосфоресцирующее твердое вещество."
 
 #: ../libelemental/data.cc:58 ../libelemental/data.cc:76
 #: ../libelemental/data.cc:77 ../libelemental/data.cc:82
@@ -1181,15 +1233,15 @@ msgstr ""
 #: ../libelemental/data.cc:160 ../libelemental/data.cc:161
 #: ../libelemental/data.cc:162 ../libelemental/data.cc:163
 msgid "Germany"
-msgstr ""
+msgstr "Германия"
 
 #: ../libelemental/data.cc:58
 msgid "Greek: phos (light) + phoros (bearer)"
-msgstr ""
+msgstr "Греческий: phos (свет) + phoros (несущий)"
 
 #: ../libelemental/data.cc:58
 msgid "Where variable, values given are for white phosphorus."
-msgstr ""
+msgstr "Величины приведены для белого фосфора."
 
 #: ../libelemental/data.cc:59
 msgid "Sulfur"
@@ -1197,15 +1249,15 @@ msgstr "Сера"
 
 #: ../libelemental/data.cc:59
 msgid "Tasteless, odorless, light-yellow, brittle solid"
-msgstr ""
+msgstr "Без вкуса и запаха, светло-жёлтое, хрупкое твердое вещество"
 
 #: ../libelemental/data.cc:59
 msgid "Latin: sulpur (brimstone), Arabic: sufra (yellow)"
-msgstr ""
+msgstr "Латинский: sulpur (сера); Арабский: sufra (жёлтый)"
 
 #: ../libelemental/data.cc:59 ../libelemental/data.cc:147
 msgid "Where variable, values given are for beta form."
-msgstr ""
+msgstr "Величины приведены для бета-формы."
 
 #: ../libelemental/data.cc:60
 msgid "Chlorine"
@@ -1213,17 +1265,19 @@ msgstr "Хлор"
 
 #: ../libelemental/data.cc:60
 msgid "Greenish-yellow, disagreeable gas"
-msgstr ""
+msgstr "Зеленовато-желтый, с неприятным запахом газ"
 
 #: ../libelemental/data.cc:60
 msgid "Greek: chloros (greenish yellow)"
-msgstr ""
+msgstr "Греческий: chloros (зеленовато-жёлтый)"
 
 #: ../libelemental/data.cc:60
 msgid ""
 "Where relevant, values given are for Cl<sub>2</sub>. Liquid density value is "
 "for -35&#176;C."
 msgstr ""
+"Там, где это уместно, приведены значения для Cl<sub>2</sub>. Значение "
+"плотности жидкости составляет -35&#176;C."
 
 #: ../libelemental/data.cc:61
 msgid "Argon"
@@ -1231,11 +1285,11 @@ msgstr "Аргон"
 
 #: ../libelemental/data.cc:61
 msgid "Colorless, tasteless, odorless noble gas"
-msgstr ""
+msgstr "Без цвета, запаха и вкуса благородный газ"
 
 #: ../libelemental/data.cc:61
 msgid "Greek: argos (inactive)"
-msgstr ""
+msgstr "Греческий: argos (неактивный)"
 
 #: ../libelemental/data.cc:63
 msgid "Potassium"
@@ -1243,11 +1297,11 @@ msgstr "Калий"
 
 #: ../libelemental/data.cc:63
 msgid "Soft, waxy, silvery-white metal"
-msgstr ""
+msgstr "Мягкий, воскообразный, серебристо-белый металл"
 
 #: ../libelemental/data.cc:63
 msgid "English: pot + ash; Arabic: al qaliy"
-msgstr ""
+msgstr "Английский: pot (горшок) + ash (зола); арабский: аль-кали"
 
 #: ../libelemental/data.cc:64
 msgid "Calcium"
@@ -1255,11 +1309,11 @@ msgstr "Кальций"
 
 #: ../libelemental/data.cc:64
 msgid "Fairly hard, silvery-white metal"
-msgstr ""
+msgstr "Довольно твёрдый серебристо-белый металл"
 
 #: ../libelemental/data.cc:64
 msgid "Latin: calx (lime)"
-msgstr ""
+msgstr "Латинский: calx (известь)"
 
 #: ../libelemental/data.cc:65
 msgid "Scandium"
@@ -1267,11 +1321,11 @@ msgstr "Скандий"
 
 #: ../libelemental/data.cc:65
 msgid "Fairly soft, silvery-white metal"
-msgstr ""
+msgstr "Довольно мягкий серебристо-белый металл"
 
 #: ../libelemental/data.cc:65
 msgid "Named after Scandinavia (Latin: Scandia)."
-msgstr ""
+msgstr "Назван в честь Скандинавии (лат. Scandia)."
 
 #: ../libelemental/data.cc:66
 msgid "Titanium"
@@ -1279,11 +1333,11 @@ msgstr "Титан"
 
 #: ../libelemental/data.cc:66
 msgid "Shiny, dark-gray metal"
-msgstr ""
+msgstr "Блестящий тёмно-серый металл"
 
 #: ../libelemental/data.cc:66
 msgid "Greek: Titanes (early deities)"
-msgstr ""
+msgstr "Греческий: Titanes (древние божества)"
 
 #: ../libelemental/data.cc:67
 msgid "Vanadium"
@@ -1291,19 +1345,21 @@ msgstr "Ванадий"
 
 #: ../libelemental/data.cc:67 ../libelemental/data.cc:111
 msgid "Soft, ductile, silvery-white metal"
-msgstr ""
+msgstr "Мягкий, пластичный, серебристо-белый металл"
 
 #: ../libelemental/data.cc:67
 msgid "Mexico"
-msgstr ""
+msgstr "Мексика"
 
 #: ../libelemental/data.cc:67
 msgid "Andr&#233;s Manuel del R&#237;o"
-msgstr ""
+msgstr "Андрес Мануэль дель Рио"
 
 #: ../libelemental/data.cc:67
 msgid "Old Norse: Vanadis (Lady of the Vanir, i.e. Freya, a fertility deity)"
 msgstr ""
+"Древнескандинавское: Vanadis (владычица ванов, то есть Фрейя, богиня "
+"плодородия)"
 
 #: ../libelemental/data.cc:68
 msgid "Chromium"
@@ -1311,11 +1367,11 @@ msgstr "Хром"
 
 #: ../libelemental/data.cc:68
 msgid "Very hard, crystalline, steel-gray metal"
-msgstr ""
+msgstr "Очень твердый, кристаллический, серый с голубым отливом металл"
 
 #: ../libelemental/data.cc:68
 msgid "Greek: chroma (color)"
-msgstr ""
+msgstr "Греческий: chroma (цвет)"
 
 #: ../libelemental/data.cc:69
 msgid "Manganese"
@@ -1323,11 +1379,11 @@ msgstr "Марганец"
 
 #: ../libelemental/data.cc:69
 msgid "Hard, brittle, gray-white metal"
-msgstr ""
+msgstr "Твёрдый, хрупкий, светло-серый металл"
 
 #: ../libelemental/data.cc:69
 msgid "Italian: manganese, Latin: magnes (magnet)"
-msgstr ""
+msgstr "Итальянский: manganese; Латинский: magnes (магнит)"
 
 #: ../libelemental/data.cc:70
 msgid "Iron"
@@ -1335,11 +1391,11 @@ msgstr "Железо"
 
 #: ../libelemental/data.cc:70
 msgid "Malleable, ductile, silvery-white metal"
-msgstr ""
+msgstr "Ковкий, пластичный, серебристо-белый металл"
 
 #: ../libelemental/data.cc:70
 msgid "Etruscan: aisar (deities); Latin: ferrum"
-msgstr ""
+msgstr "Этрусский: aisar (божества); Латинский: ferrum"
 
 #: ../libelemental/data.cc:71
 msgid "Cobalt"
@@ -1347,11 +1403,11 @@ msgstr "Кобальт"
 
 #: ../libelemental/data.cc:71
 msgid "Hard, ductile, lustrous bluish-gray metal"
-msgstr ""
+msgstr "Твёрдый, пластичный, блестящий голубовато-серый металл"
 
 #: ../libelemental/data.cc:71
 msgid "German: kobold (evil spirit)"
-msgstr ""
+msgstr "Немецкий: kobold (злой дух)"
 
 #: ../libelemental/data.cc:72
 msgid "Nickel"
@@ -1359,11 +1415,11 @@ msgstr "Никель"
 
 #: ../libelemental/data.cc:72
 msgid "Hard, malleable, silvery-white metal"
-msgstr ""
+msgstr "Твёрдый, ковкий, серебристо-белый металл"
 
 #: ../libelemental/data.cc:72
 msgid "German: kupfernickel (false copper)"
-msgstr ""
+msgstr "Немецкий: kupfernickel (фальшивая медь)"
 
 #: ../libelemental/data.cc:73
 msgid "Copper"
@@ -1371,11 +1427,11 @@ msgstr "Медь"
 
 #: ../libelemental/data.cc:73
 msgid "Malleable, ductile, reddish-brown metal"
-msgstr ""
+msgstr "Ковкий, пластичный, красновато-коричневый металл"
 
 #: ../libelemental/data.cc:73
 msgid "Late Latin: cuprum, Latin: [aes] Cyprium (metal of Cyprus)"
-msgstr ""
+msgstr "Поздняя латынь: cuprum; Латинский: [aes] Cyprium (кипрский металл)"
 
 #: ../libelemental/data.cc:74
 msgid "Zinc"
@@ -1383,16 +1439,16 @@ msgstr "Цинк"
 
 #: ../libelemental/data.cc:74
 msgid "Bluish-silver, ductile metal"
-msgstr ""
+msgstr "Голубовато-серебристый, пластичный металл"
 
 #: ../libelemental/data.cc:74 ../libelemental/data.cc:109
 #: ../libelemental/data.cc:111 ../libelemental/data.cc:117
 msgid "Switzerland"
-msgstr ""
+msgstr "Швейцария"
 
 #: ../libelemental/data.cc:74
 msgid "German: zink (tin)"
-msgstr ""
+msgstr "Немецкий: zink (олово)"
 
 #: ../libelemental/data.cc:75
 msgid "Gallium"
@@ -1400,15 +1456,17 @@ msgstr "Галлий"
 
 #: ../libelemental/data.cc:75
 msgid "Soft, blue-white metal"
-msgstr ""
+msgstr "Мягкий белый с синеватым оттенком металл"
 
 #: ../libelemental/data.cc:75 ../libelemental/data.cc:113
 msgid "Paul &#201;mile Lecoq de Boisbaudran"
-msgstr ""
+msgstr "Поль Эмиль Лекок де Буабодран"
 
 #: ../libelemental/data.cc:75
 msgid "Latin: Gallia (Gaul, an ancient area including modern France)"
 msgstr ""
+"Латинский: Gallia (Галлия - территория, существовавшая в античности, "
+"включающая современную Францию)"
 
 #: ../libelemental/data.cc:76
 msgid "Germanium"
@@ -1416,11 +1474,11 @@ msgstr "Германий"
 
 #: ../libelemental/data.cc:76
 msgid "Grayish-white metal"
-msgstr ""
+msgstr "Серовато-белый металл"
 
 #: ../libelemental/data.cc:76
 msgid "Named after Germany (Latin: Germania), where it was discovered."
-msgstr ""
+msgstr "Назван в честь Германии (лат. Germania), где он был обнаружен."
 
 #: ../libelemental/data.cc:77
 msgid "Arsenic"
@@ -1428,11 +1486,11 @@ msgstr "Мышьяк"
 
 #: ../libelemental/data.cc:77
 msgid "Steel gray, brittle semimetal"
-msgstr ""
+msgstr "Серый с голубым отливом, хрупкий металлоид"
 
 #: ../libelemental/data.cc:77
 msgid "Persian: zarnik (yellow pigment)"
-msgstr ""
+msgstr "Персидский: zarnik (жёлтый пигмент)"
 
 #: ../libelemental/data.cc:78
 msgid "Selenium"
@@ -1440,17 +1498,19 @@ msgstr "Селен"
 
 #: ../libelemental/data.cc:78
 msgid "A soft gray solid, similar to sulfur"
-msgstr ""
+msgstr "Мягкое серое твердое вещество, похожее на серу"
 
 #: ../libelemental/data.cc:78
 msgid "Greek: selene (the moon)"
-msgstr ""
+msgstr "Греческий: selene (луна)"
 
 #: ../libelemental/data.cc:78
 msgid ""
 "Thermal conductivity value is for amorphous selenium. Where variable, other "
 "values are for gray selenium."
 msgstr ""
+"Значение теплопроводности указано для аморфного селена. Другие величины "
+"указаны для серого селена."
 
 #: ../libelemental/data.cc:79
 msgid "Bromine"
@@ -1458,21 +1518,23 @@ msgstr "Бром"
 
 #: ../libelemental/data.cc:79
 msgid "Reddish-brown liquid"
-msgstr ""
+msgstr "Красно-бурая жидкость"
 
 #: ../libelemental/data.cc:79
 msgid "Antoine J&#233;r&#244;me Balard"
-msgstr ""
+msgstr "Антуан Жером Балар"
 
 #: ../libelemental/data.cc:79
 msgid "Greek: bromos (stench)"
-msgstr ""
+msgstr "Греческий: bromos (зловонный)"
 
 #: ../libelemental/data.cc:79
 msgid ""
 "Where relevant, values given are for Br<sub>2</sub>. Liquid density value is "
 "for ~20&#176;C."
 msgstr ""
+"Там, где это уместно, приведены значения для Br<sub>2</sub>. Значение "
+"плотности жидкости составляет ~20&#176;C."
 
 #: ../libelemental/data.cc:80
 msgid "Krypton"
@@ -1480,15 +1542,15 @@ msgstr "Криптон"
 
 #: ../libelemental/data.cc:80
 msgid "Dense, colorless, odorless, and tasteless gas"
-msgstr ""
+msgstr "Тяжёлый газ без цвета, запаха и вкуса"
 
 #: ../libelemental/data.cc:80
 msgid "Great Britain"
-msgstr ""
+msgstr "Великобритания"
 
 #: ../libelemental/data.cc:80
 msgid "Greek: kryptos (hidden)"
-msgstr ""
+msgstr "Греческий: kryptos (скрытый)"
 
 #: ../libelemental/data.cc:82
 msgid "Rubidium"
@@ -1496,11 +1558,13 @@ msgstr "Рубидий"
 
 #: ../libelemental/data.cc:82
 msgid "Soft, silvery-white, highly reactive metal"
-msgstr ""
+msgstr "Мягкий, серебристо-белый, высокореактивный металл"
 
 #: ../libelemental/data.cc:82
 msgid "Latin: rubidus (deep red, for the flames from its salts)"
 msgstr ""
+"Латинский: rubidus (тёмно-красный, так как в такой цвет окрашивают пламя его "
+"соли)"
 
 #: ../libelemental/data.cc:83
 msgid "Strontium"
@@ -1508,11 +1572,11 @@ msgstr "Стронций"
 
 #: ../libelemental/data.cc:83
 msgid "Silvery, malleable metal"
-msgstr ""
+msgstr "Серебристый, ковкий металл"
 
 #: ../libelemental/data.cc:83
 msgid "Named after Strontian, Scotland."
-msgstr ""
+msgstr "Назван в честь шотландской деревни Стронтиан."
 
 #: ../libelemental/data.cc:84
 msgid "Yttrium"
@@ -1520,15 +1584,17 @@ msgstr "Иттрий"
 
 #: ../libelemental/data.cc:84
 msgid "Silvery, ductile, fairly reactive metal"
-msgstr ""
+msgstr "Серебристый, пластичный, довольно реакционноспособный металл"
 
 #: ../libelemental/data.cc:84
 msgid "Finland"
-msgstr ""
+msgstr "Финляндия"
 
 #: ../libelemental/data.cc:84
 msgid "Named after Ytterby, Sweden, where one of its minerals was first found."
 msgstr ""
+"Назван в честь шведского населённого пункта Иттерби, где впервые был найден "
+"один из его минералов."
 
 #: ../libelemental/data.cc:85
 msgid "Zirconium"
@@ -1536,11 +1602,11 @@ msgstr "Цирконий"
 
 #: ../libelemental/data.cc:85
 msgid "Gray-white, lustrous, corrosion-resistant metal"
-msgstr ""
+msgstr "Светло-серый, блестящий, устойчивый к коррозии металл"
 
 #: ../libelemental/data.cc:85
 msgid "Arabic: zarkun, Persian: zargun (gold-like)"
-msgstr ""
+msgstr "Арабский: zarkun; персидский: zargun (похожий на золото)"
 
 #: ../libelemental/data.cc:86
 msgid "Niobium"
@@ -1548,11 +1614,11 @@ msgstr "Ниобий"
 
 #: ../libelemental/data.cc:86
 msgid "Shiny white, soft, ductile metal"
-msgstr ""
+msgstr "Блестящий белый, мягкий, пластичный металл"
 
 #: ../libelemental/data.cc:86
 msgid "Greek: Niobe (mythological daughter of Tantalus)"
-msgstr ""
+msgstr "Греческий: Niobe (мифологическая дочь Тантала)"
 
 #: ../libelemental/data.cc:87
 msgid "Molybdenum"
@@ -1560,11 +1626,11 @@ msgstr "Молибден"
 
 #: ../libelemental/data.cc:87 ../libelemental/data.cc:90
 msgid "Silvery white, hard metal"
-msgstr ""
+msgstr "Серебристо-белый, твёрдый металл"
 
 #: ../libelemental/data.cc:87
 msgid "Greek: molybdos (lead-like)"
-msgstr ""
+msgstr "Греческий: molybdos (похожий на свинец)"
 
 #: ../libelemental/data.cc:88
 msgid "Technetium"
@@ -1572,19 +1638,19 @@ msgstr "Технеций"
 
 #: ../libelemental/data.cc:88 ../libelemental/data.cc:132
 msgid "Silvery-gray metal"
-msgstr ""
+msgstr "Серебристо-серый металл"
 
 #: ../libelemental/data.cc:88
 msgid "Italy"
-msgstr ""
+msgstr "Италия"
 
 #: ../libelemental/data.cc:88
 msgid "Carlo Perrier, Emilio Segr&#232;"
-msgstr ""
+msgstr "Карло Перрье, Эмилио Сегре"
 
 #: ../libelemental/data.cc:88
 msgid "Greek: technetos (artificial)"
-msgstr ""
+msgstr "Греческий: technetos (искусственный)"
 
 #: ../libelemental/data.cc:89
 msgid "Ruthenium"
@@ -1592,16 +1658,16 @@ msgstr "Рутений"
 
 #: ../libelemental/data.cc:89
 msgid "Rare, silver-gray, extremely brittle metal"
-msgstr ""
+msgstr "Редкий, серебристо-серый, чрезвычайно хрупкий металл"
 
 #: ../libelemental/data.cc:89 ../libelemental/data.cc:165
 #: ../libelemental/data.cc:167
 msgid "Russia"
-msgstr ""
+msgstr "Россия"
 
 #: ../libelemental/data.cc:89
 msgid "Named after Russia (Latin: Ruthenia), where it was discovered."
-msgstr ""
+msgstr "Назван в честь России (лат. Ruthenia), где он был открыт."
 
 #: ../libelemental/data.cc:90
 msgid "Rhodium"
@@ -1610,6 +1676,8 @@ msgstr "Родий"
 #: ../libelemental/data.cc:90
 msgid "Greek: rhodon (rose, for solutions of its salts)"
 msgstr ""
+"Греческий: rhodon (роза, так как типичные соединения родия имеют глубокий "
+"тёмно-красный цвет)"
 
 #: ../libelemental/data.cc:91
 msgid "Palladium"
@@ -1617,11 +1685,11 @@ msgstr "Палладий"
 
 #: ../libelemental/data.cc:91 ../libelemental/data.cc:95
 msgid "Silvery-white, soft, malleable and ductile metal"
-msgstr ""
+msgstr "Серебристо-белый, мягкий, ковкий и пластичный металл"
 
 #: ../libelemental/data.cc:91
 msgid "Named after the asteroid Pallas, then recently discovered."
-msgstr ""
+msgstr "Назван в честь недавно открытого астероида Паллада."
 
 #: ../libelemental/data.cc:92
 msgid "Silver"
@@ -1629,11 +1697,11 @@ msgstr "Серебро"
 
 #: ../libelemental/data.cc:92
 msgid "Silvery, ductile, and malleable metal"
-msgstr ""
+msgstr "Серебристый, пластичный и ковкий металл"
 
 #: ../libelemental/data.cc:92
 msgid "Old English: seolfor; Latin: argentum"
-msgstr ""
+msgstr "Староанглийский: seolfor; латинский: argentum"
 
 #: ../libelemental/data.cc:93
 msgid "Cadmium"
@@ -1641,11 +1709,11 @@ msgstr "Кадмий"
 
 #: ../libelemental/data.cc:93
 msgid "Soft, malleable, blue-white metal"
-msgstr ""
+msgstr "Мягкий, пластичный, бело-голубой металл"
 
 #: ../libelemental/data.cc:93
 msgid "Greek: kadmeia (calamine)"
-msgstr ""
+msgstr "Греческий: kadmeia (каламин)"
 
 #: ../libelemental/data.cc:94
 msgid "Indium"
@@ -1653,11 +1721,13 @@ msgstr "Индий"
 
 #: ../libelemental/data.cc:94
 msgid "Very soft, silvery-white metal"
-msgstr ""
+msgstr "Очень мягкий серебристо-белый металл"
 
 #: ../libelemental/data.cc:94
 msgid "Latin: indicum (indigo, after the line of that color in its spectrum)"
 msgstr ""
+"Латинский: indicum (индиго, назван по характерному синему цвету линии в его "
+"спектре)"
 
 #: ../libelemental/data.cc:95
 msgid "Tin"
@@ -1665,11 +1735,11 @@ msgstr "Олово"
 
 #: ../libelemental/data.cc:95
 msgid "pre-Indo-European; Latin: stannum"
-msgstr ""
+msgstr "Доиндоевропейский; Латинский: stannum"
 
 #: ../libelemental/data.cc:95
 msgid "Where variable, values given are for white form."
-msgstr ""
+msgstr "Величины приведены для белой формы."
 
 #: ../libelemental/data.cc:96
 msgid "Antimony"
@@ -1677,12 +1747,14 @@ msgstr "Сурьма"
 
 #: ../libelemental/data.cc:96
 msgid "Hard, silvery-white, brittle semimetal"
-msgstr ""
+msgstr "Твёрдый, серебристо-белый, хрупкий металлоид"
 
 #: ../libelemental/data.cc:96
 msgid ""
 "Greek: anti (against) + monos (alone); Latin: stibium (one of its minerals)"
 msgstr ""
+"Греческий: anti (против) + monos (один) = antimonos (против одиночества); "
+"Латинский: stibium (один из минералов сурьмы)"
 
 #: ../libelemental/data.cc:97
 msgid "Tellurium"
@@ -1690,23 +1762,23 @@ msgstr "Теллур"
 
 #: ../libelemental/data.cc:97
 msgid "Silvery-white, brittle semimetal"
-msgstr ""
+msgstr "Серебристо-белый, хрупкий металлоид"
 
 #: ../libelemental/data.cc:97
 msgid "Romania"
-msgstr ""
+msgstr "Румыния"
 
 #: ../libelemental/data.cc:97
 msgid "Franz-Joseph M&#252;ller von Reichenstein"
-msgstr ""
+msgstr "Франц Йозеф Мюллер фон Райхенштайн"
 
 #: ../libelemental/data.cc:97
 msgid "Latin: tellus (earth)"
-msgstr ""
+msgstr "Латинский: tellus (земля)"
 
 #: ../libelemental/data.cc:97
 msgid "Thermal conductivity ranges from 1.97 to 3.38 W/(m&#183;K)."
-msgstr ""
+msgstr "Теплопроводность колеблется от 1,97 до 3,38 Вт/(м&#183;К)."
 
 #: ../libelemental/data.cc:98
 msgid "Iodine"
@@ -1714,15 +1786,15 @@ msgstr "Иод"
 
 #: ../libelemental/data.cc:98
 msgid "Shiny, black nonmetallic solid"
-msgstr ""
+msgstr "Блестящее, чёрное неметаллическое твердое вещество"
 
 #: ../libelemental/data.cc:98
 msgid "Greek: iodes (violet-colored)"
-msgstr ""
+msgstr "Греческий: iodes (фиалкоподобный)"
 
 #: ../libelemental/data.cc:98
 msgid "Where relevant, values given are for I<sub>2</sub>."
-msgstr ""
+msgstr "Там, где это уместно, приведены значения для I<sub>2</sub>."
 
 #: ../libelemental/data.cc:99
 msgid "Xenon"
@@ -1730,11 +1802,11 @@ msgstr "Ксенон"
 
 #: ../libelemental/data.cc:99
 msgid "Heavy, colorless, and odorless noble gas"
-msgstr ""
+msgstr "Тяжелый благородный газ без цвета и запаха"
 
 #: ../libelemental/data.cc:99
 msgid "Greek: xenon (stranger)"
-msgstr ""
+msgstr "Греческий: xenon (чужой)"
 
 #: ../libelemental/data.cc:101
 msgid "Caesium"
@@ -1742,11 +1814,13 @@ msgstr "Цезий"
 
 #: ../libelemental/data.cc:101
 msgid "Very soft, ductile, light gray metal"
-msgstr ""
+msgstr "Очень мягкий, пластичный, светло-серый металл"
 
 #: ../libelemental/data.cc:101
 msgid "Latin: caesius (sky blue, for the blue lines of its spectrum)"
 msgstr ""
+"Латинский: caesius (небесно-голубой, за счёт цвета линий в эмиссионном "
+"спектре)"
 
 #: ../libelemental/data.cc:102
 msgid "Barium"
@@ -1754,11 +1828,11 @@ msgstr "Барий"
 
 #: ../libelemental/data.cc:102
 msgid "Soft, slightly malleable, silver-white metal"
-msgstr ""
+msgstr "Мягкий, ковкий серебристо-белый металл"
 
 #: ../libelemental/data.cc:102
 msgid "Greek: barys (heavy or dense)"
-msgstr ""
+msgstr "Греческий: barys (тяжёлый)"
 
 #: ../libelemental/data.cc:104
 msgid "Lanthanum"
@@ -1766,11 +1840,11 @@ msgstr "Лантан"
 
 #: ../libelemental/data.cc:104
 msgid "Silvery-white, soft, malleable, and ductile metal"
-msgstr ""
+msgstr "Серебристо-белый, мягкий, ковкий и пластичный металл"
 
 #: ../libelemental/data.cc:104
 msgid "Greek: lanthanein (to lie hidden)"
-msgstr ""
+msgstr "Греческий: lanthanein (скрываюсь)"
 
 #: ../libelemental/data.cc:105
 msgid "Cerium"
@@ -1778,20 +1852,22 @@ msgstr "Церий"
 
 #: ../libelemental/data.cc:105
 msgid "Malleable, ductile, iron-gray metal"
-msgstr ""
+msgstr "Ковкий, пластичный металл серо-стального цвета"
 
 #: ../libelemental/data.cc:105
 msgid "Germany/Sweden"
-msgstr ""
+msgstr "Германия/Швеция"
 
 #: ../libelemental/data.cc:105
 msgid ""
 "Martin Heinrich Klaproth / J&#246;ns Jakob Berzelius, Wilhelm von Hisinger"
-msgstr ""
+msgstr "Мартин Генрих Клапрот / Йёнс Якоб Берцелиус, Вильгельм фон Хизингер"
 
 #: ../libelemental/data.cc:105
 msgid "Named after the asteroid Ceres, then recently discovered."
 msgstr ""
+"Назван в честь Цереры, наименьшей среди известных карликовых планет "
+"Солнечной системы (на момент открытия элемента считалась астероидом)."
 
 #: ../libelemental/data.cc:106
 msgid "Praseodymium"
@@ -1799,15 +1875,15 @@ msgstr "Празеодим"
 
 #: ../libelemental/data.cc:106
 msgid "Silvery white, moderately soft, malleable, and ductile metal"
-msgstr ""
+msgstr "Серебристо-белый, умеренно мягкий, ковкий и пластичный металл"
 
 #: ../libelemental/data.cc:106 ../libelemental/data.cc:107
 msgid "Austria"
-msgstr ""
+msgstr "Австралия"
 
 #: ../libelemental/data.cc:106
 msgid "Greek: prasios (green, for its salts) + didymos (twin)"
-msgstr ""
+msgstr "Греческий: prasios (зелёный, за счёт своих солей) + didymos (близнец)"
 
 #: ../libelemental/data.cc:107
 msgid "Neodymium"
@@ -1816,10 +1892,11 @@ msgstr "Неодим"
 #: ../libelemental/data.cc:107
 msgid "Silvery-white, rare-earth metal that oxidizes easily in air"
 msgstr ""
+"Серебристо-белый редкоземельный металл, который легко окисляется на воздухе"
 
 #: ../libelemental/data.cc:107
 msgid "Greek: neos (new) + didymos (twin)"
-msgstr ""
+msgstr "Греческий: neos (новый) + didymos (близнец)"
 
 #: ../libelemental/data.cc:108
 msgid "Promethium"
@@ -1832,11 +1909,11 @@ msgstr "Прометий"
 #: ../libelemental/data.cc:149 ../libelemental/data.cc:150
 #: ../libelemental/data.cc:151 ../libelemental/data.cc:153
 msgid "United States"
-msgstr ""
+msgstr "Соединённые штаты"
 
 #: ../libelemental/data.cc:108
 msgid "Greek: Prometheus (a mythological Titan)"
-msgstr ""
+msgstr "Греческий: Prometheus (мифологический титан)"
 
 #: ../libelemental/data.cc:109
 msgid "Samarium"
@@ -1844,11 +1921,11 @@ msgstr "Самарий"
 
 #: ../libelemental/data.cc:109
 msgid "Silvery rare-earth metal"
-msgstr ""
+msgstr "Серебристый редкоземельный металл"
 
 #: ../libelemental/data.cc:109
 msgid "Named after the mineral samarskite."
-msgstr ""
+msgstr "Назван в честь минерала самарскита."
 
 #: ../libelemental/data.cc:110
 msgid "Europium"
@@ -1856,11 +1933,11 @@ msgstr "Европий"
 
 #: ../libelemental/data.cc:110
 msgid "Eug&#232;ne-Antole Demar&#231;ay"
-msgstr ""
+msgstr "Эжен Анатоль Демарсе"
 
 #: ../libelemental/data.cc:110
 msgid "Named after the European continent."
-msgstr ""
+msgstr "Назван в честь европейского континента."
 
 #: ../libelemental/data.cc:111
 msgid "Gadolinium"
@@ -1869,7 +1946,7 @@ msgstr "Гадолиний"
 #: ../libelemental/data.cc:111
 msgid ""
 "Named, via the mineral gadolinite, in honor of Finnish chemist Johan Gadolin."
-msgstr ""
+msgstr "Назван по минералу гадолинит в честь финского химика Юхана Гадолина."
 
 #: ../libelemental/data.cc:112
 msgid "Terbium"
@@ -1877,12 +1954,14 @@ msgstr "Тербий"
 
 #: ../libelemental/data.cc:112
 msgid "Soft, ductile, silvery-gray, rare-earth metal"
-msgstr ""
+msgstr "Мягкий, пластичный, серебристо-серый, редкоземельный металл"
 
 #: ../libelemental/data.cc:112 ../libelemental/data.cc:115
 #: ../libelemental/data.cc:117
 msgid "Named after Ytterby, Sweden, where it was discovered."
 msgstr ""
+"Назван в честь села Иттербю, находящегося на шведском острове Ресарё, где "
+"был обнаружен минерал, содержащий этот элемент."
 
 #: ../libelemental/data.cc:113
 msgid "Dysprosium"
@@ -1890,11 +1969,11 @@ msgstr "Диспрозий"
 
 #: ../libelemental/data.cc:113
 msgid "Soft, lustrous, silvery metal"
-msgstr ""
+msgstr "Мягкий, блестящий, серебристый металл"
 
 #: ../libelemental/data.cc:113
 msgid "Greek: dys- (un-) + prositos (approachable)"
-msgstr ""
+msgstr "Греческий: dys- (не-) + prositos (доступный)"
 
 #: ../libelemental/data.cc:114
 msgid "Holmium"
@@ -1902,15 +1981,15 @@ msgstr "Гольмий"
 
 #: ../libelemental/data.cc:114
 msgid "Fairly soft, malleable, lustrous, silvery metal"
-msgstr ""
+msgstr "Довольно мягкий, ковкий, блестящий, серебристый металл"
 
 #: ../libelemental/data.cc:114
 msgid "Switzerland/Sweden"
-msgstr ""
+msgstr "Швейцария/Швеция"
 
 #: ../libelemental/data.cc:114
 msgid "Named after Stockholm (Latin: Holmia), Sweden."
-msgstr ""
+msgstr "Назван в честь шведского города Стокгольм (лат. Holmia)."
 
 #: ../libelemental/data.cc:115
 msgid "Erbium"
@@ -1918,7 +1997,7 @@ msgstr "Эрбий"
 
 #: ../libelemental/data.cc:115
 msgid "Soft, malleable, silvery metal"
-msgstr ""
+msgstr "Мягкий, ковкий, серебристый металл"
 
 #: ../libelemental/data.cc:116
 msgid "Thulium"
@@ -1926,12 +2005,12 @@ msgstr "Тулий"
 
 #: ../libelemental/data.cc:116
 msgid "Soft, malleable, ductile, silvery metal"
-msgstr ""
+msgstr "Мягкий, ковкий, пластичный, серебристый металл"
 
 #: ../libelemental/data.cc:116
 msgid ""
 "Named after Scandinavia (Latin: Thule, a mythical country of the north)."
-msgstr ""
+msgstr "Назван в честь Скандинавии (лат. Thule - мифическая северная страна)."
 
 #: ../libelemental/data.cc:117
 msgid "Ytterbium"
@@ -1939,7 +2018,7 @@ msgstr "Иттербий"
 
 #: ../libelemental/data.cc:117
 msgid "Silvery, lustrous, malleable, and ductile metal"
-msgstr ""
+msgstr "Серебристый, блестящий, ковкий и пластичный металл"
 
 #: ../libelemental/data.cc:118
 msgid "Lutetium"
@@ -1947,11 +2026,11 @@ msgstr "Лютеций"
 
 #: ../libelemental/data.cc:118
 msgid "Silvery-white, hard, dense, rare-earth metal"
-msgstr ""
+msgstr "Твёрдый, плотный, редкоземельный металл серебристо-белого цвета"
 
 #: ../libelemental/data.cc:118
 msgid "Named after Paris (Latin: Lutetia), where it was discovered."
-msgstr ""
+msgstr "Назван в честь Парижа (лат. Lutetia), где он был открыт."
 
 #: ../libelemental/data.cc:120
 msgid "Hafnium"
@@ -1959,12 +2038,13 @@ msgstr "Гафний"
 
 #: ../libelemental/data.cc:120
 msgid "Silvery, ductile metal"
-msgstr ""
+msgstr "Пластичный металл серебристого цвета"
 
 #: ../libelemental/data.cc:120
 msgid ""
 "Named after Copenhagen (Latin: Hafnia), Denmark, where it was discovered."
 msgstr ""
+"Назван в честь датского города Копенгаген (лат. Hafnia), где он был открыт."
 
 #: ../libelemental/data.cc:121
 msgid "Tantalum"
@@ -1972,11 +2052,11 @@ msgstr "Тантал"
 
 #: ../libelemental/data.cc:121
 msgid "Gray, heavy, hard metal"
-msgstr ""
+msgstr "Тяжёлый, твёрдый металл серого цвета"
 
 #: ../libelemental/data.cc:121
 msgid "Greek: Tantalus (a mythological king)"
-msgstr ""
+msgstr "Греческий: Tantalus (древнегреческий мифологический царь)"
 
 #: ../libelemental/data.cc:122
 msgid "Tungsten"
@@ -1984,19 +2064,19 @@ msgstr "Вольфрам"
 
 #: ../libelemental/data.cc:122
 msgid "Tough, steel-gray to white metal"
-msgstr ""
+msgstr "Прочный металл от серого с голубым отливом до белого цвета"
 
 #: ../libelemental/data.cc:122
 msgid "Spain"
-msgstr ""
+msgstr "Испания"
 
 #: ../libelemental/data.cc:122
 msgid "Juan Jos&#233; Elhuyar, Fausto Elhuyar"
-msgstr ""
+msgstr "Хуан Хосе Эльгуйяр, Фаусто Эльгуйяр"
 
 #: ../libelemental/data.cc:122
 msgid "Swedish: tung (heavy) + sten (stone); German: wolfram"
-msgstr ""
+msgstr "Шведский: tung (тяжелый) + sten (камень); немецкий: wolfram"
 
 #: ../libelemental/data.cc:123
 msgid "Rhenium"
@@ -2004,11 +2084,11 @@ msgstr "Рений"
 
 #: ../libelemental/data.cc:123
 msgid "Dense, silvery-white metal"
-msgstr ""
+msgstr "Тяжёлый металл серебристо-белого цвета"
 
 #: ../libelemental/data.cc:123
 msgid "Named after the Rhine (Latin: Rhenus) river."
-msgstr ""
+msgstr "Назван в честь реки Рейн (лат. Rhenus)."
 
 #: ../libelemental/data.cc:124
 msgid "Osmium"
@@ -2016,11 +2096,11 @@ msgstr "Осмий"
 
 #: ../libelemental/data.cc:124
 msgid "Blue-white, lustrous, hard metal"
-msgstr ""
+msgstr "Бело-голубой, блестящий, твёрдый металл"
 
 #: ../libelemental/data.cc:124
 msgid "Greek: osme (odor)"
-msgstr ""
+msgstr "Греческий: osme (запах)"
 
 #: ../libelemental/data.cc:125
 msgid "Iridium"
@@ -2028,11 +2108,11 @@ msgstr "Иридий"
 
 #: ../libelemental/data.cc:125
 msgid "White, brittle metal"
-msgstr ""
+msgstr "Белый, хрупкий металл"
 
 #: ../libelemental/data.cc:125
 msgid "Latin: iris (rainbow)"
-msgstr ""
+msgstr "Латинский: iris (радуга)"
 
 #: ../libelemental/data.cc:126
 msgid "Platinum"
@@ -2040,15 +2120,15 @@ msgstr "Платина"
 
 #: ../libelemental/data.cc:126
 msgid "Very heavy, soft, silvery-white metal"
-msgstr ""
+msgstr "Очень тяжелый, мягкий, серебристо-белый металл"
 
 #: ../libelemental/data.cc:126
 msgid "Peru"
-msgstr ""
+msgstr "Перу"
 
 #: ../libelemental/data.cc:126
 msgid "Spanish: platina (little silver)"
-msgstr ""
+msgstr "Испанский: platina (маленькое серебро)"
 
 #: ../libelemental/data.cc:127
 msgid "Gold"
@@ -2056,11 +2136,11 @@ msgstr "Золото"
 
 #: ../libelemental/data.cc:127
 msgid "Soft, malleable, yellow metal"
-msgstr ""
+msgstr "Мягкий, пластичный желтый металл"
 
 #: ../libelemental/data.cc:127
 msgid "Anglo-Saxon: geolo (yellow); Latin: aurum"
-msgstr ""
+msgstr "Англосаксонский: geolo (желтый); латинский: aurum"
 
 #: ../libelemental/data.cc:128
 msgid "Mercury"
@@ -2070,16 +2150,20 @@ msgstr "Ртуть"
 msgid ""
 "Heavy, silver-white metal that is in its liquid state at room temperature"
 msgstr ""
+"Тяжелый серебристо-белый металл, находящийся в жидком состоянии при "
+"комнатной температуре"
 
 #: ../libelemental/data.cc:128
 msgid ""
 "Latin: Mercurius (a deity associated with speed); Greek/Latin: hydrargum "
 "(liquid silver)"
 msgstr ""
+"Латинский: Mercurius (греческий бог, известный своей скоростью); Греческий/"
+"Латинский: hydrargum (жидкое серебро)"
 
 #: ../libelemental/data.cc:128
 msgid "Liquid density value is for 20&#176;C."
-msgstr ""
+msgstr "Значение плотности жидкости указано для 20&#176;C."
 
 #: ../libelemental/data.cc:129
 msgid "Thallium"
@@ -2087,11 +2171,11 @@ msgstr "Таллий"
 
 #: ../libelemental/data.cc:129
 msgid "Soft, gray metal"
-msgstr ""
+msgstr "Мягкий метал серого цвета"
 
 #: ../libelemental/data.cc:129
 msgid "Greek: thallos (green twig, for a bright green line in its spectrum)"
-msgstr ""
+msgstr "Греческий: thallos (зелёная ветвь, ярко-зеленая линия в спектре)"
 
 #: ../libelemental/data.cc:130
 msgid "Lead"
@@ -2100,10 +2184,12 @@ msgstr "Свинец"
 #: ../libelemental/data.cc:130
 msgid "Very soft, highly malleable and ductile, blue-white shiny metal"
 msgstr ""
+"Очень мягкий, пластичный, обладает хорошей ковкостью, голубовато-белый "
+"блестящий металл"
 
 #: ../libelemental/data.cc:130
 msgid "Anglo-Saxon: lead; Latin: plumbum"
-msgstr ""
+msgstr "Англосаксонский: lead; латинский: plumbum"
 
 #: ../libelemental/data.cc:131
 msgid "Bismuth"
@@ -2111,15 +2197,15 @@ msgstr "Висмут"
 
 #: ../libelemental/data.cc:131
 msgid "Hard, brittle, steel-gray metal with a pinkish tinge"
-msgstr ""
+msgstr "Твердый, хрупкий металл стального цвета с розоватым оттенком"
 
 #: ../libelemental/data.cc:131
 msgid "Claude Fran&#231;ois Geoffroy"
-msgstr ""
+msgstr "Клод Франсуа Жоффруа"
 
 #: ../libelemental/data.cc:131
 msgid "German: wismuth"
-msgstr ""
+msgstr "Немецкий: wismuth"
 
 #: ../libelemental/data.cc:132
 msgid "Polonium"
@@ -2127,15 +2213,15 @@ msgstr "Полоний"
 
 #: ../libelemental/data.cc:132 ../libelemental/data.cc:137
 msgid "Marie Curie-Sk&#322;odowska, Pierre Curie"
-msgstr ""
+msgstr "Мария Склодовская-Кюри, Пьер Кюри"
 
 #: ../libelemental/data.cc:132
 msgid "Named after Poland, the native country of Marie Curie-Sk&#322;odowska."
-msgstr ""
+msgstr "Назван в честь Польши, родины Марии Склодовской-Кюри."
 
 #: ../libelemental/data.cc:132
 msgid "Where variable, values given are for alpha form."
-msgstr ""
+msgstr "Приведённые величины относятся к альфа-форме."
 
 #: ../libelemental/data.cc:133
 msgid "Astatine"
@@ -2143,15 +2229,15 @@ msgstr "Астат"
 
 #: ../libelemental/data.cc:133
 msgid "Unstable, radioactive halogen"
-msgstr ""
+msgstr "Нестабильный, радиоактивный галоген"
 
 #: ../libelemental/data.cc:133
 msgid "Dale R. Corson, K.R. MacKenzie, Emilio Segr&#232;"
-msgstr ""
+msgstr "Дэйл Раймонд Корсон, Кеннет Росс Маккензи, Эмилио Сегре;"
 
 #: ../libelemental/data.cc:133
 msgid "Greek: astatos (unstable)"
-msgstr ""
+msgstr "Греческий: astatos (нестабильный)"
 
 #: ../libelemental/data.cc:134
 msgid "Radon"
@@ -2159,13 +2245,15 @@ msgstr "Радон"
 
 #: ../libelemental/data.cc:134
 msgid "Heavy radioactive gas"
-msgstr ""
+msgstr "Тяжелый радиоактивный газ"
 
 #: ../libelemental/data.cc:134
 msgid ""
 "Named after the element radium, from which it is produced by radioactive "
 "decay."
 msgstr ""
+"Назван в честь элемента радия, из которого он образуется в результате "
+"радиоактивного распада."
 
 #: ../libelemental/data.cc:136
 msgid "Francium"
@@ -2173,7 +2261,7 @@ msgstr "Франций"
 
 #: ../libelemental/data.cc:136
 msgid "Named after France, where it was discovered."
-msgstr ""
+msgstr "Назван в честь Франции, где он был обнаружен."
 
 #: ../libelemental/data.cc:137
 msgid "Radium"
@@ -2181,11 +2269,11 @@ msgstr "Радий"
 
 #: ../libelemental/data.cc:137
 msgid "Silvery white, radioactive element"
-msgstr ""
+msgstr "Серебристо-белый, радиоактивный элемент"
 
 #: ../libelemental/data.cc:137
 msgid "Latin: radius (ray)"
-msgstr ""
+msgstr "Латинский: radius (луч)"
 
 #: ../libelemental/data.cc:139
 msgid "Actinium"
@@ -2193,15 +2281,15 @@ msgstr "Актиний"
 
 #: ../libelemental/data.cc:139
 msgid "Heavy, silvery-white metal that is very radioactive"
-msgstr ""
+msgstr "Тяжелый серебристо-белый металл, очень радиоактивен"
 
 #: ../libelemental/data.cc:139
 msgid "Andr&#233;-Louis Debierne"
-msgstr ""
+msgstr "Андре-Луи Дебьерн"
 
 #: ../libelemental/data.cc:139
 msgid "Greek: aktis, aktinos (ray)"
-msgstr ""
+msgstr "Греческий: aktis, aktinos (луч)"
 
 #: ../libelemental/data.cc:140
 msgid "Thorium"
@@ -2209,11 +2297,11 @@ msgstr "Торий"
 
 #: ../libelemental/data.cc:140
 msgid "Gray, soft, malleable, ductile, radioactive metal"
-msgstr ""
+msgstr "Мягкий, ковкий, пластичный, радиоактивный металл серого цвета"
 
 #: ../libelemental/data.cc:140
 msgid "Old Norse: Thor (thunder deity)"
-msgstr ""
+msgstr "Древнескандинавское: Thor (бог грома)"
 
 #: ../libelemental/data.cc:141
 msgid "Protactinium"
@@ -2222,15 +2310,17 @@ msgstr "Протактиний"
 #: ../libelemental/data.cc:141 ../libelemental/data.cc:144
 #: ../libelemental/data.cc:145
 msgid "Silvery-white, radioactive metal"
-msgstr ""
+msgstr "Серебристо-белый, радиоактивный металл"
 
 #: ../libelemental/data.cc:141
 msgid "England/Germany"
-msgstr ""
+msgstr "Англия/Германия"
 
 #: ../libelemental/data.cc:141
 msgid "Greek: protos (before) + actinium (which it forms by decay)"
 msgstr ""
+"Греческий: protos (до, перед) + actinium (химический элемент образующийся "
+"при его распаде)"
 
 #: ../libelemental/data.cc:142
 msgid "Uranium"
@@ -2238,11 +2328,11 @@ msgstr "Уран"
 
 #: ../libelemental/data.cc:142
 msgid "Silvery-white, dense, ductile and malleable, radioactive metal"
-msgstr ""
+msgstr "Серебристо-белый, плотный, пластичный и ковкий, радиоактивный металл"
 
 #: ../libelemental/data.cc:142
 msgid "Named after the planet Uranus."
-msgstr ""
+msgstr "Назван в честь планеты Уран."
 
 #: ../libelemental/data.cc:143
 msgid "Neptunium"
@@ -2250,11 +2340,11 @@ msgstr "Нептуний"
 
 #: ../libelemental/data.cc:143
 msgid "Silvery metal"
-msgstr ""
+msgstr "Серебристый металл"
 
 #: ../libelemental/data.cc:143
 msgid "Named after the planet Neptune."
-msgstr ""
+msgstr "Назван в честь планеты Нептун."
 
 #: ../libelemental/data.cc:144
 msgid "Plutonium"
@@ -2262,7 +2352,7 @@ msgstr "Плутоний"
 
 #: ../libelemental/data.cc:144
 msgid "Named after the planet Pluto."
-msgstr ""
+msgstr "Назван в честь планеты Плутон."
 
 #: ../libelemental/data.cc:145
 msgid "Americium"
@@ -2270,7 +2360,7 @@ msgstr "Америций"
 
 #: ../libelemental/data.cc:145
 msgid "Named after the American continents, by analogy with europium."
-msgstr ""
+msgstr "Назван в честь американских континентов по аналогии с европием."
 
 #: ../libelemental/data.cc:146
 msgid "Curium"
@@ -2278,11 +2368,11 @@ msgstr "Кюрий"
 
 #: ../libelemental/data.cc:146
 msgid "Silvery, malleable, synthetic radioactive metal"
-msgstr ""
+msgstr "Серебристый, ковкий, синтезированный радиоактивный металл"
 
 #: ../libelemental/data.cc:146
 msgid "Named in honor of Pierre Curie and Marie Curie-Sk&#322;odowska."
-msgstr ""
+msgstr "Назван в честь Пьера Кюри и Марии Склодовской-Кюри."
 
 #: ../libelemental/data.cc:147
 msgid "Berkelium"
@@ -2294,11 +2384,11 @@ msgstr "Беркелий"
 #: ../libelemental/data.cc:155 ../libelemental/data.cc:156
 #: ../libelemental/data.cc:157 ../libelemental/data.cc:158
 msgid "Radioactive, synthetic metal"
-msgstr ""
+msgstr "Синтезированный радиоактивный металл"
 
 #: ../libelemental/data.cc:147
 msgid "Named after the University of California, Berkeley."
-msgstr ""
+msgstr "Назван в честь Калифорнийского университета в Беркли."
 
 #: ../libelemental/data.cc:148
 msgid "Californium"
@@ -2306,11 +2396,11 @@ msgstr "Калифорний"
 
 #: ../libelemental/data.cc:148
 msgid "Powerful neutron emitter"
-msgstr ""
+msgstr "Мощный источник нейтронов"
 
 #: ../libelemental/data.cc:148
 msgid "Named after the state and the University of California."
-msgstr ""
+msgstr "Назван в честь штата и Калифорнийского университета."
 
 #: ../libelemental/data.cc:149
 msgid "Einsteinium"
@@ -2319,10 +2409,14 @@ msgstr "Эйнштейний"
 #: ../libelemental/data.cc:149 ../libelemental/data.cc:150
 msgid "Argonne Lab., Los Alamos Lab., Univ. of California"
 msgstr ""
+"Аргоннская национальная лаборатория, Лос-Аламосская национальная "
+"лаборатория, Калифорнийский университет"
 
 #: ../libelemental/data.cc:149
 msgid "Named in honor of German-American physicist Albert Einstein."
 msgstr ""
+"Назван в честь американского физика немецкого происхождения Альберта "
+"Эйнштейна."
 
 #: ../libelemental/data.cc:150
 msgid "Fermium"
@@ -2330,7 +2424,7 @@ msgstr "Фермий"
 
 #: ../libelemental/data.cc:150
 msgid "Named in honor of Italian physicist Enrico Fermi."
-msgstr ""
+msgstr "Назван в честь итальянского физика Энрико Ферми."
 
 #: ../libelemental/data.cc:151
 msgid "Mendelevium"
@@ -2341,6 +2435,8 @@ msgid ""
 "Named in honor of Russian chemist Dmitri Mendeleev, who devised the periodic "
 "table."
 msgstr ""
+"Назван в честь русского химика Дмитрия Менделеева, создавшего периодическую "
+"таблицу."
 
 #: ../libelemental/data.cc:152
 msgid "Nobelium"
@@ -2348,13 +2444,15 @@ msgstr "Нобелий"
 
 #: ../libelemental/data.cc:152
 msgid "Nobel Institute for Physics"
-msgstr ""
+msgstr "Нобелевский институт физики"
 
 #: ../libelemental/data.cc:152
 msgid ""
 "Named in honor of Swedish chemist Alfred Nobel, inventor of dynamite and "
 "founder of the Nobel Prizes."
 msgstr ""
+"Назван в честь шведского химика Альфреда Нобеля, изобретателя динамита и "
+"основателя Нобелевской премии."
 
 #: ../libelemental/data.cc:153
 msgid "Lawrencium"
@@ -2362,13 +2460,15 @@ msgstr "Лоуренций"
 
 #: ../libelemental/data.cc:153
 msgid "Albert Ghiorso, Torbj&#248;rn Sikkeland, Almon Larsh, Robert M. Latimer"
-msgstr ""
+msgstr "Альберт Гиорсо, Торбьёрн Сиккеланд, Алмон Ларш и Роберт М. Латимер"
 
 #: ../libelemental/data.cc:153
 msgid ""
 "Named in honor of American physicist Ernest O. Lawrence, inventor of the "
 "cyclotron."
 msgstr ""
+"Назван в честь американского физика Эрнеста Орландо Лоуренса, изобретателя "
+"циклотрона."
 
 #: ../libelemental/data.cc:155
 msgid "Rutherfordium"
@@ -2376,18 +2476,20 @@ msgstr "Резерфордий"
 
 #: ../libelemental/data.cc:155
 msgid "USSR"
-msgstr ""
+msgstr "СССР"
 
 #: ../libelemental/data.cc:155 ../libelemental/data.cc:165
 #: ../libelemental/data.cc:167
 msgid "Joint Inst. for Nuclear Research"
-msgstr ""
+msgstr "Объединённый институт ядерных исследований"
 
 #: ../libelemental/data.cc:155
 msgid ""
 "Named in honor of New Zealand physicist Ernest Rutherford, who pioneered "
 "nuclear physics."
 msgstr ""
+"Назван в честь новозеландского физика Эрнеста Резерфорда, основоположника "
+"ядерной физики."
 
 #: ../libelemental/data.cc:156
 msgid "Dubnium"
@@ -2395,15 +2497,15 @@ msgstr "Дубний"
 
 #: ../libelemental/data.cc:156 ../libelemental/data.cc:157
 msgid "USSR/United States"
-msgstr ""
+msgstr "СССР/Соединённые штаты"
 
 #: ../libelemental/data.cc:156
 msgid "Joint Inst. for Nuclear Research / Albert Ghiorso et al."
-msgstr ""
+msgstr "Объединённый институт ядерных исследований / Альберт Гиорсо и др."
 
 #: ../libelemental/data.cc:156
 msgid "Named after Dubna, Russia, where it was discovered."
-msgstr ""
+msgstr "Назван в честь российского города Дубна, где он был открыт."
 
 #: ../libelemental/data.cc:157
 msgid "Seaborgium"
@@ -2412,12 +2514,16 @@ msgstr "Сиборгий"
 #: ../libelemental/data.cc:157
 msgid "Joint Inst. for Nuclear Research / Univ. of California, Berkeley"
 msgstr ""
+"Объединённый институт ядерных исследований / Калифорнийский университет в "
+"Беркли"
 
 #: ../libelemental/data.cc:157
 msgid ""
 "Named in honor of American physical chemist Glenn Seaborg, known for "
 "research on transuranium elements."
 msgstr ""
+"Назван в честь американского химика и физика-ядерщика Гленна Сиборга, "
+"известного исследованиями трансурановых элементов."
 
 #: ../libelemental/data.cc:158
 msgid "Bohrium"
@@ -2425,17 +2531,18 @@ msgstr "Борий"
 
 #: ../libelemental/data.cc:158
 msgid "USSR/Germany"
-msgstr ""
+msgstr "СССР/Германия"
 
 #: ../libelemental/data.cc:158
 msgid "Joint Inst. for Nuclear Research / Inst. for Heavy Ion Research"
-msgstr ""
+msgstr "Объединённый институт ядерных исследований / Институт тяжёлых ионов"
 
 #: ../libelemental/data.cc:158
 msgid ""
 "Named in honor of Danish physicist Niels Bohr, a pioneer in quantum "
 "mechanics."
 msgstr ""
+"Назван в честь датского физика Нильса Бора, пионера квантовой механики."
 
 #: ../libelemental/data.cc:159
 msgid "Hassium"
@@ -2445,11 +2552,13 @@ msgstr "Хассий"
 msgid ""
 "Peter Armbruster, Gottfried M&#252;nzenberg, et al. (Inst. for Heavy Ion "
 "Research)"
-msgstr ""
+msgstr "Петер Армбрустер, Готфрид Мюнценберг и др. (Институт тяжелых ионов)"
 
 #: ../libelemental/data.cc:159
 msgid "Named after Hessen (Latin: Hassia), Germany, where it was discovered."
 msgstr ""
+"Назван в честь Гессена (лат. Hassia), земли в центральной части Германии, "
+"где он был открыт."
 
 #: ../libelemental/data.cc:160
 msgid "Meitnerium"
@@ -2457,7 +2566,7 @@ msgstr "Мейтнерий"
 
 #: ../libelemental/data.cc:160
 msgid "Named in honor of Austrian-Swedish physicist Lise Meitner."
-msgstr ""
+msgstr "Назван в честь австрийско-шведского физика Лизы Мейтнер."
 
 #: ../libelemental/data.cc:161
 msgid "Darmstadtium"
@@ -2465,11 +2574,11 @@ msgstr "Дармштадтий"
 
 #: ../libelemental/data.cc:161 ../libelemental/data.cc:162
 msgid "S. Hofmann, V. Ninov, et al. (Inst. for Heavy Ion Research)"
-msgstr ""
+msgstr "С. Хофманн, В. Нинов и др. (Институт тяжёлых ионов)"
 
 #: ../libelemental/data.cc:161
 msgid "Named after Darmstadt, Germany, where it was discovered."
-msgstr ""
+msgstr "Назван в честь Дармштадта, города в Германии, где он был открыт."
 
 #: ../libelemental/data.cc:162
 msgid "Roentgenium"
@@ -2479,6 +2588,7 @@ msgstr "Рентгений"
 msgid ""
 "Named in honor of German physicist Wilhelm Roentgen, who discovered x-rays."
 msgstr ""
+"Назван в честь немецкого физика Вильгельма Рентгена, который открыл Х-лучи."
 
 #: ../libelemental/data.cc:163
 msgid "Copernicium"
@@ -2486,11 +2596,11 @@ msgstr "Коперниций"
 
 #: ../libelemental/data.cc:163
 msgid "Inst. for Heavy Ion Research"
-msgstr ""
+msgstr "Институт тяжёлых ионов"
 
 #: ../libelemental/data.cc:163
 msgid "Named in honor of the astronomer Nicolaus Copernicus."
-msgstr ""
+msgstr "Назван в честь астронома Николая Коперника."
 
 #: ../libelemental/data.cc:164
 msgid "Nihonium"
@@ -2499,17 +2609,19 @@ msgstr "Нихоний"
 #: ../libelemental/data.cc:164 ../libelemental/data.cc:166
 #: ../libelemental/data.cc:169
 msgid "Russia/United States"
-msgstr ""
+msgstr "Россия/Соединённые штаты"
 
 #: ../libelemental/data.cc:164 ../libelemental/data.cc:166
 #: ../libelemental/data.cc:169
 msgid "Joint Inst. for Nuclear Research / Lawrence Livermore Lab."
 msgstr ""
+"Объединённый институт ядерных исследований / Ливерморская национальная "
+"лаборатория."
 
 #: ../libelemental/data.cc:164 ../libelemental/data.cc:166
 #: ../libelemental/data.cc:168 ../libelemental/data.cc:169
 msgid "IUPAC systematic name"
-msgstr ""
+msgstr "Систематическое название ИЮПАК"
 
 #: ../libelemental/data.cc:165
 msgid "Flerovium"
@@ -2520,6 +2632,8 @@ msgid ""
 "Named after the Flerov Laboratory of Nuclear Reactions of the Joint Inst. "
 "for Nuclear Research in Dubna, Russia, where it was discovered."
 msgstr ""
+"Назван в честь российской Лаборатории ядерных реакций им. Флерова "
+"Объединенного института ядерных исследований в Дубне, где он был открыт."
 
 #: ../libelemental/data.cc:166
 msgid "Moscovium"
@@ -2535,6 +2649,9 @@ msgid ""
 "which collaborated with the Joint Inst. for Nuclear Research (JINR), Russia "
 "on the discovery."
 msgstr ""
+"Название связано с Ливерморской национальной лабораторией Лоуренса в "
+"Калифорнии, которая сотрудничала с Объединенным институтом ядерных "
+"исследований (ОИЯИ), Россия."
 
 #: ../libelemental/data.cc:168
 msgid "Tennessine"
