@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: gelemental\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-08-06 12:46+0200\n"
-"PO-Revision-Date: 2023-04-04 14:56+1000\n"
+"PO-Revision-Date: 2023-04-04 21:19+1000\n"
 "Last-Translator: Ser82-png <asvmail.as@gmail.com>\n"
 "Language-Team: NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -503,8 +503,8 @@ msgid ""
 "The thermal conductivity of the element at 300 Kelvin, in watts per meter-"
 "Kelvin."
 msgstr ""
-"Теплопроводность элемента составляет при 300 градусах Кельвина, в ваттах на "
-"метр-Кельвин."
+"Теплопроводность элемента составляет при 300 Кельвинов, в ваттах на метр-"
+"Кельвин."
 
 #: ../libelemental/properties.cc:233
 msgid "Debye temperature"
@@ -724,7 +724,7 @@ msgstr "Цвет символа"
 
 #: ../libelemental/properties.cc:363
 msgid "A color representative of the element."
-msgstr "Цвет, представляющий элемент."
+msgstr "Типичный цвет элемента."
 
 #: ../libelemental/properties.cc:366
 msgid "Notes"
