@@ -1,6 +1,13 @@
 gElemental NEWS
 ===============
 
+Version 2.0.2 [stable]
+======================
+
+This is a maintenance release of gElemental which includes an updated Russian
+translation, forces button colours for new Yaru themes in Ubuntu 22.04 and
+fixes building with Pango 1.50.
+
 Version 2.0.1 [stable]
 ======================
 
