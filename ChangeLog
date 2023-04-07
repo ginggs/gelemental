@@ -1,12 +1,33 @@
+2023-04-07  Graham Inggs <ginggs@riseup.net>
+
+        * NEWS, README, configure.ac, src/main.cc: Release 2.0.2.
+        * *: Update generated configuration files.
+
+        * TRANSLATORS: Add Ser82-png
+
+2023-04-05  Graham Inggs <ginggs@riseup.net>
+
+        * ru.po: Update Russian translation (Ser82-png).
+
+        * src/buttons.cc: Force button colour for new Yaru themes in
+          Ubuntu 22.04 (S73f4n).
+
+2022-04-24  Graham Inggs <ginggs@riseup.net>
+
+        * libelemental/value.cc: Fix build with Pango 1.50.
+
 2021-09-26  Graham Inggs  <ginggs@riseup.net>
+
         * NEWS, README, configure.ac, src/main.cc: Release 2.0.1.
         * *: Update generated configuration files.
 
 2021-09-24  Graham Inggs  <ginggs@riseup.net>
+
 	* src/buttons.cc: Force button colour for Yaru-MATE (N0rbert) and
 	  WhiteSur (aargar1) themes.
 
 2021-08-30  Graham Inggs  <ginggs@riseup.net>
+
         * src/buttons.cc: Force button colour for Mint (artisticfox8),
 	  Adwaita and Yaru themes.
 
