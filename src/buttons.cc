@@ -152,6 +152,8 @@ ColorButton::is_force_needed ()
 		"Mint-Y-Purple",
 		"Mint-Y-Sand",
 		"Mint-Y-Teal",
+		"Breeze",
+		"Breeze Dark",
 		"WhiteSur",
 		"WhiteSur-light",
 		"WhiteSur-dark",
